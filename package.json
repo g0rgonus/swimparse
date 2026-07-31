@@ -1,0 +1,39 @@
+{
+  "name": "swimparse",
+  "version": "0.1.0",
+  "description": "Parses SDIF v3 (.sd3) and Hy-Tek (.hy3) swim-meet result files into one NormalizedMeet JSON contract. Zero dependencies; runs in the browser, Node, and CI.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./sdif": "./src/sdif.js",
+    "./hy3": "./src/hy3.js"
+  },
+  "bin": {
+    "swimparse": "cli.js"
+  },
+  "files": [
+    "src/",
+    "cli.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g0rgonus/swimparse.git"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "swimming",
+    "sdif",
+    "sd3",
+    "hy3",
+    "hy-tek",
+    "meet-results",
+    "parser",
+    "swim-meet"
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+
+# Raw meet-result files carry minors' birthdates. The only result files in this
+# repo are the SANITIZED fixtures under test/fixtures/ (synthetic identities —
+# see test/fixtures/README.md), which are force-added. Never commit a real one.
+*.sd3
+*.hy3
+*.zip
