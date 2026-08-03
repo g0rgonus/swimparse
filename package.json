@@ -1,6 +1,6 @@
 {
   "name": "swimparse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parses SDIF v3 (.sd3) and Hy-Tek (.hy3) swim-meet result files into one NormalizedMeet JSON contract. Zero dependencies; runs in the browser, Node, and CI.",
   "type": "module",
   "main": "src/index.js",
