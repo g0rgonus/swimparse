@@ -1,0 +1,71 @@
+name: release
+
+# Publishes to npm when a version tag is pushed:
+#
+#   npm version patch|minor|major   # bumps package.json AND creates the tag
+#   git push --follow-tags
+#
+# Keeping the git tag and the npm version in lockstep matters: consumers moved
+# off `github:g0rgonus/swimparse#v0.1.0` onto `swimparse@^0.1.0`, and the two
+# must always mean the same code.
+#
+# AUTHENTICATION — pick one, then delete the other block below:
+#
+#   (a) Trusted publishing (preferred). npm's OIDC integration: register this
+#       repo + workflow as a trusted publisher on the package's npmjs.com
+#       settings page, and no token exists anywhere. `id-token: write` below is
+#       what makes it work.
+#
+#   (b) Automation token. Generate one on npmjs.com, store it as the NPM_TOKEN
+#       repository secret, and uncomment the `NODE_AUTH_TOKEN` env line.
+#
+# Either way `--provenance` attaches a signed attestation tying the published
+# tarball to this exact commit and workflow run — which is the point of moving
+# off a personal git dependency in the first place.
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # required for provenance and for trusted publishing
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+
+      # Never publish something that doesn't pass. Zero dependencies, so there
+      # is nothing to install first.
+      - name: Test
+        run: node --test
+
+      # The tag is the source of truth for what is being released; a mismatch
+      # means `npm version` wasn't used and the two would drift apart.
+      - name: Verify tag matches package.json version
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          PKG=$(node -p "require('./package.json').version")
+          if [ "$TAG" != "$PKG" ]; then
+            echo "::error::tag v$TAG does not match package.json version $PKG"
+            exit 1
+          fi
+          echo "releasing $PKG"
+
+      # Show exactly what will ship. The `files` field should keep test/ and its
+      # fixtures out; if a fixture ever appears here, stop and look.
+      - name: Show tarball contents
+        run: npm pack --dry-run
+
+      - name: Publish
+        run: npm publish --provenance --access public
+        # env:
+        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}   # (b) token auth only
