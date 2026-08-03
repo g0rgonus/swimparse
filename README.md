@@ -32,13 +32,14 @@ everything else.
 
 ## Install
 
-Consumed as a pinned git dependency:
-
-```json
-"dependencies": { "swimparse": "github:g0rgonus/swimparse#v0.1.0" }
+```sh
+npm install swimparse
 ```
 
-Pin to a tag or SHA for reproducibility. `npm ci` clones it in CI with no publish step.
+Zero dependencies, so there is nothing else to pull in.
+
+Releases are published from CI with [provenance](https://docs.npmjs.com/generating-provenance-statements),
+so every version on npm can be traced to the commit and workflow run that built it.
 
 ## Usage
 
