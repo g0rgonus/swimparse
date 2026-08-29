@@ -1,13 +1,14 @@
 {
   "name": "swimparse",
   "version": "0.1.1",
-  "description": "Parses SDIF v3 (.sd3) and Hy-Tek (.hy3) swim-meet result files into one NormalizedMeet JSON contract. Zero dependencies; runs in the browser, Node, and CI.",
+  "description": "Parses SDIF v3 (.sd3) and Hy-Tek (.hy3) swim-meet result files into one NormalizedMeet JSON contract, and Hy-Tek meet-setup files (.ev3/.hyv) — events, sessions and qualifying cuts — into a NormalizedMeetSetup. Zero dependencies; runs in the browser, Node, and CI.",
   "type": "module",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
     "./sdif": "./src/sdif.js",
-    "./hy3": "./src/hy3.js"
+    "./hy3": "./src/hy3.js",
+    "./setup": "./src/setup.js"
   },
   "bin": {
     "swimparse": "cli.js"
@@ -15,7 +16,8 @@
   "files": [
     "src/",
     "cli.js",
-    "README.md"
+    "README.md",
+    "docs/"
   ],
   "scripts": {
     "test": "node --test"
@@ -31,7 +33,11 @@
     "sdif",
     "sd3",
     "hy3",
+    "ev3",
+    "hyv",
     "hy-tek",
+    "meet-events",
+    "time-standards",
     "meet-results",
     "parser",
     "swim-meet"

@@ -1,0 +1,7 @@
+# Meet files are fixed-width or delimited records with CRLF line endings, and
+# they are fixtures: git must not rewrite their bytes. Without this, a
+# `text=auto` normalization silently strips the CR from every record.
+*.sd3 -text
+*.hy3 -text
+*.ev3 -text
+*.hyv -text

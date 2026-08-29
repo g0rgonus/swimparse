@@ -1,0 +1,6035 @@
+{
+  "format": "ev3",
+  "source": {
+    "software": "Created by Hy-Tek's MEET MANAGER",
+    "version": "8.0Gh",
+    "createdAt": "2026-08-13"
+  },
+  "meet": {
+    "name": "2026 SwimRVA Blastoff Meet",
+    "rawName": "2026 SwimRVA Blastoff Meet",
+    "hostName": "SwimRVA-CSAC",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-27",
+    "ageUpDate": "2026-09-25",
+    "course": "SCY",
+    "entryDeadline": "2026-09-15",
+    "qualifyingSince": null,
+    "location": {
+      "address": "5050 Ridgedale Pkwy",
+      "city": "Richmond",
+      "state": "VA",
+      "postalCode": "23234",
+      "country": "USA",
+      "lsc": "VA"
+    }
+  },
+  "sessions": [
+    {
+      "id": "1",
+      "day": 1,
+      "startTime": "17:00",
+      "eventCount": 46
+    },
+    {
+      "id": "2",
+      "day": 2,
+      "startTime": "08:00",
+      "eventCount": 24
+    },
+    {
+      "id": "3",
+      "day": 2,
+      "startTime": "12:00",
+      "eventCount": 64
+    },
+    {
+      "id": "4",
+      "day": 2,
+      "startTime": "16:00",
+      "eventCount": 20
+    },
+    {
+      "id": "5",
+      "day": 3,
+      "startTime": "08:00",
+      "eventCount": 52
+    }
+  ],
+  "events": [
+    {
+      "number": "1A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 1,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "1B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 1,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "1C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 1,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "2A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 2,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "2B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 2,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "2C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 2,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "3A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 3,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "3B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 3,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "4A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 4,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "4B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 4,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "5A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 5,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "5B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 5,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "6A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 6,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "6B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 6,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "7",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 7,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "8",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 8,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "9A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 9,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "9B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 9,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "9C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 9,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "10A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 10,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "10B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 10,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "10C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 10,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "11A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 11,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "11B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 11,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "12A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 12,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "12B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 12,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "13A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 13,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "13B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 25m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 13,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "14A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 14,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "14B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 25m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 14,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "15A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 15,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "15B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 15,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "15C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 15,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "16A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 16,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "16B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 16,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "16C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 16,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "17A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 17,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "17B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 17,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "18A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 18,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "18B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 18,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "19A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 19,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "19B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 19,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "19C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 19,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "20A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 20,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "20B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 20,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "20C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 1000m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "1",
+        "day": 1,
+        "order": 20,
+        "startTime": "17:00"
+      }
+    },
+    {
+      "number": "21A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 1,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "21B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 1,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "22A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 2,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "22B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 400m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 2,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "23A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 3,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "23B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 3,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "24A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 4,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "24B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 4,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "25A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 5,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "25B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 5,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "26A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 6,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "26B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 6,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "27A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 7,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "27B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 7,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "28A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 8,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "28B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 8,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "29A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 9,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "29B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 9,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "30A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 10,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "30B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 10,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "31",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 11,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "32",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 12,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "33",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 13,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "34",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "2",
+        "day": 2,
+        "order": 14,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "35A",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Girls 10 & Under 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 1,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "36",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Boys 10 & Under 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 2,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "37",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 3,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "38",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 4,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "39A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 5,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "39B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 5,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "39C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 5,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "40A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 6,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "40B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 6,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "40C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 6,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "41A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 7,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "41B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 25m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 7,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "42A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 8,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "42B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 25m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 8,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "43A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 9,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "43B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 9,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "43C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 9,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "44A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 10,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "44B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 10,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "44C",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 10,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "45A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 11,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "45B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 11,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "46A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 12,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "46B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 12,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "47",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 13,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "48",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 14,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "49A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 15,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "49B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 15,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "50A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 16,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "50B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 16,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "51",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 17,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "52",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 18,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "53A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 19,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "53B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 19,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "54A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 20,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "54B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 20,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "55",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 21,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "56",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 22,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "57A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 23,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "57B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 25m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 23,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "58A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 24,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "58B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 25m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 24,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "59A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 25,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "59B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 25,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "60A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 26,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "60B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 26,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "61",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 27,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "62",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 28,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "63A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 29,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "63B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 29,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "64A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 30,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "64B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 30,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "65",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 31,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "66",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 32,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "67A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 33,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "67B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 33,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "68A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 34,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "68B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 34,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "69",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 35,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "70",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 36,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "71",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Girls 10 & Under 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 37,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "72",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Boys 10 & Under 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 38,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "73",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 39,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "74",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "3",
+        "day": 2,
+        "order": 40,
+        "startTime": "12:00"
+      }
+    },
+    {
+      "number": "75A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 1,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "75B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 1,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "76A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 2,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "76B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 500m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 2,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "77A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 3,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "77B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 3,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "78A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 4,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "78B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 100m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 4,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "79A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 5,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "79B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 5,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "80A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 6,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "80B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 50m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 6,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "81A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 7,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "81B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 7,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "82A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 8,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "82B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 8,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "83",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 9,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "84",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 10,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "85",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 11,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "86",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "4",
+        "day": 2,
+        "order": 12,
+        "startTime": "16:00"
+      }
+    },
+    {
+      "number": "87",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Mixed 10 & Under 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 1,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "88",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Mixed 11-12 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 2,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "89",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Mixed 13-14 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 3,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "90",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Mixed 15 & Over 200m Freestyle Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 4,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "91A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 25m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 5,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "91B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 25m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 5,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "92A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 25m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 6,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "92B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 25,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 25m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 6,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "93A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 7,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "93B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 7,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "94A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 8,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "94B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 100m Freestyle",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 8,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "95A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 9,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "95B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 9,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "96A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 10,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "96B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 10,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "97",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 11,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "98",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 12,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "99A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 13,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "99B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 13,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "100A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 14,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "100B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 100m IM",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 14,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "101A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 15,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "101B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 15,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "102A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 16,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "102B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 16,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "103",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 17,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "104",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 18,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "105A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 19,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "105B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 19,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "106A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 20,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "106B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 100m Butterfly",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 20,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "107A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 21,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "107B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 21,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "108A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 22,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "108B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 22,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "109",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 23,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "110",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m Breaststroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 24,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "111A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Girls 13-14 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 25,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "111B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Girls 15 & Over 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 25,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "112A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Boys 13-14 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 26,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "112B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Boys 15 & Over 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 26,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "113A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Girls 8 & Under 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 27,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "113B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Girls 9-10 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 27,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "114A",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "8 & Under",
+        "lower": 0,
+        "upper": 8
+      },
+      "description": "Boys 8 & Under 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 28,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "114B",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "9-10",
+        "lower": 9,
+        "upper": 10
+      },
+      "description": "Boys 9-10 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 28,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "115",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Girls 11-12 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 29,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "116",
+      "type": "individual",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Backstroke",
+      "relayLegs": null,
+      "entryFee": 12,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 30,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "117",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "10 & Under",
+        "lower": 0,
+        "upper": 10
+      },
+      "description": "Mixed 10 & Under 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 31,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "118",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Mixed 11-12 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 32,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "119",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "13-14",
+        "lower": 13,
+        "upper": 14
+      },
+      "description": "Mixed 13-14 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 33,
+        "startTime": "08:00"
+      }
+    },
+    {
+      "number": "120",
+      "type": "relay",
+      "round": "finals",
+      "rounds": 1,
+      "gender": "X",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "15 & Over",
+        "lower": 15,
+        "upper": 99
+      },
+      "description": "Mixed 15 & Over 200m Medley Relay",
+      "relayLegs": 4,
+      "entryFee": 20,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": {
+        "id": "5",
+        "day": 3,
+        "order": 34,
+        "startTime": "08:00"
+      }
+    }
+  ]
+}

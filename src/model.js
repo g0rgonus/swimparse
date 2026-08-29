@@ -85,6 +85,96 @@
  */
 
 /**
+ * The NormalizedMeetSetup contract — what a meet-SETUP file (.ev3/.hyv) holds.
+ *
+ * A setup file is the meet before it has entrants: the event list, the session
+ * schedule, the entry fees, and the qualifying cuts. There are no swimmers and
+ * no results in it, so it is a different shape from NormalizedMeet rather than
+ * an empty one — `events[]` here are event *definitions*, not event results.
+ *
+ * It carries no personal data at all, which makes it the one swimparse output
+ * that is safe to publish as-is.
+ *
+ * @typedef {Object} NormalizedMeetSetup
+ * @property {'ev3'|'hyv'} format
+ * @property {Object} source                  Producing software (header record).
+ * @property {string} [source.software]
+ * @property {string} [source.version]
+ * @property {string|null} [source.createdAt] ISO date the file was exported.
+ * @property {SetupMeetInfo} meet
+ * @property {SetupSession[]} sessions        Empty for hyv, which has no sessions.
+ * @property {SetupEvent[]} events
+ */
+
+/**
+ * @typedef {Object} SetupMeetInfo
+ * @property {string} name
+ * @property {string} rawName
+ * @property {string} [hostName]              Host or facility as printed.
+ * @property {string|null} startDate          ISO "YYYY-MM-DD".
+ * @property {string|null} endDate
+ * @property {string|null} [ageUpDate]        The date ages are computed as of.
+ * @property {string|null} [course]           'SCY' | 'LCM' | 'SCM'.
+ * @property {string} [sanction]              LSC sanction number (ev3 only).
+ * @property {string|null} [entryDeadline]    ISO (ev3 only).
+ * @property {string|null} [qualifyingSince]  Start of the period a cut may be
+ *                                            swum in — INFERRED from the files,
+ *                                            not from a spec (ev3 only).
+ * @property {Object} [location]              Address fields (ev3 only).
+ */
+
+/**
+ * @typedef {Object} SetupSession
+ * @property {string} id                      As numbered in the file — may be
+ *                                            alphanumeric ("1", "2G").
+ * @property {number|null} day                1-based day of the meet.
+ * @property {string|null} startTime          24-hour "HH:MM".
+ * @property {number} eventCount
+ */
+
+/**
+ * @typedef {Object} SetupEvent
+ * @property {string} number                  As printed, letter and all ("1A").
+ * @property {'individual'|'relay'} type
+ * @property {'finals'|'prelims'|null} round  'prelims' = prelims feeding a final.
+ * @property {number|null} rounds             1 = timed finals, 2 = prelims+finals
+ *                                            (ev3 only).
+ * @property {'M'|'F'|'X'} gender
+ * @property {number|null} distance
+ * @property {string} stroke                  Canonical stroke name.
+ * @property {string|null} course             The event's own course as stated in
+ *                                            the file — 'SCY' | 'LCM' | 'SCM'.
+ *                                            ev3 only; the hyv states none.
+ * @property {{label:string, lower:number, upper:number}} ageGroup
+ * @property {string} description             Human label, same form the result
+ *                                            adapters produce.
+ * @property {number|null} relayLegs          Legs per relay (ev3 only).
+ * @property {number|null} entryFee           As stored, in the meet's currency.
+ * @property {{LCM: SwimTime|null, SCM: SwimTime|null, SCY: SwimTime|null}} qualifyingTimes
+ *                                            The event's cut in each course — the
+ *                                            same standard, stated three ways. All
+ *                                            null when the meet sets no cuts. Kept
+ *                                            verbatim, including the placeholder a
+ *                                            meet may fill an unaccepted course
+ *                                            with; qualifyingStandards() drops
+ *                                            those.
+ * @property {{id:string, day:number|null, order:number|null, startTime:string|null}|null} session
+ */
+
+/**
+ * @typedef {Object} QualifyingStandard
+ * @property {string} eventNumber
+ * @property {string} description
+ * @property {'M'|'F'|'X'} gender
+ * @property {{label:string, lower:number, upper:number}} ageGroup
+ * @property {number|null} distance
+ * @property {string} stroke
+ * @property {SwimTime|null} LCM
+ * @property {SwimTime|null} SCM
+ * @property {SwimTime|null} SCY
+ */
+
+/**
  * @typedef {Object} IndividualResult
  * @property {'individual'} kind
  * @property {string} [swimmerId]             Links to Swimmer.id when resolvable.
