@@ -4,9 +4,12 @@
  */
 
 /**
+ * `ev3` and `hyv` are meet SETUP files (events, no results) — parse those with
+ * parseSetup(), not parse().
+ *
  * @param {string} content
  * @param {string} [filename] optional, used only as a tie-breaker
- * @returns {'sdif-v3'|'hy3'|null}
+ * @returns {'sdif-v3'|'hy3'|'ev3'|'hyv'|null}
  */
 export function detectFormat(content, filename) {
     const firstLines = String(content).split(/\r?\n/, 5);
@@ -20,10 +23,19 @@ export function detectFormat(content, filename) {
     if (firstLines.some((l) => l.startsWith('B11') || l.startsWith('D0') || l.startsWith('D3'))) return 'sdif-v3';
     if (firstLines.some((l) => l.startsWith('D1') || l.startsWith('E1'))) return 'hy3';
 
+    // Meet-setup exports are semicolon-delimited rather than fixed-width. The
+    // ev3 flavour terminates every record with `*>`; the hyv flavour does not.
+    // Checked after the record-code sniffs above so a fixed-width SDIF .ev3
+    // still routes to the SDIF adapter.
+    const delimited = firstLines.filter((l) => l.split(';').length >= 10);
+    if (delimited.length >= 2) return delimited.some((l) => l.trimEnd().endsWith('*>')) ? 'ev3' : 'hyv';
+
     if (filename) {
         const ext = filename.toLowerCase().split('.').pop();
         if (ext === 'hy3') return 'hy3';
         if (ext === 'sd3' || ext === 'cl2' || ext === 'txt') return 'sdif-v3';
+        if (ext === 'ev3') return 'ev3';
+        if (ext === 'hyv') return 'hyv';
     }
     return null;
 }

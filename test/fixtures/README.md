@@ -42,3 +42,48 @@ for(const f of ['gg-at-ww.sd3','gg-at-ww.hy3']){
 ```
 
 Then review the diff and run `node --test`.
+
+---
+
+# Meet-setup fixtures — real files, no personal data
+
+`sc-agchamps.*`, `lc-agchamps.*`, `ez-agchamps.*` and `blastoff.*` are four **real,
+public meet setups**, each the `.ev3` and `.hyv` pair Meet Manager exports together,
+used by `setup.test.js`.
+
+A setup file is the meet before anyone has entered it — events, sessions, fees and
+qualifying cuts. **There are no swimmers in it**, so unlike the result fixtures above
+there was nothing to sanitize; these are the files as exported.
+
+| Fixture | Meet | Exercises |
+|---|---|---|
+| `sc-agchamps.ev3` / `.hyv` | 2026 Virginia Swimming SC Age Group Champions | an **SCY** meet: qualifying cuts in three courses, prelims, gendered sessions, sanction number |
+| `lc-agchamps.ev3` / `.hyv` | 2026 Virginia Swimming LC Age Group Champions | an **LCM** meet running the same standards — the hyv's rotated cut columns |
+| `ez-agchamps.ev3` / `.hyv` | 2026 Eastern Zone LC Age Group Championship | placeholder cuts (`0.01`/`1.00`) filling an unaccepted course, twelve sessions over four days, six events left properly uncut |
+| `blastoff.ev3` / `.hyv` | 2026 SwimRVA Blastoff Meet | timed finals, letter-suffixed event numbers (`1A`/`1B`/`1C`), relays, five sessions, no cuts |
+
+## The cut columns are pinned by a published table, in two courses
+
+`setup.test.js` asserts that Girls 13-14 50 Free reads LCM 29.49 / SCM 28.89 / SCY 25.89,
+which is exactly that row of Virginia Swimming's published *2025-2028 Age Group
+Championship QTs*. That assertion is the evidence for the column-to-course mapping —
+if it ever fails, re-derive the mapping against the published table rather than
+re-recording the golden.
+
+**Why the LC pair earns its place:** the SC and LC championships run the same
+standards, so a shared event must parse to the same three times against the same three
+course keys. It does not fall out for free — the `.ev3` fixes its columns at
+LCM/SCM/SCY, while the `.hyv` **rotates** them to start at the meet's own course. Two
+meets in one course cannot tell those two rules apart; these two, in different courses,
+can. Do not drop either meet from the fixture set.
+
+## Golden snapshots
+
+Same rule as above — regenerate only when a parser change is intentional:
+
+```bash
+node -e "import('../../src/index.js').then(async m=>{const {readFileSync,writeFileSync}=await import('node:fs');
+for(const f of ['sc-agchamps.ev3','sc-agchamps.hyv','lc-agchamps.ev3','lc-agchamps.hyv','ez-agchamps.ev3','ez-agchamps.hyv','blastoff.ev3','blastoff.hyv']){
+  const s=m.parseSetup(readFileSync(f,'latin1'),{filename:f});
+  writeFileSync(f+'.golden.json', JSON.stringify(s,null,2)+'\n');}})"
+```
