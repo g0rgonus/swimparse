@@ -65,11 +65,11 @@ setup.events[0].qualifyingTimes;   // { LCM, SCM, SCY } — the event's cut per 
 qualifyingStandards(setup);        // flat cut table: one row per event that has one
 ```
 
-`qualifyingTimes` is the file verbatim. `qualifyingStandards()` is the cut table you
-would publish, and makes exactly one judgement the parse does not: a meet that does not
-accept a course may fill that column with a placeholder (`0.01`, `1.00`) on every event
-rather than leaving it blank, and those are dropped along with any row left with
-nothing real.
+`qualifyingStandards()` is a view over the same values, not a filter — a meet that does
+not accept a course may fill it with a placeholder like `0.01`, and that arrives as
+stated. Filtering it is the consumer's judgement, and `parseSetup(text, { placeholders:
+'null' })` is how to hand that judgement back to the parser: it clears placeholder cuts
+and unset-date sentinels, and nothing else.
 
 If you are consuming the cuts, read
 **[docs/qualifying-cuts.md](docs/qualifying-cuts.md)** first — the output shape, and the
@@ -97,6 +97,9 @@ for the full typedefs. Highlights:
 - **`event.ageGroup`** is the *event's* age range as printed in the file (`"9-10"`,
   `"10 & Under"`, `"Open"`). It is **not** a swimmer's age group — computing that needs
   a birthdate and a league's bands, which is your layer's job.
+- **`event.course`** is `SCY` | `LCM` | `SCM`, and **`event.eventKey`** is the stable
+  identity shared with a setup file's events — join on it rather than on `description`,
+  whose distance unit follows the course.
 - **`team.code`** has the two-letter LSC prefix stripped (`VAWW` → `WW`), an SDIF file
   convention; `team.fullCode` keeps the raw value. Mapping either onto a league's
   canonical code is your layer's job.
@@ -124,7 +127,11 @@ setup file is the meet before anyone has entered it, so `events[]` here are even
   store those three columns in different orders — the `.hyv` rotates them to start at
   the meet's own course — so read them from here, keyed by course, rather than by
   column position.
-- **`event.course`** is the event's own course as stated in the file (`.ev3` only).
+- **`event.course`** is the event's own course where the file states one (`.ev3` col 25),
+  and the meet's otherwise.
+- **`event.eventKey`** is the stable identity to join on — the result adapters emit the
+  same key for the same event. `description` is display text and its distance unit
+  follows the course (`50y` vs `50m`), so never join on it.
 - **`meet.qualifyingSince`** is the start of the period a cut may be swum in (`.ev3`
   only). Inferred from the files rather than from a spec — see `src/setup.js`.
 - **`event.round`** is `finals` or `prelims`; `rounds` is 1 for timed finals, 2 for
@@ -161,6 +168,23 @@ shifted birth year; see [`test/fixtures/README.md`](test/fixtures/README.md).
 
 **Meet-setup files are the exception**: they contain no swimmers at all, so a
 `NormalizedMeetSetup` is safe to publish as-is.
+
+## Format references
+
+Hy-Tek publishes no specification, so the layouts here come from reading real files.
+Two references corroborate that work, and are worth having open when changing an
+adapter:
+
+| Format | Reference |
+|---|---|
+| SDIF v3 (`.sd3`/`.cl2`) | [swim-admin/sdif](https://github.com/swim-admin/sdif) — the spec itself |
+| SDIF v3, annotated | [ajoe2/tunas](https://github.com/ajoe2/tunas) `docs/formats/cl2_format.md` — field tables plus how real files depart from the spec |
+| Hy-Tek `.hy3` | [ajoe2/tunas](https://github.com/ajoe2/tunas) `docs/formats/hy3_format.md` — the closest thing to a spec that exists |
+| Hy-Tek `.ev3` / `.hyv` | None. See the header of [`src/setup.js`](src/setup.js) |
+
+Every offset in `src/sdif.js` and `src/hy3.js` was derived independently from real
+files and then found to agree with those references. Where a reference and a real file
+disagree, the file wins — and the disagreement belongs in a comment.
 
 ## Tests
 

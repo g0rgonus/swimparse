@@ -17,6 +17,10 @@
  * extension, fixed-width like `.sd3`. That is a different format; detect.js
  * sniffs content, so a fixed-width `.ev3` still routes to the SDIF adapter.
  *
+ * Unlike the result formats, these two have no published reference at all — not
+ * even a community one — so everything below is derived from real files, and the
+ * derivation notes stay in this header on purpose.
+ *
  * The three qualifying-time columns are the SAME cut in the three courses,
  * verified column-for-column against Virginia Swimming's published 2025-2028
  * Age Group Championship QT table (LCM / SCM / SCY), whose rows the fixture
@@ -45,8 +49,9 @@
  * ev3 10, 11, 12, 13 (constant), and the per-session trio 26/27/28.
  */
 
-import { HY3_STROKE, SDIF_STROKE, STROKE, GENDER_DISPLAY, COURSE, ageGroup } from './constants.js';
+import { HY3_STROKE, SDIF_STROKE, STROKE, COURSE, ageGroup } from './constants.js';
 import { timeFromText, normalizeDate } from './times.js';
+import { describeEvent, eventKey } from './model.js';
 
 /** Event-sex code → canonical gender. ev3 uses G/B, hyv uses F/M. */
 const EVENT_SEX = { G: 'F', B: 'M', F: 'F', M: 'M', X: 'X' };
@@ -82,16 +87,26 @@ const num = (raw) => {
     return Number.isNaN(v) ? null : v;
 };
 
-/** Meet Manager writes an unset date as the Unix epoch. */
-const EPOCH_SENTINEL = /^01\/01\/1970$/;
+/**
+ * Unset-date sentinels. Meet Manager writes either the Unix epoch or the
+ * Delphi/Excel zero date depending on the field and the version; the districts
+ * file uses 12/30/1899 for a meet that never set an age-up date.
+ */
+const EPOCH_SENTINEL = /^(01\/01\/1970|12\/30\/1899)$/;
 
 /**
- * Below this, a "qualifying time" is a placeholder for a course the meet does
- * not accept, not a standard: no swim of any distance is a second long, and the
- * Eastern Zone fixture blanket-fills its SCM column with 0.01/1.00 on nearly
- * every event, relays included.
+ * A "qualifying time" at or under this is a placeholder for a course the meet
+ * does not accept, not a standard — no swim of any distance is a second long.
  */
 const PLACEHOLDER_CUT_SECONDS = 1;
+
+/**
+ * `placeholders: 'null'` turns both kinds of stand-in into null: the sentinel
+ * dates above, and the times a meet blanket-fills an unaccepted course column
+ * with. OFF by default — a parse reports what the file says, and deciding a
+ * stated value is not real is the consumer's judgement, not this library's.
+ */
+const nulling = (opts) => (opts && opts.placeholders) === 'null';
 
 /** Splits a record, dropping the ev3 `*>` terminator from the last field. */
 const fields = (line) => line.replace(/\*>\s*$/, '').split(';');
@@ -104,15 +119,19 @@ const records = (content) =>
 
 /**
  * Builds the shared event shape from already-decoded parts.
- * `description` matches the result adapters', so an event parsed from a setup
- * file and the same event parsed from a result file read identically.
+ *
+ * `description` and `eventKey` come from the same helpers the result adapters
+ * use, so an event read from a setup file and the same event read from that
+ * meet's results are identical in both — which is what makes a cut joinable to
+ * a swim.
+ *
+ * `course` is the event's own where the file states one (ev3 col 25) and the
+ * meet's otherwise: the hyv states no per-event course, and without the
+ * fallback its events would key and label differently from the ev3's.
  */
 function buildEvent({ number, type, round, rounds, gender, distance, stroke, course, lower, upper, entryFee, qualifyingTimes, relayLegs, session }) {
     const ag = ageGroup(lower, upper);
-    const agLabel = type === 'relay' && ag.label === 'Open' ? '' : ag.label;
-    const description = `${GENDER_DISPLAY[gender]} ${agLabel} ${distance}m ${stroke}${type === 'relay' ? ' Relay' : ''}`
-        .replace(/\s+/g, ' ')
-        .trim();
+    const built = { type, gender, distance, stroke, course, ageGroup: ag };
     return {
         number,
         type,
@@ -123,7 +142,8 @@ function buildEvent({ number, type, round, rounds, gender, distance, stroke, cou
         stroke,
         course,
         ageGroup: ag,
-        description,
+        description: describeEvent(built),
+        eventKey: eventKey(built),
         relayLegs,
         entryFee,
         qualifyingTimes,
@@ -132,11 +152,13 @@ function buildEvent({ number, type, round, rounds, gender, distance, stroke, cou
 }
 
 /** { LCM, SCM, SCY } from three raw time strings, any of which may be blank. */
-const qualTimes = (lcm, scm, scy) => ({
-    LCM: timeFromText(lcm),
-    SCM: timeFromText(scm),
-    SCY: timeFromText(scy),
-});
+const qualTimes = (lcm, scm, scy, drop) => {
+    const t = (raw) => {
+        const time = timeFromText(raw);
+        return drop && time && time.seconds <= PLACEHOLDER_CUT_SECONDS ? null : time;
+    };
+    return { LCM: t(lcm), SCM: t(scm), SCY: t(scy) };
+};
 
 /** The cycle the hyv rotates its qualifying-time columns through. */
 const COURSE_CYCLE = ['Y', 'L', 'S'];
@@ -147,11 +169,13 @@ const COURSE_CYCLE = ['Y', 'L', 'S'];
  * @param {string} courseCode single-char meet course from the hyv header
  * @param {string[]} f the record's fields
  */
-function hyvQualTimes(courseCode, f) {
+function hyvQualTimes(courseCode, f, drop) {
     const start = Math.max(0, COURSE_CYCLE.indexOf(courseCode));
     const times = { LCM: null, SCM: null, SCY: null };
     [9, 13, 15].forEach((col, i) => {
-        times[COURSE[COURSE_CYCLE[(start + i) % COURSE_CYCLE.length]]] = timeFromText(f[col]);
+        const time = timeFromText(f[col]);
+        times[COURSE[COURSE_CYCLE[(start + i) % COURSE_CYCLE.length]]] =
+            drop && time && time.seconds <= PLACEHOLDER_CUT_SECONDS ? null : time;
     });
     return times;
 }
@@ -169,39 +193,35 @@ function deriveSessions(events) {
 }
 
 /**
- * Flattens a setup's qualifying cuts into one row per event that has one.
+ * Reshapes a setup's qualifying cuts into one row per event that states any —
+ * the same values, laid out as a table instead of nested under each event.
  *
- * The cuts are already on `setup.events[].qualifyingTimes`; this is the shape
- * you want when the cuts *are* the thing you came for — a standards table to
- * publish, diff against last season's, or check entries against. Events with no
- * cut configured (the relays, in most meets) are left out.
+ * It is a VIEW, not a filter: every time the file states arrives here exactly as
+ * stated. That includes placeholders — a meet that does not accept a course may
+ * fill that column with 0.01 or 1.00 on every event rather than leaving it
+ * blank, as the Eastern Zone fixture does across 102 of its 108 events. Deciding
+ * that such a value is not a real standard is a judgement about the meet's
+ * rules, so it belongs to the consumer, not here.
  *
- * THE ONE PLACE THIS LAYER JUDGES THE DATA: a placeholder time in a course the
- * meet does not accept is dropped here (see PLACEHOLDER_CUT_SECONDS), and a row
- * left with nothing real goes with it. `event.qualifyingTimes` still carries
- * every value the file stated — read that instead if you want the file verbatim.
- *
- * Beyond that, reading the file is all that happens: no conversion between
- * courses, no "does this swimmer qualify" — that is the consumer's call.
+ * Events stating no cut at all are absent, since a row of three nulls says
+ * nothing that `setup.events` does not.
  *
  * @param {NormalizedMeetSetup} setup
  * @returns {QualifyingStandard[]}
  */
 export function qualifyingStandards(setup) {
-    const real = (t) => (t && t.seconds > PLACEHOLDER_CUT_SECONDS ? t : null);
     return (setup.events || [])
+        .filter((ev) => ev.qualifyingTimes && Object.values(ev.qualifyingTimes).some(Boolean))
         .map((ev) => ({
             eventNumber: ev.number,
+            eventKey: ev.eventKey,
             description: ev.description,
             gender: ev.gender,
             ageGroup: ev.ageGroup,
             distance: ev.distance,
             stroke: ev.stroke,
-            LCM: real(ev.qualifyingTimes && ev.qualifyingTimes.LCM),
-            SCM: real(ev.qualifyingTimes && ev.qualifyingTimes.SCM),
-            SCY: real(ev.qualifyingTimes && ev.qualifyingTimes.SCY),
-        }))
-        .filter((row) => row.LCM || row.SCM || row.SCY);
+            ...ev.qualifyingTimes,
+        }));
 }
 
 /**
@@ -209,19 +229,27 @@ export function qualifyingStandards(setup) {
  * @param {string} content
  * @returns {import('./model.js').NormalizedMeetSetup}
  */
-export function parseEv3(content) {
+export function parseEv3(content, opts) {
+    const drop = nulling(opts);
     const [head, ...rows] = records(content);
     if (!head) throw new Error('swimparse: empty .ev3 file');
 
     const name = clean(head[0]);
+    // Header field 5 is a LIST of the courses whose times the meet accepts, not
+    // the meet's own course — 'YLS', 'LSY', 'YO', and in the districts file just
+    // 'O'. Its first character happens to be the meet course in most files, so
+    // it is a fallback only: col 25 of the event rows states the course
+    // outright, and is believed first when the rows agree.
+    const stated = new Set(rows.map((f) => COURSE[clean(f[25])]).filter(Boolean));
+    const meetCourse = stated.size === 1 ? [...stated][0] : COURSE[clean(head[5]).charAt(0)] || null;
     const meet = {
         name,
         rawName: name,
         hostName: clean(head[1]) || undefined,
         startDate: isoDate(head[2]),
         endDate: isoDate(head[3]),
-        ageUpDate: isoDate(head[4]),
-        course: COURSE[clean(head[5]).charAt(0)] || null,
+        ageUpDate: drop && EPOCH_SENTINEL.test(clean(head[4])) ? null : isoDate(head[4]),
+        course: meetCourse,
         sanction: clean(head[14]) || undefined,
         entryDeadline: isoDate(head[23]),
         // INFERRED, not confirmed against a spec: header field 16 reads
@@ -230,7 +258,7 @@ export function parseEv3(content) {
         // after the 2025 zone championships), and the epoch sentinel in the one
         // meet that sets no cuts at all. That is what a qualifying-period start
         // looks like. Treated as unset when it reads as the epoch.
-        qualifyingSince: EPOCH_SENTINEL.test(clean(head[16])) ? null : isoDate(head[16]),
+        qualifyingSince: drop && EPOCH_SENTINEL.test(clean(head[16])) ? null : isoDate(head[16]),
         location: {
             address: clean(head[24]) || undefined,
             city: clean(head[26]) || undefined,
@@ -255,9 +283,13 @@ export function parseEv3(content) {
             stroke,
             lower: clean(f[6]),
             upper: clean(f[7]),
-            course: COURSE[clean(f[25])] || null,
+            // Col 25 is the event's own course, but a meet can leave it blank
+            // (four rows of the districts file do, alongside blank session
+            // fields — an under-configured event). Fall back to the meet's, or
+            // those events key on '?' and join to nothing.
+            course: COURSE[clean(f[25])] || meetCourse,
             entryFee: num(f[14]),
-            qualifyingTimes: qualTimes(f[16], f[18], f[20]),
+            qualifyingTimes: qualTimes(f[16], f[18], f[20], drop),
             relayLegs: type === 'relay' ? int(f[29]) : null,
             session: {
                 id: clean(f[21]),
@@ -287,7 +319,8 @@ export function parseEv3(content) {
  * @param {string} content
  * @returns {import('./model.js').NormalizedMeetSetup}
  */
-export function parseHyv(content) {
+export function parseHyv(content, opts) {
+    const drop = nulling(opts);
     const [head, ...rows] = records(content);
     if (!head) throw new Error('swimparse: empty .hyv file');
 
@@ -299,7 +332,7 @@ export function parseHyv(content) {
         hostName: clean(head[5]) || undefined,
         startDate: isoDate(head[1]),
         endDate: isoDate(head[2]),
-        ageUpDate: isoDate(head[3]),
+        ageUpDate: drop && EPOCH_SENTINEL.test(clean(head[3])) ? null : isoDate(head[3]),
         course: COURSE[courseCode] || null,
     };
 
@@ -319,9 +352,9 @@ export function parseHyv(content) {
             stroke,
             lower: clean(f[4]),
             upper,
-            course: null, // the hyv states no per-event course
+            course: COURSE[courseCode] || null, // the hyv states no per-event course; use the meet's
             entryFee: num(f[11]),
-            qualifyingTimes: hyvQualTimes(courseCode, f),
+            qualifyingTimes: hyvQualTimes(courseCode, f, drop),
             relayLegs: null,
             session: null,
         });

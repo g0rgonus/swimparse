@@ -24,13 +24,14 @@
       "gender": "F",
       "distance": 1500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-14",
         "lower": 11,
         "upper": 14
       },
       "description": "Girls 11-14 1500m Freestyle",
+      "eventKey": "individual:F:11-14:1500:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -57,13 +58,14 @@
       "gender": "M",
       "distance": 1500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-14",
         "lower": 11,
         "upper": 14
       },
       "description": "Boys 11-14 1500m Freestyle",
+      "eventKey": "individual:M:11-14:1500:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -90,13 +92,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 400m Freestyle",
+      "eventKey": "individual:F:0-10:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -123,13 +126,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 400m Freestyle",
+      "eventKey": "individual:M:0-10:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -156,13 +160,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 400m Freestyle",
+      "eventKey": "individual:F:11-12:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -189,13 +194,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 400m Freestyle",
+      "eventKey": "individual:M:11-12:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -222,13 +228,14 @@
       "gender": "F",
       "distance": 800,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 800m Freestyle Relay",
+      "eventKey": "relay:F:13-14:800:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -246,13 +253,14 @@
       "gender": "M",
       "distance": 800,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 800m Freestyle Relay",
+      "eventKey": "relay:M:13-14:800:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -270,13 +278,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 100m Breaststroke",
+      "eventKey": "individual:F:13-14:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -303,13 +312,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 100m Breaststroke",
+      "eventKey": "individual:M:13-14:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -336,13 +346,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Breaststroke",
+      "eventKey": "individual:F:11-12:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -369,13 +380,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Breaststroke",
+      "eventKey": "individual:M:11-12:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -402,13 +414,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 50m Breaststroke",
+      "eventKey": "individual:F:0-10:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -435,13 +448,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 50m Breaststroke",
+      "eventKey": "individual:M:0-10:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -468,13 +482,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Freestyle",
+      "eventKey": "individual:F:13-14:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -501,13 +516,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Freestyle",
+      "eventKey": "individual:M:13-14:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -534,13 +550,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Freestyle",
+      "eventKey": "individual:F:11-12:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -567,13 +584,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Freestyle",
+      "eventKey": "individual:M:11-12:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -600,13 +618,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 200m Freestyle",
+      "eventKey": "individual:F:0-10:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -633,13 +652,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 200m Freestyle",
+      "eventKey": "individual:M:0-10:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -666,13 +686,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 100m Butterfly",
+      "eventKey": "individual:F:13-14:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -699,13 +720,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 100m Butterfly",
+      "eventKey": "individual:M:13-14:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -732,13 +754,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 100m Butterfly",
+      "eventKey": "individual:F:11-12:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -765,13 +788,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 100m Butterfly",
+      "eventKey": "individual:M:11-12:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -798,13 +822,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 50m Backstroke",
+      "eventKey": "individual:F:0-10:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -831,13 +856,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 50m Backstroke",
+      "eventKey": "individual:M:0-10:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -864,13 +890,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Backstroke",
+      "eventKey": "individual:F:13-14:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -897,13 +924,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Backstroke",
+      "eventKey": "individual:M:13-14:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -930,13 +958,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Backstroke",
+      "eventKey": "individual:F:11-12:200:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -963,13 +992,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Backstroke",
+      "eventKey": "individual:M:11-12:200:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -996,13 +1026,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 400m IM",
+      "eventKey": "individual:F:13-14:400:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1029,13 +1060,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 400m IM",
+      "eventKey": "individual:M:13-14:400:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1062,13 +1094,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 400m IM",
+      "eventKey": "individual:F:11-12:400:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1095,13 +1128,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 400m IM",
+      "eventKey": "individual:M:11-12:400:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1128,13 +1162,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 400m Medley Relay",
+      "eventKey": "relay:F:0-10:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1152,13 +1187,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 400m Medley Relay",
+      "eventKey": "relay:M:0-10:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1176,13 +1212,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 400m Medley Relay",
+      "eventKey": "relay:F:13-14:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1200,13 +1237,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 400m Medley Relay",
+      "eventKey": "relay:M:13-14:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1224,13 +1262,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 400m Medley Relay",
+      "eventKey": "relay:F:11-12:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1248,13 +1287,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 400m Medley Relay",
+      "eventKey": "relay:M:11-12:400:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1272,13 +1312,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Medley Relay",
+      "eventKey": "relay:F:13-14:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1296,13 +1337,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Medley Relay",
+      "eventKey": "relay:M:13-14:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1320,13 +1362,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Medley Relay",
+      "eventKey": "relay:F:11-12:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1344,13 +1387,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Medley Relay",
+      "eventKey": "relay:M:11-12:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1368,13 +1412,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 200m Medley Relay",
+      "eventKey": "relay:F:0-10:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1392,13 +1437,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 200m Medley Relay",
+      "eventKey": "relay:M:0-10:200:Medley:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -1416,13 +1462,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Butterfly",
+      "eventKey": "individual:F:13-14:200:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1449,13 +1496,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Butterfly",
+      "eventKey": "individual:M:13-14:200:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1482,13 +1530,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Butterfly",
+      "eventKey": "individual:F:11-12:200:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1515,13 +1564,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Butterfly",
+      "eventKey": "individual:M:11-12:200:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1548,13 +1598,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 50m Butterfly",
+      "eventKey": "individual:F:0-10:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1581,13 +1632,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 50m Butterfly",
+      "eventKey": "individual:M:0-10:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1614,13 +1666,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Freestyle",
+      "eventKey": "individual:F:13-14:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1647,13 +1700,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Freestyle",
+      "eventKey": "individual:M:13-14:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1680,13 +1734,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Freestyle",
+      "eventKey": "individual:F:11-12:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1713,13 +1768,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Freestyle",
+      "eventKey": "individual:M:11-12:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1746,13 +1802,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 100m Freestyle",
+      "eventKey": "individual:F:0-10:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1779,13 +1836,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 100m Freestyle",
+      "eventKey": "individual:M:0-10:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1812,13 +1870,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Breaststroke",
+      "eventKey": "individual:F:13-14:200:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1845,13 +1904,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Breaststroke",
+      "eventKey": "individual:M:13-14:200:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1878,13 +1938,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 100m Breaststroke",
+      "eventKey": "individual:F:11-12:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1911,13 +1972,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 100m Breaststroke",
+      "eventKey": "individual:M:11-12:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1944,13 +2006,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 100m Breaststroke",
+      "eventKey": "individual:F:0-10:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -1977,13 +2040,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 100m Breaststroke",
+      "eventKey": "individual:M:0-10:100:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2010,13 +2074,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 100m Backstroke",
+      "eventKey": "individual:F:13-14:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2043,13 +2108,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 100m Backstroke",
+      "eventKey": "individual:M:13-14:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2076,13 +2142,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Backstroke",
+      "eventKey": "individual:F:11-12:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2109,13 +2176,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Backstroke",
+      "eventKey": "individual:M:11-12:50:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2142,13 +2210,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 200m IM",
+      "eventKey": "individual:F:0-10:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2175,13 +2244,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 200m IM",
+      "eventKey": "individual:M:0-10:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2208,13 +2278,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m IM",
+      "eventKey": "individual:F:11-12:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2241,13 +2312,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m IM",
+      "eventKey": "individual:M:11-12:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2274,13 +2346,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 400m Freestyle",
+      "eventKey": "individual:F:13-14:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2307,13 +2380,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 400m Freestyle",
+      "eventKey": "individual:M:13-14:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2340,13 +2414,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 200m Freestyle Relay",
+      "eventKey": "relay:F:0-10:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2364,13 +2439,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 200m Freestyle Relay",
+      "eventKey": "relay:M:0-10:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2388,13 +2464,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Freestyle Relay",
+      "eventKey": "relay:F:11-12:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2412,13 +2489,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Freestyle Relay",
+      "eventKey": "relay:M:11-12:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2436,13 +2514,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Freestyle Relay",
+      "eventKey": "relay:F:13-14:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2460,13 +2539,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Freestyle Relay",
+      "eventKey": "relay:M:13-14:200:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -2484,13 +2564,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Breaststroke",
+      "eventKey": "individual:F:13-14:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2517,13 +2598,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Breaststroke",
+      "eventKey": "individual:M:13-14:50:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2550,13 +2632,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 200m Breaststroke",
+      "eventKey": "individual:F:11-12:200:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2583,13 +2666,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 200m Breaststroke",
+      "eventKey": "individual:M:11-12:200:Breaststroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2616,13 +2700,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m Backstroke",
+      "eventKey": "individual:F:13-14:200:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2649,13 +2734,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m Backstroke",
+      "eventKey": "individual:M:13-14:200:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2682,13 +2768,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 100m Backstroke",
+      "eventKey": "individual:F:11-12:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2715,13 +2802,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 100m Backstroke",
+      "eventKey": "individual:M:11-12:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2748,13 +2836,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 100m Backstroke",
+      "eventKey": "individual:F:0-10:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2781,13 +2870,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 100m Backstroke",
+      "eventKey": "individual:M:0-10:100:Backstroke:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2814,13 +2904,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 100m Freestyle",
+      "eventKey": "individual:F:13-14:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2847,13 +2938,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 100m Freestyle",
+      "eventKey": "individual:M:13-14:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2880,13 +2972,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 50m Freestyle",
+      "eventKey": "individual:F:0-10:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2913,13 +3006,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 50m Freestyle",
+      "eventKey": "individual:M:0-10:50:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2946,13 +3040,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 200m IM",
+      "eventKey": "individual:F:13-14:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -2979,13 +3074,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 200m IM",
+      "eventKey": "individual:M:13-14:200:IM:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3012,13 +3108,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 100m Freestyle",
+      "eventKey": "individual:F:11-12:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3045,13 +3142,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 100m Freestyle",
+      "eventKey": "individual:M:11-12:100:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3078,13 +3176,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 100m Butterfly",
+      "eventKey": "individual:F:0-10:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3111,13 +3210,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 100m Butterfly",
+      "eventKey": "individual:M:0-10:100:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3144,13 +3244,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Butterfly",
+      "eventKey": "individual:F:13-14:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3177,13 +3278,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Butterfly",
+      "eventKey": "individual:M:13-14:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3210,13 +3312,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Butterfly",
+      "eventKey": "individual:F:11-12:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3243,13 +3346,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Butterfly",
+      "eventKey": "individual:M:11-12:50:Butterfly:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3276,13 +3380,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 400m Freestyle Relay",
+      "eventKey": "relay:F:13-14:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3300,13 +3405,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 400m Freestyle Relay",
+      "eventKey": "relay:M:13-14:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3324,13 +3430,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 400m Freestyle Relay",
+      "eventKey": "relay:F:11-12:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3348,13 +3455,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 400m Freestyle Relay",
+      "eventKey": "relay:M:11-12:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3372,13 +3480,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 400m Freestyle Relay",
+      "eventKey": "relay:F:0-10:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3396,13 +3505,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 400m Freestyle Relay",
+      "eventKey": "relay:M:0-10:400:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 25,
       "qualifyingTimes": {
@@ -3420,13 +3530,14 @@
       "gender": "F",
       "distance": 800,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-14",
         "lower": 11,
         "upper": 14
       },
       "description": "Girls 11-14 800m Freestyle",
+      "eventKey": "individual:F:11-14:800:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {
@@ -3453,13 +3564,14 @@
       "gender": "M",
       "distance": 800,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "LCM",
       "ageGroup": {
         "label": "11-14",
         "lower": 11,
         "upper": 14
       },
       "description": "Boys 11-14 800m Freestyle",
+      "eventKey": "individual:M:11-14:800:Freestyle:LCM",
       "relayLegs": null,
       "entryFee": 15,
       "qualifyingTimes": {

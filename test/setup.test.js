@@ -35,13 +35,17 @@ const lcHyv = load('lc-agchamps.hyv');
 // placeholders, and twelve sessions across four days.
 const ezEv3 = load('ez-agchamps.ev3');
 const ezHyv = load('ez-agchamps.hyv');
+// A district championship: prelims and finals, and a meet whose header states
+// no course at all — only its event rows do.
+const districtsEv3 = load('districts.ev3');
+const districtsHyv = load('districts.hyv');
 // An invitational: timed finals, letter-suffixed events, relays, no cuts.
 const blastoffEv3 = load('blastoff.ev3');
 const blastoffHyv = load('blastoff.hyv');
 
 const asJson = (v) => JSON.parse(JSON.stringify(v));
 
-for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'blastoff.ev3', 'blastoff.hyv']) {
+for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'districts.ev3', 'districts.hyv', 'blastoff.ev3', 'blastoff.hyv']) {
     test(`${name} matches its golden snapshot`, () => {
         assert.deepStrictEqual(asJson(load(name)), readJson(`${name}.golden.json`));
     });
@@ -69,12 +73,16 @@ const shared = (e) => ({
     gender: e.gender,
     distance: e.distance,
     stroke: e.stroke,
+    course: e.course,
     ageGroup: e.ageGroup,
     description: e.description,
+    eventKey: e.eventKey,
     entryFee: e.entryFee,
     qualifyingTimes: e.qualifyingTimes,
 });
 
+// districts is deliberately absent: its hyv states no course, so its events
+// cannot label or key identically to its ev3's. That asymmetry has its own test.
 for (const [meet, ev3, hyv] of [['sc-agchamps', champsEv3, champsHyv], ['lc-agchamps', lcEv3, lcHyv], ['ez-agchamps', ezEv3, ezHyv], ['blastoff', blastoffEv3, blastoffHyv]]) {
     test(`${meet}: the ev3 and hyv describe the same events`, () => {
         assert.equal(ev3.meet.name, hyv.meet.name);
@@ -117,7 +125,7 @@ test('event shape: prelims, relays, letter-suffixed numbers, open-ended ages', (
     assert.equal(relay.stroke, 'Medley');
     assert.equal(relay.relayLegs, 4);
     assert.equal(relay.gender, 'X');
-    assert.equal(relay.description, 'Mixed 10 & Under 200m Medley Relay');
+    assert.equal(relay.description, 'Mixed 10 & Under 200y Medley Relay', 'a yards meet says y');
     assert.equal(ev(champsEv3, '33').stroke, 'IM', 'the same code is IM individually');
 
     // Event numbers keep their age-group letter.
@@ -133,7 +141,7 @@ test('qualifying cuts are read per course, and pin the LCM/SCM/SCY column order'
     // Verified against Virginia Swimming's published 2025-2028 Age Group
     // Championship QT table, whose LCM / SCM / SCY columns for this event read
     // 29.49 / 28.89 / 25.89. This assertion is what holds the mapping honest.
-    const free50 = champsEv3.events.find((e) => e.description === 'Girls 13-14 50m Freestyle');
+    const free50 = champsEv3.events.find((e) => e.eventKey === 'individual:F:13-14:50:Freestyle:SCY');
     assert.deepStrictEqual(
         { LCM: free50.qualifyingTimes.LCM.text, SCM: free50.qualifyingTimes.SCM.text, SCY: free50.qualifyingTimes.SCY.text },
         { LCM: '29.49', SCM: '28.89', SCY: '25.89' },
@@ -141,7 +149,7 @@ test('qualifying cuts are read per course, and pin the LCM/SCM/SCY column order'
     assert.equal(free50.qualifyingTimes.LCM.seconds, 29.49);
 
     // A cut given in only two courses keeps the missing one null (100 IM has no LCM).
-    const im100 = champsEv3.events.find((e) => e.description === 'Girls 10 & Under 100m IM');
+    const im100 = champsEv3.events.find((e) => e.eventKey === 'individual:F:0-10:100:IM:SCY');
     assert.equal(im100.qualifyingTimes.LCM, null);
     assert.equal(im100.qualifyingTimes.SCM.text, '1:27.99');
 
@@ -155,7 +163,12 @@ test('the cut columns are read by course, not by position', () => {
     // three course keys — even though the LC meet is LCM and orders its hyv
     // columns differently. Parse the two files by position instead of by course
     // and this is the test that fails.
-    const breast100 = (setup) => setup.events.find((e) => e.description === 'Girls 13-14 100m Breaststroke');
+    // Matched on the course-INDEPENDENT fields on purpose: the SC meet's race is
+    // 100 yards and the LC meet's is 100 metres, so as of 0.3.0 they differ in
+    // both `description` and `eventKey`. They are different races that happen to
+    // share a standards table — which is precisely why course is part of the key.
+    const breast100 = (setup) => setup.events.find((e) =>
+        e.gender === 'F' && e.ageGroup.label === '13-14' && e.distance === 100 && e.stroke === 'Breaststroke');
     const expected = { LCM: '1:22.99', SCM: '1:20.99', SCY: '1:12.29' };
     for (const [name, setup] of [['sc ev3', champsEv3], ['sc hyv', champsHyv], ['lc ev3', lcEv3], ['lc hyv', lcHyv]]) {
         const q = breast100(setup).qualifyingTimes;
@@ -166,17 +179,59 @@ test('the cut columns are read by course, not by position', () => {
     assert.equal(champsEv3.meet.course, 'SCY');
     assert.equal(lcEv3.meet.course, 'LCM');
     assert.equal(lcHyv.meet.course, 'LCM');
-    // The ev3 states a course per event too; the hyv does not.
+    // The ev3 states a course per event; the hyv states none and falls back to
+    // the meet's, so both flavours label and key an event identically. Without
+    // that fallback the hyv's events would read "100 Breaststroke" with no unit
+    // and key on '?', and would not join to anything.
     assert.equal(lcEv3.events[0].course, 'LCM');
     assert.equal(champsEv3.events[0].course, 'SCY');
-    assert.equal(lcHyv.events[0].course, null);
+    assert.equal(lcHyv.events[0].course, 'LCM');
+    assert.equal(lcHyv.events[0].eventKey, lcEv3.events[0].eventKey);
 });
 
-test('a placeholder cut is kept verbatim on the event and dropped from the cut table', () => {
+test('a meet course is taken from the event rows when the header omits it', () => {
+    // The districts header states no course anywhere: ev3 field 5 reads 'O' and
+    // the hyv's course field is empty. Every ev3 event row says 'L', so that is
+    // where the meet's course comes from — header field 5 is a list of ACCEPTED
+    // entry-time courses ('YLS', 'LSY', 'YO', 'O'), and only usually opens with
+    // the meet's own.
+    assert.equal(districtsEv3.meet.course, 'LCM');
+    assert.ok(districtsEv3.events.every((e) => e.course === 'LCM'));
+
+    // Four rows leave even that column blank; they inherit the meet's course
+    // rather than keying on '?' and joining to nothing.
+    const im400 = districtsEv3.events.filter((e) => e.distance === 400 && e.stroke === 'IM');
+    assert.ok(im400.length >= 4);
+    assert.ok(im400.every((e) => e.eventKey.endsWith(':LCM')));
+
+    // The hyv of the same meet has nowhere to get a course from — no header
+    // field, no per-event column — so it honestly reports none, and its keys
+    // cannot join. Use the ev3 when a meet is exported without a course.
+    assert.equal(districtsHyv.meet.course, null);
+    assert.ok(districtsHyv.events.every((e) => e.eventKey.endsWith(':?')));
+
+    // An unset age-up date (Delphi's 12/30/1899 here) is reported as stated.
+    assert.equal(districtsEv3.meet.ageUpDate, '1899-12-30');
+    assert.equal(districtsEv3.meet.startDate, '2026-06-26');
+});
+
+test('a prelims/finals meet is distinguishable from timed finals in the setup', () => {
+    const prelim = districtsEv3.events.find((e) => e.round === 'prelims');
+    assert.equal(prelim.rounds, 2, 'prelims feed a final');
+    const timed = districtsEv3.events.find((e) => e.round === 'finals');
+    assert.equal(timed.rounds, 1, 'a timed final has one round');
+    // Every event is one or the other.
+    assert.deepStrictEqual(
+        [...new Set(districtsEv3.events.map((e) => `${e.round}/${e.rounds}`))].sort(),
+        ['finals/1', 'prelims/2'],
+    );
+});
+
+test('a placeholder cut is reported exactly as the file states it', () => {
     // The Eastern Zone meet does not accept SCM times and blanket-fills that
     // column with 0.01/1.00 on all 108 events — including relays, which have no
     // cut in any course.
-    const im200 = ezEv3.events.find((e) => e.description === 'Girls 13-14 200m IM');
+    const im200 = ezEv3.events.find((e) => e.eventKey === 'individual:F:13-14:200:IM:LCM');
     assert.equal(im200.qualifyingTimes.SCM.text, '0.01', 'the parse stays verbatim');
     assert.equal(im200.qualifyingTimes.LCM.text, '2:33.09');
     assert.equal(im200.qualifyingTimes.SCY.text, '2:15.39');
@@ -192,13 +247,15 @@ test('a placeholder cut is kept verbatim on the event and dropped from the cut t
         'Girls 13-14 50m Breaststroke', 'Boys 13-14 50m Breaststroke',
         'Girls 13-14 50m Butterfly', 'Boys 13-14 50m Butterfly',
         'Girls 13-14 50m Backstroke', 'Boys 13-14 50m Backstroke',
-    ]);
+    ], 'an LCM meet says m');
 
+    // The cut table is a view, not a filter. Every event that states a time
+    // appears, placeholders included, because deciding 0.01 is not a real
+    // standard is a judgement about the meet's rules — the consumer's call.
     const cuts = qualifyingStandards(ezEv3);
-    assert.equal(cuts.length, 78, 'the individual events that carry a real cut');
-    assert.equal(cuts.length, ezEv3.events.filter((e) => e.type === 'individual').length - blank.length);
-    assert.ok(cuts.every((c) => c.SCM === null), 'the placeholder column is dropped');
-    assert.ok(cuts.every((c) => c.LCM && c.SCY), 'the two real columns survive');
+    assert.equal(cuts.length, 102, 'every event that states any time');
+    assert.equal(cuts.length, ezEv3.events.length - blank.length);
+    assert.ok(cuts.every((c) => c.SCM && c.SCM.seconds <= 1), 'the placeholder is reported as stated');
     assert.deepStrictEqual(qualifyingStandards(ezHyv).map((c) => c.eventNumber), cuts.map((c) => c.eventNumber));
 });
 
@@ -206,8 +263,31 @@ test('the qualifying period start is read when the meet states one', () => {
     assert.equal(champsEv3.meet.qualifyingSince, '2024-11-01');
     assert.equal(lcEv3.meet.qualifyingSince, '2024-11-01');
     assert.equal(ezEv3.meet.qualifyingSince, '2025-08-06');
-    // The meet with no cuts leaves the field at the epoch sentinel.
-    assert.equal(blastoffEv3.meet.qualifyingSince, null);
+    // The meet with no cuts never set one, and says so with the epoch.
+    assert.equal(blastoffEv3.meet.qualifyingSince, '1970-01-01');
+});
+
+test("placeholders:'null' replaces a meet's stand-ins, and is off by default", () => {
+    const nulled = (name) => parseSetup(read(name), { filename: name, placeholders: 'null' });
+
+    // Unset-date sentinels: the Delphi zero date and the Unix epoch.
+    assert.equal(nulled('districts.ev3').meet.ageUpDate, null);
+    assert.equal(nulled('blastoff.ev3').meet.qualifyingSince, null);
+    assert.equal(nulled('districts.hyv').meet.ageUpDate, null);
+
+    // Placeholder cuts: the column the Eastern Zone meet does not accept.
+    const ez = nulled('ez-agchamps.ev3');
+    assert.ok(ez.events.every((e) => e.qualifyingTimes.SCM === null), 'the filled column clears');
+    assert.equal(qualifyingStandards(ez).length, 78, 'rows left with nothing drop out');
+    assert.equal(qualifyingStandards(ezEv3).length, 102, 'the default keeps all 102');
+
+    // A real cut is never touched, whichever mode is in force.
+    const real = (s) => s.events.find((e) => e.eventKey === 'individual:F:13-14:200:IM:LCM');
+    assert.equal(real(ez).qualifyingTimes.LCM.text, '2:33.09');
+    assert.equal(real(ezEv3).qualifyingTimes.LCM.text, '2:33.09');
+
+    // And the hyv flavour honours it too, rotated columns and all.
+    assert.ok(nulled('ez-agchamps.hyv').events.every((e) => e.qualifyingTimes.SCM === null));
 });
 
 test('qualifyingStandards() flattens the cuts, and is empty for a meet without any', () => {

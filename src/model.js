@@ -23,6 +23,8 @@
  * @typedef {import('./times.js').SwimTime} SwimTime
  */
 
+import { GENDER_DISPLAY } from './constants.js';
+
 /**
  * @typedef {Object} NormalizedMeet
  * @property {'sdif-v3'|'hy3'} format         Source format the file was parsed from.
@@ -78,9 +80,13 @@
  * @property {'M'|'F'|'X'} gender
  * @property {number} distance
  * @property {string} stroke                  Canonical stroke name.
- * @property {string|null} [course]
+ * @property {string|null} course             'SCY' | 'LCM' | 'SCM'. SDIF states it per
+ *                                            time and defaults from B1; HY3 states it in
+ *                                            E2, the authoritative source.
  * @property {{label:string, lower:number, upper:number}} ageGroup
- * @property {string} description             Human label, e.g. "Boys 15-18 100m IM".
+ * @property {string} description             DISPLAY ONLY, e.g. "Boys 15-18 100y IM".
+ *                                            Join on `eventKey`, never on this.
+ * @property {string} eventKey                Stable identity — see eventKey().
  * @property {(IndividualResult|RelayResult)[]} results
  */
 
@@ -142,12 +148,13 @@
  * @property {'M'|'F'|'X'} gender
  * @property {number|null} distance
  * @property {string} stroke                  Canonical stroke name.
- * @property {string|null} course             The event's own course as stated in
- *                                            the file — 'SCY' | 'LCM' | 'SCM'.
- *                                            ev3 only; the hyv states none.
+ * @property {string|null} course             'SCY' | 'LCM' | 'SCM'. The event's own
+ *                                            course where the file states one (ev3
+ *                                            col 25), else the meet's.
  * @property {{label:string, lower:number, upper:number}} ageGroup
- * @property {string} description             Human label, same form the result
- *                                            adapters produce.
+ * @property {string} description             DISPLAY ONLY, same form the result
+ *                                            adapters produce. Join on `eventKey`.
+ * @property {string} eventKey                Stable identity — see eventKey().
  * @property {number|null} relayLegs          Legs per relay (ev3 only).
  * @property {number|null} entryFee           As stored, in the meet's currency.
  * @property {{LCM: SwimTime|null, SCM: SwimTime|null, SCY: SwimTime|null}} qualifyingTimes
@@ -164,7 +171,8 @@
 /**
  * @typedef {Object} QualifyingStandard
  * @property {string} eventNumber
- * @property {string} description
+ * @property {string} eventKey                What to join a cut to a swim on.
+ * @property {string} description             Display only.
  * @property {'M'|'F'|'X'} gender
  * @property {{label:string, lower:number, upper:number}} ageGroup
  * @property {number|null} distance
@@ -226,6 +234,63 @@
  * @property {number} [age]
  * @property {number} legOrder                1-4 (or higher for alternates).
  */
+
+/**
+ * The display unit for a course. SCY is swum in yards; everything else in
+ * metres. An unknown course prints no unit rather than guessing one.
+ */
+const COURSE_UNIT = { SCY: 'y', LCM: 'm', SCM: 'm' };
+
+/**
+ * Builds an event's human label.
+ *
+ * DISPLAY ONLY. Do not parse it and do not join on it — the wording is free to
+ * change. `eventKey()` is the stable identity; see docs/qualifying-cuts.md.
+ *
+ * `course` decides the distance unit, so it should be the event's own course
+ * where the file states one, falling back to the meet's. Before 0.3.0 this said
+ * "m" unconditionally, which mislabelled every yards event.
+ *
+ * @param {{type:string, gender:string, distance:number, stroke:string,
+ *          ageGroup:{label:string}, course?:string|null}} ev
+ * @returns {string}
+ */
+export function describeEvent(ev) {
+    const agLabel = ev.type === 'relay' && ev.ageGroup.label === 'Open' ? '' : ev.ageGroup.label;
+    const unit = COURSE_UNIT[ev.course] || '';
+    return `${GENDER_DISPLAY[ev.gender]} ${agLabel} ${ev.distance}${unit} ${ev.stroke}${ev.type === 'relay' ? ' Relay' : ''}`
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+/**
+ * A stable identity for an event, for joining across files.
+ *
+ * This is what to match on when tying a result to its qualifying cut, or one
+ * meet's events to another's: it is built from what an event *is* — type,
+ * gender, age range, distance, stroke, course — and never from wording or event
+ * numbering, both of which drift between a setup file and its results.
+ *
+ * `individual:F:13-14:50:Freestyle:SCY`
+ *
+ * Course is part of the identity because a 50-yard race is not a 50-metre race;
+ * an unknown course reads `?`, which will not match a known one. Exported so a
+ * consumer can build the same key from its own records.
+ *
+ * @param {{type:string, gender:string, distance:number, stroke:string,
+ *          ageGroup:{lower:number, upper:number}, course?:string|null}} ev
+ * @returns {string}
+ */
+export function eventKey(ev) {
+    return [
+        ev.type,
+        ev.gender,
+        `${ev.ageGroup.lower}-${ev.ageGroup.upper}`,
+        ev.distance,
+        ev.stroke,
+        ev.course || '?',
+    ].join(':');
+}
 
 /**
  * Strips a two-letter LSC/state prefix (e.g. "VAWW" → "WW") from a raw team code.

@@ -13,12 +13,17 @@
  * points — Hy-Tek computes standings separately — so result.points is 0 here and
  * must be derived by a consumer from place + league scoring rules.
  *
- * Offsets for D1/E1/E2/F3 were verified empirically against a real GG-at-WW file.
+ * Offsets for D1/E1/E2/F3 were verified empirically against a real GG-at-WW file,
+ * and independently confirmed against the community layout reference at
+ * https://github.com/ajoe2/tunas (docs/formats/hy3_format.md) — including the
+ * detail that F2's result time starts one column later than E2's. Hy-Tek
+ * publishes no spec, so that document is the closest thing to one; where it and
+ * a real file disagree, the file wins.
  */
 
-import { HY3_STROKE, STROKE, GENDER_DISPLAY, ageGroup } from './constants.js';
+import { HY3_STROKE, STROKE, COURSE, ageGroup } from './constants.js';
 import { timeFromSeconds, normalizeDate } from './times.js';
-import { displayTeamCode, deriveSwimmers } from './model.js';
+import { displayTeamCode, deriveSwimmers, describeEvent, eventKey } from './model.js';
 
 const slice = (line, a, b) => (line.length >= a ? line.slice(a, b).trim() : '');
 const num = (s) => {
@@ -36,6 +41,14 @@ const athleteName = (a) => {
 
 // Event-sex code (W/M/G/B/X) → canonical gender.
 const EVENT_SEX = { M: 'M', B: 'M', W: 'F', G: 'F', F: 'F', X: 'X' };
+
+/**
+ * The event's course, from E2/F2 col 12. This is the AUTHORITATIVE source: E1's
+ * two course bytes describe its seed times (converted and as-entered), not the
+ * event, and a seed may well come from another course. An entry with no result
+ * record states no course.
+ */
+const resultCourse = (e2) => (e2 ? COURSE[e2[11]] || null : null);
 
 // E2/F2 status char → canonical ResultStatus.
 const STATUS = { ' ': 'ok', '': 'ok', Q: 'dq', F: 'ns', R: 'scratch', D: 'dnf', S: 'exhibition' };
@@ -144,12 +157,19 @@ export function parseHy3(content) {
     }
     const swimmers = deriveSwimmers(events, enrich);
 
+    // HY3's B1 record carries no course (name, venue, three dates, altitude —
+    // that is all), so the meet's course is whatever its events agree on. Left
+    // null if they disagree or none states one; SDIF reads it directly from B1
+    // col 150, and the two must land on the same answer for the same meet.
+    const courses = new Set(events.map((e) => e.course).filter(Boolean));
+    meet.course = courses.size === 1 ? [...courses][0] : null;
+
     return { format: 'hy3', source, meet, teams, swimmers, events };
 }
 
 function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
     const eventNum = slice(e1, 38, 42);
-    const ev = ensureEvent(eventMap, buildEvent(e1, 'individual', { sex: [14, 15], dist: [15, 21], stroke: [21, 22], age: [22, 28] }), eventNum);
+    const ev = ensureEvent(eventMap, buildEvent(e1, 'individual', { sex: [14, 15], dist: [15, 21], stroke: [21, 22], ageLo: [22, 25], ageHi: [25, 28] }, resultCourse(e2)), eventNum);
 
     const a = athletes.get(anum) || { last: slice(e1, 8, 13), first: '', birthDate: null, team: null };
     const swimmerName = athleteName(a);
@@ -176,7 +196,7 @@ function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
 
 function parseRelay(f1, f2, eventMap, currentTeam, teamMap) {
     const eventNum = slice(f1, 38, 42);
-    const ev = ensureEvent(eventMap, buildEvent(f1, 'relay', { sex: [14, 15], dist: [18, 21], stroke: [21, 22], age: [22, 28] }), eventNum);
+    const ev = ensureEvent(eventMap, buildEvent(f1, 'relay', { sex: [14, 15], dist: [18, 21], stroke: [21, 22], ageLo: [22, 25], ageHi: [25, 28] }, resultCourse(f2)), eventNum);
 
     const status = STATUS[f2 ? f2[12] : ' '] || 'ok';
     const seconds = f2 ? num(f2.slice(5, 11)) : null;
@@ -215,19 +235,21 @@ function parseRelayLegs(f3, relay, athletes) {
     }
 }
 
-function buildEvent(line, type, off) {
+function buildEvent(line, type, off, course) {
     const gender = EVENT_SEX[line[off.sex[0]]] || 'X';
     const distance = parseInt(slice(line, off.dist[0], off.dist[1]), 10) || 0;
     const strokeCode = line[off.stroke[0]];
     const strokeMap = type === 'relay' ? HY3_RELAY_STROKE : HY3_STROKE;
     const stroke = strokeMap[strokeCode] || `Stroke ${strokeCode}`;
-    const ageRaw = slice(line, off.age[0], off.age[1]).split(/\s+/).filter(Boolean);
-    const ag = ageGroup(ageRaw[0], ageRaw[1]);
-    const agLabel = type === 'relay' && ag.label === 'Open' ? '' : ag.label;
-    const description = `${GENDER_DISPLAY[gender]} ${agLabel} ${distance}m ${stroke}${type === 'relay' ? ' Relay' : ''}`
-        .replace(/\s+/g, ' ')
-        .trim();
-    return { type, gender, distance, stroke, ageGroup: ag, description, results: [] };
+    // Min and max age are two right-justified 3-char columns (E1/F1 cols 23-25
+    // and 26-28). They must be sliced positionally, NOT split on whitespace: an
+    // open-ended band packs them adjacent with no separator ("15" + "109" reads
+    // " 15109"), and a whitespace split then yields one token, which silently
+    // degrades every "15 & Over" event to "Open". Only shows up in files whose
+    // top band is open-ended, which is why a 15-18 league never sees it.
+    const ag = ageGroup(slice(line, off.ageLo[0], off.ageLo[1]), slice(line, off.ageHi[0], off.ageHi[1]));
+    const built = { type, gender, distance, stroke, course, ageGroup: ag };
+    return { ...built, description: describeEvent(built), eventKey: eventKey(built), results: [] };
 }
 
 function ensureEvent(eventMap, built, rawNumber) {

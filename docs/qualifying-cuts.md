@@ -10,7 +10,8 @@ One row per event that states a real cut. This is verbatim output, not an illust
 ```json
 {
   "eventNumber": "55",
-  "description": "Girls 13-14 50m Freestyle",
+  "eventKey": "individual:F:13-14:50:Freestyle:SCY",
+  "description": "Girls 13-14 50y Freestyle",
   "gender": "F",
   "ageGroup": { "label": "13-14", "lower": 13, "upper": 14 },
   "distance": 50,
@@ -23,8 +24,18 @@ One row per event that states a real cut. This is verbatim output, not an illust
 
 `LCM` / `SCM` / `SCY` are the same standard stated three ways — one per course — each a
 `SwimTime` (`{ text, seconds }`) or `null`. Every other field describes the event and
-matches what the result adapters emit for the same event, so a cut row joins to a parsed
-result on `description`, or on `eventNumber` within one meet.
+matches what the result adapters emit for the same event.
+
+**Join on `eventKey`.** It is built from what an event *is* — type, gender, age range,
+distance, stroke, course — and the result adapters build it with the same function, so a
+cut row and the swims in that event carry byte-identical keys. `description` is display
+text whose wording may change, and `eventNumber` is only unique within one meet.
+
+**Expect the join to be high-fidelity, not total.** Checked against a real district
+championship's setup and results, 153 of 156 result events matched their setup row. The
+three that did not are the data, not the parser: two events configured for girls ran
+mixed and were re-coded `X` in the results, and one was added on meet day and appears in
+no setup at all. Plan for a small unmatched remainder rather than assuming 1:1.
 
 ```js
 import { parseSetup, qualifyingStandards } from 'swimparse';
@@ -41,7 +52,7 @@ swimparse events.ev3 --cuts \
   | jq -r '["Event","LCM","SCM","SCY"], (.[] | [.description, .LCM.text, .SCM.text, .SCY.text]) | @csv'
 ```
 
-## Four things to get right
+## Five things to get right
 
 **1. Read by course key, never by column position.** The `.ev3` and `.hyv` of the same
 meet order their three time columns differently — the `.hyv` rotates them to start at
@@ -56,16 +67,33 @@ either accepts or does not, and only the meet announcement says which. If a swim
 only time is SCY and the SCY cut is `null`, the honest answer to "do they qualify" is
 *this file cannot tell you*.
 
-A course can also be refused loudly rather than left blank: a meet may fill a column it
-does not accept with a placeholder like `0.01`. `qualifyingStandards()` drops those, so
-they arrive as `null` here — but `setup.events[].qualifyingTimes` keeps them verbatim,
-which is where to look if you need to know the difference between "not stated" and
-"stated as unusable".
+A course can also be refused loudly rather than left blank: **a meet may fill a column it
+does not accept with a placeholder** like `0.01` or `1.00`, on every event including
+relays that have no cut at all — the Eastern Zone fixture does this across 102 of its 108
+events. Those arrive exactly as stated, here and everywhere else, because deciding a
+stated time is not a real standard is a judgement about that meet's rules and this
+library does not make those.
 
-**3. Compare on `seconds`, display `text`.** `seconds` is a float rounded to hundredths;
+If you would rather not carry that judgement yourself, ask for it explicitly:
+
+```js
+parseSetup(text, { placeholders: 'null' });   // default is 'keep'
+```
+
+That clears both kinds of stand-in a meet leaves behind — these placeholder times, and
+unset-date sentinels like `01/01/1970` or `12/30/1899` — and rows left with no real cut
+drop out of the table. It never touches a genuine value. Everything else about the parse
+is identical, and the default remains the file verbatim.
+
+**3. `description` is for humans; `eventKey` is for code.** The unit in a description
+follows the meet's course — `50y` for a yards meet, `50m` for a metre one. That is
+display detail, and it means the same standards table renders differently for the short-
+course-yards and long-course-metres editions of a championship. Do not pattern-match it.
+
+**4. Compare on `seconds`, display `text`.** `seconds` is a float rounded to hundredths;
 `text` is the canonical `M:SS.ss` form. Never string-compare times.
 
-**4. Meeting a cut is your rule, not the file's.** swimparse reports the standard; it
+**5. Meeting a cut is your rule, not the file's.** swimparse reports the standard; it
 has no opinion on whether a swimmer meets it. Whether an equal time qualifies, whether a
 bonus or unqualified entry is allowed, how many events a swimmer may enter, and whether
 the swim happened inside the eligible period are all meet rules that live in the meet
@@ -86,6 +114,14 @@ and are indistinguishable here from events the meet forgot to configure. If you 
 every event whether cut or not, iterate `setup.events` instead and read
 `qualifyingTimes` yourself; `qualifyingStandards()` is the convenience view, not the
 whole file.
+
+## When a meet states no course
+
+Course is part of `eventKey`, and a file can omit it. An `.ev3` states it per event and
+falls back to the meet's; a `.hyv` has no per-event column at all, so a meet exported
+without a course in its header produces keys ending in `:?`, which join to nothing. Both
+happen in the wild — the districts fixture is exactly this case. **If you have both
+files, key off the `.ev3`.**
 
 ## Stability
 
