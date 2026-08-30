@@ -72,9 +72,18 @@ does not accept with a placeholder** like `0.01` or `1.00`, on every event inclu
 relays that have no cut at all — the Eastern Zone fixture does this across 102 of its 108
 events. Those arrive exactly as stated, here and everywhere else, because deciding a
 stated time is not a real standard is a judgement about that meet's rules and this
-library does not make those. **If you publish or check against cuts, filter them
-yourself**: no swim of any distance is a second long, so a threshold on `seconds` is
-enough.
+library does not make those.
+
+If you would rather not carry that judgement yourself, ask for it explicitly:
+
+```js
+parseSetup(text, { placeholders: 'null' });   // default is 'keep'
+```
+
+That clears both kinds of stand-in a meet leaves behind — these placeholder times, and
+unset-date sentinels like `01/01/1970` or `12/30/1899` — and rows left with no real cut
+drop out of the table. It never touches a genuine value. Everything else about the parse
+is identical, and the default remains the file verbatim.
 
 **3. `description` is for humans; `eventKey` is for code.** The unit in a description
 follows the meet's course — `50y` for a yards meet, `50m` for a metre one. That is

@@ -67,7 +67,9 @@ qualifyingStandards(setup);        // flat cut table: one row per event that has
 
 `qualifyingStandards()` is a view over the same values, not a filter — a meet that does
 not accept a course may fill it with a placeholder like `0.01`, and that arrives as
-stated. Filtering it is the consumer's judgement.
+stated. Filtering it is the consumer's judgement, and `parseSetup(text, { placeholders:
+'null' })` is how to hand that judgement back to the parser: it clears placeholder cuts
+and unset-date sentinels, and nothing else.
 
 If you are consuming the cuts, read
 **[docs/qualifying-cuts.md](docs/qualifying-cuts.md)** first — the output shape, and the

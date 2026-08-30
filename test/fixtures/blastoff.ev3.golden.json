@@ -14,7 +14,7 @@
     "ageUpDate": "2026-09-25",
     "course": "SCY",
     "entryDeadline": "2026-09-15",
-    "qualifyingSince": null,
+    "qualifyingSince": "1970-01-01",
     "location": {
       "address": "5050 Ridgedale Pkwy",
       "city": "Richmond",

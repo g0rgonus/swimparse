@@ -67,12 +67,16 @@ export function parse(content, opts = {}) {
  * @param {Object} [opts]
  * @param {'ev3'|'hyv'} [opts.format] force a format, skipping detection
  * @param {string} [opts.filename] used as a detection tie-breaker
+ * @param {'keep'|'null'} [opts.placeholders='keep'] `'null'` replaces the stand-ins
+ *        a meet leaves behind — unset-date sentinels, and the times filling a
+ *        course column it does not accept — with null. Off by default: a parse
+ *        reports what the file states.
  * @returns {import('./model.js').NormalizedMeetSetup}
  */
 export function parseSetup(content, opts = {}) {
     const format = opts.format || detectFormat(content, opts.filename);
-    if (format === 'ev3') return parseEv3(content);
-    if (format === 'hyv') return parseHyv(content);
+    if (format === 'ev3') return parseEv3(content, opts);
+    if (format === 'hyv') return parseHyv(content, opts);
     if (format === 'sdif-v3' || format === 'hy3') {
         throw new Error(`swimparse: this is a meet RESULT file (${format}), not a setup file. Use parse().`);
     }

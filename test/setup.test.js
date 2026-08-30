@@ -210,8 +210,8 @@ test('a meet course is taken from the event rows when the header omits it', () =
     assert.equal(districtsHyv.meet.course, null);
     assert.ok(districtsHyv.events.every((e) => e.eventKey.endsWith(':?')));
 
-    // An unset age-up date (Delphi's 12/30/1899, as here) reads as null.
-    assert.equal(districtsEv3.meet.ageUpDate, null);
+    // An unset age-up date (Delphi's 12/30/1899 here) is reported as stated.
+    assert.equal(districtsEv3.meet.ageUpDate, '1899-12-30');
     assert.equal(districtsEv3.meet.startDate, '2026-06-26');
 });
 
@@ -263,8 +263,31 @@ test('the qualifying period start is read when the meet states one', () => {
     assert.equal(champsEv3.meet.qualifyingSince, '2024-11-01');
     assert.equal(lcEv3.meet.qualifyingSince, '2024-11-01');
     assert.equal(ezEv3.meet.qualifyingSince, '2025-08-06');
-    // The meet with no cuts leaves the field at the epoch sentinel.
-    assert.equal(blastoffEv3.meet.qualifyingSince, null);
+    // The meet with no cuts never set one, and says so with the epoch.
+    assert.equal(blastoffEv3.meet.qualifyingSince, '1970-01-01');
+});
+
+test("placeholders:'null' replaces a meet's stand-ins, and is off by default", () => {
+    const nulled = (name) => parseSetup(read(name), { filename: name, placeholders: 'null' });
+
+    // Unset-date sentinels: the Delphi zero date and the Unix epoch.
+    assert.equal(nulled('districts.ev3').meet.ageUpDate, null);
+    assert.equal(nulled('blastoff.ev3').meet.qualifyingSince, null);
+    assert.equal(nulled('districts.hyv').meet.ageUpDate, null);
+
+    // Placeholder cuts: the column the Eastern Zone meet does not accept.
+    const ez = nulled('ez-agchamps.ev3');
+    assert.ok(ez.events.every((e) => e.qualifyingTimes.SCM === null), 'the filled column clears');
+    assert.equal(qualifyingStandards(ez).length, 78, 'rows left with nothing drop out');
+    assert.equal(qualifyingStandards(ezEv3).length, 102, 'the default keeps all 102');
+
+    // A real cut is never touched, whichever mode is in force.
+    const real = (s) => s.events.find((e) => e.eventKey === 'individual:F:13-14:200:IM:LCM');
+    assert.equal(real(ez).qualifyingTimes.LCM.text, '2:33.09');
+    assert.equal(real(ezEv3).qualifyingTimes.LCM.text, '2:33.09');
+
+    // And the hyv flavour honours it too, rotated columns and all.
+    assert.ok(nulled('ez-agchamps.hyv').events.every((e) => e.qualifyingTimes.SCM === null));
 });
 
 test('qualifyingStandards() flattens the cuts, and is empty for a meet without any', () => {

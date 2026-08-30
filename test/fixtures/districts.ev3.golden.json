@@ -11,10 +11,10 @@
     "hostName": "Collegiate School Aquatics Center",
     "startDate": "2026-06-26",
     "endDate": "2026-06-28",
-    "ageUpDate": null,
+    "ageUpDate": "1899-12-30",
     "course": "LCM",
     "entryDeadline": "2026-06-26",
-    "qualifyingSince": null,
+    "qualifyingSince": "1899-12-30",
     "location": {
       "address": "050 Ridgedale Pkwy",
       "city": "Richmond",
