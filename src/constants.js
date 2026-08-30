@@ -36,6 +36,16 @@ export const HY3_STROKE = {
     // F/G are diving events
 };
 
+/**
+ * Canonical competition rounds. A meet run as timed finals records everything
+ * as `final`; a prelims/finals meet records both, and a tie for a final berth
+ * is settled by a `swimoff`.
+ */
+export const ROUND = { PRELIM: 'prelim', SWIMOFF: 'swimoff', FINAL: 'final' };
+
+/** HY3 E2/F2 round code (col 3) → canonical round. */
+export const HY3_ROUND = { P: ROUND.PRELIM, S: ROUND.SWIMOFF, F: ROUND.FINAL };
+
 /** Raw single-char sex/gender code → canonical. */
 export const GENDER = { M: 'M', F: 'F', X: 'X' };
 

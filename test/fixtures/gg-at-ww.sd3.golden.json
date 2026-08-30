@@ -1339,6 +1339,7 @@
             "text": "1:10.96",
             "seconds": 70.96
           },
+          "round": "final",
           "finalTime": {
             "text": "1:11.35",
             "seconds": 71.35
@@ -1346,6 +1347,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "einstein|albert|2009-03-14"
         },
@@ -1358,6 +1361,7 @@
             "text": "1:13.70",
             "seconds": 73.7
           },
+          "round": "final",
           "finalTime": {
             "text": "1:13.98",
             "seconds": 73.98
@@ -1365,6 +1369,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "charles|ray|2008-09-23"
         },
@@ -1377,6 +1383,7 @@
             "text": "1:22.83",
             "seconds": 82.83
           },
+          "round": "final",
           "finalTime": {
             "text": "1:22.91",
             "seconds": 82.91
@@ -1384,6 +1391,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "asimov|isaac|2009-01-02"
         }
@@ -1413,6 +1422,7 @@
             "text": "28.15",
             "seconds": 28.15
           },
+          "round": "final",
           "finalTime": {
             "text": "28.05",
             "seconds": 28.05
@@ -1420,6 +1430,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "einstein|albert|2009-03-14"
         },
@@ -1432,6 +1444,7 @@
             "text": "27.98",
             "seconds": 27.98
           },
+          "round": "final",
           "finalTime": {
             "text": "28.20",
             "seconds": 28.2
@@ -1439,6 +1452,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "presley|elvis|2009-01-08"
         },
@@ -1451,6 +1466,7 @@
             "text": "30.93",
             "seconds": 30.93
           },
+          "round": "final",
           "finalTime": {
             "text": "31.23",
             "seconds": 31.23
@@ -1458,6 +1474,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "asimov|isaac|2009-01-02"
         },
@@ -1470,6 +1488,7 @@
             "text": "37.25",
             "seconds": 37.25
           },
+          "round": "final",
           "finalTime": {
             "text": "38.36",
             "seconds": 38.36
@@ -1477,6 +1496,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "newton|isaac|2010-01-04"
         },
@@ -1489,6 +1510,7 @@
             "text": "37.05",
             "seconds": 37.05
           },
+          "round": "final",
           "finalTime": {
             "text": "36.44",
             "seconds": 36.44
@@ -1496,6 +1518,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "owens|jesse|2008-09-12"
         },
@@ -1508,6 +1532,7 @@
             "text": "35.30",
             "seconds": 35.3
           },
+          "round": "final",
           "finalTime": {
             "text": "35.86",
             "seconds": 35.86
@@ -1515,6 +1540,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "sinatra|frank|2010-12-12"
         },
@@ -1527,6 +1554,7 @@
             "text": "34.64",
             "seconds": 34.64
           },
+          "round": "final",
           "finalTime": {
             "text": "34.69",
             "seconds": 34.69
@@ -1534,6 +1562,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "roosevelt|franklin|2008-01-30"
         }
@@ -1563,6 +1593,7 @@
             "text": "35.55",
             "seconds": 35.55
           },
+          "round": "final",
           "finalTime": {
             "text": "36.97",
             "seconds": 36.97
@@ -1570,6 +1601,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "einstein|albert|2009-03-14"
         },
@@ -1582,6 +1615,7 @@
             "text": "37.85",
             "seconds": 37.85
           },
+          "round": "final",
           "finalTime": {
             "text": "37.69",
             "seconds": 37.69
@@ -1589,6 +1623,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "presley|elvis|2009-01-08"
         },
@@ -1601,6 +1637,7 @@
             "text": "40.99",
             "seconds": 40.99
           },
+          "round": "final",
           "finalTime": {
             "text": "41.23",
             "seconds": 41.23
@@ -1608,6 +1645,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "roosevelt|franklin|2008-01-30"
         },
@@ -1620,6 +1659,7 @@
             "text": "1:02.51",
             "seconds": 62.51
           },
+          "round": "final",
           "finalTime": {
             "text": "1:04.48",
             "seconds": 64.48
@@ -1627,6 +1667,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "newton|isaac|2010-01-04"
         }
@@ -1656,10 +1698,13 @@
             "text": "30.06",
             "seconds": 30.06
           },
+          "round": "final",
           "finalTime": null,
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "presley|elvis|2009-01-08"
         },
@@ -1669,6 +1714,7 @@
           "teamCode": "GG",
           "birthDate": "2008-09-23",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "32.34",
             "seconds": 32.34
@@ -1676,6 +1722,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "charles|ray|2008-09-23"
         },
@@ -1688,6 +1736,7 @@
             "text": "31.22",
             "seconds": 31.22
           },
+          "round": "final",
           "finalTime": {
             "text": "32.91",
             "seconds": 32.91
@@ -1695,6 +1744,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "einstein|albert|2009-03-14"
         },
@@ -1707,10 +1758,13 @@
             "text": "55.27",
             "seconds": 55.27
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "newton|isaac|2010-01-04"
         }
@@ -1740,6 +1794,7 @@
             "text": "34.29",
             "seconds": 34.29
           },
+          "round": "final",
           "finalTime": {
             "text": "33.97",
             "seconds": 33.97
@@ -1747,6 +1802,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "charles|ray|2008-09-23"
         },
@@ -1759,6 +1816,7 @@
             "text": "35.47",
             "seconds": 35.47
           },
+          "round": "final",
           "finalTime": {
             "text": "37.35",
             "seconds": 37.35
@@ -1766,6 +1824,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "vinci|leonardo|2014-04-15"
         },
@@ -1778,6 +1838,7 @@
             "text": "48.68",
             "seconds": 48.68
           },
+          "round": "final",
           "finalTime": {
             "text": "44.63",
             "seconds": 44.63
@@ -1785,6 +1846,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "sinatra|frank|2010-12-12"
         },
@@ -1797,6 +1860,7 @@
             "text": "53.38",
             "seconds": 53.38
           },
+          "round": "final",
           "finalTime": {
             "text": "55.43",
             "seconds": 55.43
@@ -1804,6 +1868,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "newton|isaac|2010-01-04"
         }
@@ -1833,6 +1899,7 @@
             "text": "37.29",
             "seconds": 37.29
           },
+          "round": "final",
           "finalTime": {
             "text": "35.45",
             "seconds": 35.45
@@ -1840,6 +1907,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "dickens|charles|2020-02-07"
         },
@@ -1852,6 +1921,7 @@
             "text": "42.54",
             "seconds": 42.54
           },
+          "round": "final",
           "finalTime": {
             "text": "39.23",
             "seconds": 39.23
@@ -1859,6 +1929,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "federer|roger|2019-08-08"
         },
@@ -1871,6 +1943,7 @@
             "text": "53.65",
             "seconds": 53.65
           },
+          "round": "final",
           "finalTime": {
             "text": "45.93",
             "seconds": 45.93
@@ -1878,6 +1951,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "hemingway|ernest|2019-07-21"
         },
@@ -1890,10 +1965,13 @@
             "text": "45.67",
             "seconds": 45.67
           },
+          "round": "final",
           "finalTime": null,
           "status": "ns",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "darwin|charles|2020-02-12"
         },
@@ -1906,6 +1984,7 @@
             "text": "1:11.75",
             "seconds": 71.75
           },
+          "round": "final",
           "finalTime": {
             "text": "1:04.53",
             "seconds": 64.53
@@ -1913,6 +1992,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "edison|thomas|2020-02-11"
         },
@@ -1925,6 +2006,7 @@
             "text": "1:00.19",
             "seconds": 60.19
           },
+          "round": "final",
           "finalTime": {
             "text": "56.94",
             "seconds": 56.94
@@ -1932,6 +2014,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "mercury|freddie|2019-09-05"
         },
@@ -1944,6 +2028,7 @@
             "text": "1:09.94",
             "seconds": 69.94
           },
+          "round": "final",
           "finalTime": {
             "text": "1:19.79",
             "seconds": 79.79
@@ -1951,6 +2036,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "dali|salvador|2020-05-11"
         },
@@ -1963,6 +2050,7 @@
             "text": "42.31",
             "seconds": 42.31
           },
+          "round": "final",
           "finalTime": {
             "text": "46.75",
             "seconds": 46.75
@@ -1970,6 +2058,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "goethe|johann|2019-08-28"
         }
@@ -1999,6 +2089,7 @@
             "text": "46.80",
             "seconds": 46.8
           },
+          "round": "final",
           "finalTime": {
             "text": "42.28",
             "seconds": 42.28
@@ -2006,6 +2097,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 4,
           "points": 5,
           "swimmerId": "federer|roger|2019-08-08"
         },
@@ -2018,6 +2111,7 @@
             "text": "39.02",
             "seconds": 39.02
           },
+          "round": "final",
           "finalTime": {
             "text": "44.90",
             "seconds": 44.9
@@ -2025,6 +2119,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "dickens|charles|2020-02-07"
         },
@@ -2037,6 +2133,7 @@
             "text": "1:06.29",
             "seconds": 66.29
           },
+          "round": "final",
           "finalTime": {
             "text": "51.81",
             "seconds": 51.81
@@ -2044,6 +2141,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "darwin|charles|2020-02-12"
         },
@@ -2056,6 +2155,7 @@
             "text": "1:17.40",
             "seconds": 77.4
           },
+          "round": "final",
           "finalTime": {
             "text": "1:06.44",
             "seconds": 66.44
@@ -2063,6 +2163,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "hemingway|ernest|2019-07-21"
         }
@@ -2092,6 +2194,7 @@
             "text": "1:34.27",
             "seconds": 94.27
           },
+          "round": "final",
           "finalTime": {
             "text": "1:34.43",
             "seconds": 94.43
@@ -2099,6 +2202,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "austen|jane|2015-12-16"
         },
@@ -2111,6 +2216,7 @@
             "text": "1:55.11",
             "seconds": 115.11
           },
+          "round": "final",
           "finalTime": {
             "text": "1:53.75",
             "seconds": 113.75
@@ -2118,6 +2224,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "rowling|joanne|2015-07-31"
         },
@@ -2130,6 +2238,7 @@
             "text": "1:55.36",
             "seconds": 115.36
           },
+          "round": "final",
           "finalTime": {
             "text": "1:57.61",
             "seconds": 117.61
@@ -2137,6 +2246,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "alcott|louisa|2016-11-29"
         },
@@ -2149,6 +2260,7 @@
             "text": "1:54.74",
             "seconds": 114.74
           },
+          "round": "final",
           "finalTime": {
             "text": "2:00.91",
             "seconds": 120.91
@@ -2156,6 +2268,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "curie|marie|2015-11-07"
         }
@@ -2185,6 +2299,7 @@
             "text": "45.84",
             "seconds": 45.84
           },
+          "round": "final",
           "finalTime": {
             "text": "45.59",
             "seconds": 45.59
@@ -2192,6 +2307,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "degeneres|ellen|2014-01-26"
         },
@@ -2204,6 +2321,7 @@
             "text": "52.34",
             "seconds": 52.34
           },
+          "round": "final",
           "finalTime": {
             "text": "52.76",
             "seconds": 52.76
@@ -2211,6 +2329,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "jolie|angelina|2013-06-04"
         },
@@ -2223,6 +2343,7 @@
             "text": "1:05.61",
             "seconds": 65.61
           },
+          "round": "final",
           "finalTime": {
             "text": "1:01.72",
             "seconds": 61.72
@@ -2230,6 +2351,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "keller|helen|2016-06-27"
         },
@@ -2239,10 +2362,13 @@
           "teamCode": "WW",
           "birthDate": "2015-11-07",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "curie|marie|2015-11-07"
         }
@@ -2272,6 +2398,7 @@
             "text": "43.96",
             "seconds": 43.96
           },
+          "round": "final",
           "finalTime": {
             "text": "44.93",
             "seconds": 44.93
@@ -2279,6 +2406,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "austen|jane|2015-12-16"
         },
@@ -2291,6 +2420,7 @@
             "text": "58.21",
             "seconds": 58.21
           },
+          "round": "final",
           "finalTime": {
             "text": "57.35",
             "seconds": 57.35
@@ -2298,6 +2428,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "parton|dolly|2017-01-19"
         },
@@ -2310,6 +2442,7 @@
             "text": "58.23",
             "seconds": 58.23
           },
+          "round": "final",
           "finalTime": {
             "text": "1:01.78",
             "seconds": 61.78
@@ -2317,6 +2450,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "windsor|victoria|2016-05-24"
         },
@@ -2329,6 +2464,7 @@
             "text": "56.49",
             "seconds": 56.49
           },
+          "round": "final",
           "finalTime": {
             "text": "1:05.51",
             "seconds": 65.51
@@ -2336,6 +2472,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "curie|marie|2015-11-07"
         }
@@ -2365,6 +2503,7 @@
             "text": "25.38",
             "seconds": 25.38
           },
+          "round": "final",
           "finalTime": {
             "text": "26.78",
             "seconds": 26.78
@@ -2372,6 +2511,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "beauvoir|simone|2020-01-09"
         },
@@ -2384,6 +2525,7 @@
             "text": "37.13",
             "seconds": 37.13
           },
+          "round": "final",
           "finalTime": {
             "text": "35.66",
             "seconds": 35.66
@@ -2391,6 +2533,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "earhart|amelia|2019-07-24"
         },
@@ -2403,6 +2547,7 @@
             "text": "34.88",
             "seconds": 34.88
           },
+          "round": "final",
           "finalTime": {
             "text": "37.40",
             "seconds": 37.4
@@ -2410,6 +2555,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "johansson|scarlett|2019-11-22"
         },
@@ -2422,6 +2569,7 @@
             "text": "46.46",
             "seconds": 46.46
           },
+          "round": "final",
           "finalTime": {
             "text": "39.93",
             "seconds": 39.93
@@ -2429,6 +2577,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "frank|anne|2019-06-12"
         },
@@ -2441,6 +2591,7 @@
             "text": "1:28.55",
             "seconds": 88.55
           },
+          "round": "final",
           "finalTime": {
             "text": "2:07.32",
             "seconds": 127.32
@@ -2448,6 +2599,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "hepburn|audrey|2021-05-04"
         },
@@ -2460,6 +2613,7 @@
             "text": "51.31",
             "seconds": 51.31
           },
+          "round": "final",
           "finalTime": {
             "text": "53.94",
             "seconds": 53.94
@@ -2467,6 +2621,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "lamarr|hedy|2020-11-09"
         },
@@ -2479,6 +2635,7 @@
             "text": "1:56.12",
             "seconds": 116.12
           },
+          "round": "final",
           "finalTime": {
             "text": "2:09.53",
             "seconds": 129.53
@@ -2486,6 +2643,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "bronte|charlotte|2021-04-21"
         },
@@ -2498,6 +2657,7 @@
             "text": "56.64",
             "seconds": 56.64
           },
+          "round": "final",
           "finalTime": {
             "text": "59.89",
             "seconds": 59.89
@@ -2505,6 +2665,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "oconnor|sandra|2020-03-26"
         }
@@ -2534,6 +2696,7 @@
             "text": "28.65",
             "seconds": 28.65
           },
+          "round": "final",
           "finalTime": {
             "text": "29.96",
             "seconds": 29.96
@@ -2541,6 +2704,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "fitzgerald|ella|2018-04-25"
         },
@@ -2553,6 +2718,7 @@
             "text": "30.05",
             "seconds": 30.05
           },
+          "round": "final",
           "finalTime": {
             "text": "30.13",
             "seconds": 30.13
@@ -2560,6 +2726,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "romanov|catherine|2018-05-02"
         },
@@ -2572,6 +2740,7 @@
             "text": "35.97",
             "seconds": 35.97
           },
+          "round": "final",
           "finalTime": {
             "text": "40.10",
             "seconds": 40.1
@@ -2579,6 +2748,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "biles|simone|2018-03-14"
         },
@@ -2591,6 +2762,7 @@
             "text": "46.16",
             "seconds": 46.16
           },
+          "round": "final",
           "finalTime": {
             "text": "42.68",
             "seconds": 42.68
@@ -2598,6 +2770,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "earhart|amelia|2019-07-24"
         },
@@ -2607,10 +2781,13 @@
           "teamCode": "WW",
           "birthDate": "2019-03-17",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "hamm|mia|2019-03-17"
         },
@@ -2620,6 +2797,7 @@
           "teamCode": "GG",
           "birthDate": "2018-03-17",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "37.22",
             "seconds": 37.22
@@ -2627,6 +2805,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "ledecky|katie|2018-03-17"
         },
@@ -2636,6 +2816,7 @@
           "teamCode": "GG",
           "birthDate": "2018-01-29",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "34.03",
             "seconds": 34.03
@@ -2643,6 +2824,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "winfrey|oprah|2018-01-29"
         }
@@ -2672,6 +2855,7 @@
             "text": "42.54",
             "seconds": 42.54
           },
+          "round": "final",
           "finalTime": {
             "text": "39.61",
             "seconds": 39.61
@@ -2679,6 +2863,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 4,
           "points": 5,
           "swimmerId": "keaton|diane|2020-01-05"
         },
@@ -2691,6 +2877,7 @@
             "text": "38.39",
             "seconds": 38.39
           },
+          "round": "final",
           "finalTime": {
             "text": "42.72",
             "seconds": 42.72
@@ -2698,6 +2885,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "earhart|amelia|2019-07-24"
         },
@@ -2710,6 +2899,7 @@
             "text": "56.20",
             "seconds": 56.2
           },
+          "round": "final",
           "finalTime": {
             "text": "44.44",
             "seconds": 44.44
@@ -2717,6 +2907,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "frank|anne|2019-06-12"
         },
@@ -2726,6 +2918,7 @@
           "teamCode": "GG",
           "birthDate": "2019-11-22",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "53.87",
             "seconds": 53.87
@@ -2733,6 +2926,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "johansson|scarlett|2019-11-22"
         },
@@ -2745,6 +2940,7 @@
             "text": "53.24",
             "seconds": 53.24
           },
+          "round": "final",
           "finalTime": {
             "text": "49.05",
             "seconds": 49.05
@@ -2752,6 +2948,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "dion|celine|2020-03-30"
         },
@@ -2761,6 +2959,7 @@
           "teamCode": "GG",
           "birthDate": "2020-11-09",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "48.06",
             "seconds": 48.06
@@ -2768,6 +2967,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "lamarr|hedy|2020-11-09"
         },
@@ -2780,10 +2981,13 @@
             "text": "34.37",
             "seconds": 34.37
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 2,
           "points": 0,
           "swimmerId": "beauvoir|simone|2020-01-09"
         },
@@ -2793,6 +2997,7 @@
           "teamCode": "GG",
           "birthDate": "2019-09-28",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "44.19",
             "seconds": 44.19
@@ -2800,6 +3005,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "bardot|brigitte|2019-09-28"
         }
@@ -2829,6 +3036,7 @@
             "text": "47.30",
             "seconds": 47.3
           },
+          "round": "final",
           "finalTime": {
             "text": "43.60",
             "seconds": 43.6
@@ -2836,6 +3044,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "robinson|jackie|2017-01-31"
         },
@@ -2848,6 +3058,7 @@
             "text": "49.48",
             "seconds": 49.48
           },
+          "round": "final",
           "finalTime": {
             "text": "49.60",
             "seconds": 49.6
@@ -2855,6 +3066,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "lincoln|abraham|2017-02-12"
         },
@@ -2867,6 +3080,7 @@
             "text": "58.75",
             "seconds": 58.75
           },
+          "round": "final",
           "finalTime": {
             "text": "58.07",
             "seconds": 58.07
@@ -2874,6 +3088,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "gogh|vincent|2017-03-30"
         },
@@ -2886,6 +3102,7 @@
             "text": "1:19.57",
             "seconds": 79.57
           },
+          "round": "final",
           "finalTime": {
             "text": "1:04.87",
             "seconds": 64.87
@@ -2893,6 +3110,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "armstrong|neil|2016-08-05"
         },
@@ -2902,6 +3121,7 @@
           "teamCode": "WW",
           "birthDate": "2015-10-25",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:13.62",
             "seconds": 73.62
@@ -2909,6 +3129,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "picasso|pablo|2015-10-25"
         },
@@ -2918,6 +3140,7 @@
           "teamCode": "GG",
           "birthDate": "2016-12-05",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:04.94",
             "seconds": 64.94
@@ -2925,6 +3148,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "disney|walt|2016-12-05"
         }
@@ -2954,6 +3179,7 @@
             "text": "1:07.64",
             "seconds": 67.64
           },
+          "round": "final",
           "finalTime": {
             "text": "1:09.16",
             "seconds": 69.16
@@ -2961,6 +3187,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "lincoln|abraham|2017-02-12"
         },
@@ -2973,6 +3201,7 @@
             "text": "1:28.00",
             "seconds": 88
           },
+          "round": "final",
           "finalTime": {
             "text": "1:21.15",
             "seconds": 81.15
@@ -2980,6 +3209,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "disney|walt|2016-12-05"
         },
@@ -2989,10 +3220,13 @@
           "teamCode": "WW",
           "birthDate": "2017-03-30",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "gogh|vincent|2017-03-30"
         },
@@ -3005,10 +3239,13 @@
             "text": "50.58",
             "seconds": 50.58
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 2,
           "points": 0,
           "swimmerId": "phelps|michael|2015-06-30"
         }
@@ -3038,6 +3275,7 @@
             "text": "47.48",
             "seconds": 47.48
           },
+          "round": "final",
           "finalTime": {
             "text": "44.66",
             "seconds": 44.66
@@ -3045,6 +3283,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "phelps|michael|2015-06-30"
         },
@@ -3057,6 +3297,7 @@
             "text": "1:03.58",
             "seconds": 63.58
           },
+          "round": "final",
           "finalTime": {
             "text": "1:02.33",
             "seconds": 62.33
@@ -3064,6 +3305,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 1,
           "points": 3,
           "swimmerId": "gogh|vincent|2017-03-30"
         },
@@ -3076,10 +3319,13 @@
             "text": "54.62",
             "seconds": 54.62
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "lincoln|abraham|2017-02-12"
         },
@@ -3092,10 +3338,13 @@
             "text": "1:55.53",
             "seconds": 115.53
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "dostoevsky|fyodor|2015-11-11"
         }
@@ -3125,6 +3374,7 @@
             "text": "1:16.06",
             "seconds": 76.06
           },
+          "round": "final",
           "finalTime": {
             "text": "1:17.98",
             "seconds": 77.98
@@ -3132,6 +3382,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "armstrong|louis|2013-08-04"
         },
@@ -3144,6 +3396,7 @@
             "text": "1:19.95",
             "seconds": 79.95
           },
+          "round": "final",
           "finalTime": {
             "text": "1:24.10",
             "seconds": 84.1
@@ -3151,6 +3404,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "washington|george|2014-02-22"
         },
@@ -3163,6 +3418,7 @@
             "text": "1:27.66",
             "seconds": 87.66
           },
+          "round": "final",
           "finalTime": {
             "text": "1:43.36",
             "seconds": 103.36
@@ -3170,6 +3426,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "douglass|frederick|2015-02-14"
         },
@@ -3182,6 +3440,7 @@
             "text": "1:55.51",
             "seconds": 115.51
           },
+          "round": "final",
           "finalTime": {
             "text": "1:54.45",
             "seconds": 114.45
@@ -3189,6 +3448,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "galilei|galileo|2015-02-15"
         }
@@ -3218,6 +3479,7 @@
             "text": "39.09",
             "seconds": 39.09
           },
+          "round": "final",
           "finalTime": {
             "text": "41.48",
             "seconds": 41.48
@@ -3225,6 +3487,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "armstrong|louis|2013-08-04"
         },
@@ -3237,6 +3501,7 @@
             "text": "41.94",
             "seconds": 41.94
           },
+          "round": "final",
           "finalTime": {
             "text": "43.94",
             "seconds": 43.94
@@ -3244,6 +3509,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "washington|george|2014-02-22"
         },
@@ -3256,6 +3523,7 @@
             "text": "48.85",
             "seconds": 48.85
           },
+          "round": "final",
           "finalTime": {
             "text": "52.86",
             "seconds": 52.86
@@ -3263,6 +3531,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "shakespeare|william|2014-04-23"
         },
@@ -3272,6 +3542,7 @@
           "teamCode": "GG",
           "birthDate": "2014-08-21",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:02.99",
             "seconds": 62.99
@@ -3279,6 +3550,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "bolt|usain|2014-08-21"
         },
@@ -3291,10 +3564,13 @@
             "text": "1:09.73",
             "seconds": 69.73
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "lee|bruce|2014-11-27"
         },
@@ -3304,10 +3580,13 @@
           "teamCode": "GG",
           "birthDate": "2015-02-26",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "hugo|victor|2015-02-26"
         },
@@ -3317,6 +3596,7 @@
           "teamCode": "GG",
           "birthDate": "2015-02-20",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:22.46",
             "seconds": 82.46
@@ -3324,6 +3604,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "adams|ansel|2015-02-20"
         }
@@ -3353,6 +3635,7 @@
             "text": "36.28",
             "seconds": 36.28
           },
+          "round": "final",
           "finalTime": {
             "text": "36.21",
             "seconds": 36.21
@@ -3360,6 +3643,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 1,
           "points": 5,
           "swimmerId": "douglass|frederick|2015-02-14"
         },
@@ -3372,6 +3657,7 @@
             "text": "35.86",
             "seconds": 35.86
           },
+          "round": "final",
           "finalTime": {
             "text": "38.38",
             "seconds": 38.38
@@ -3379,6 +3665,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "washington|george|2014-02-22"
         },
@@ -3391,6 +3679,7 @@
             "text": "51.39",
             "seconds": 51.39
           },
+          "round": "final",
           "finalTime": {
             "text": "51.43",
             "seconds": 51.43
@@ -3398,6 +3687,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 2,
           "points": 1,
           "swimmerId": "galilei|galileo|2015-02-15"
         },
@@ -3410,10 +3701,13 @@
             "text": "1:22.66",
             "seconds": 82.66
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "adams|ansel|2015-02-20"
         }
@@ -3443,6 +3737,7 @@
             "text": "1:17.11",
             "seconds": 77.11
           },
+          "round": "final",
           "finalTime": {
             "text": "1:15.58",
             "seconds": 75.58
@@ -3450,6 +3745,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "lovelace|ada|2011-12-10"
         },
@@ -3462,6 +3759,7 @@
             "text": "1:39.69",
             "seconds": 99.69
           },
+          "round": "final",
           "finalTime": {
             "text": "1:38.14",
             "seconds": 98.14
@@ -3469,6 +3767,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "morrison|toni|2013-02-18"
         },
@@ -3481,6 +3781,7 @@
             "text": "1:49.37",
             "seconds": 109.37
           },
+          "round": "final",
           "finalTime": {
             "text": "1:48.84",
             "seconds": 108.84
@@ -3488,6 +3789,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "hayworth|rita|2012-10-17"
         },
@@ -3500,6 +3803,7 @@
             "text": "1:46.63",
             "seconds": 106.63
           },
+          "round": "final",
           "finalTime": {
             "text": "1:49.73",
             "seconds": 109.73
@@ -3507,6 +3811,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "rudolph|wilma|2011-06-23"
         }
@@ -3536,6 +3842,7 @@
             "text": "30.98",
             "seconds": 30.98
           },
+          "round": "final",
           "finalTime": {
             "text": "31.39",
             "seconds": 31.39
@@ -3543,6 +3850,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "lovelace|ada|2011-12-10"
         },
@@ -3555,6 +3864,7 @@
             "text": "33.59",
             "seconds": 33.59
           },
+          "round": "final",
           "finalTime": {
             "text": "34.05",
             "seconds": 34.05
@@ -3562,6 +3872,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "carey|mariah|2013-03-27"
         },
@@ -3574,6 +3886,7 @@
             "text": "38.77",
             "seconds": 38.77
           },
+          "round": "final",
           "finalTime": {
             "text": "40.26",
             "seconds": 40.26
@@ -3581,6 +3894,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "rudolph|wilma|2011-06-23"
         },
@@ -3593,6 +3908,7 @@
             "text": "43.95",
             "seconds": 43.95
           },
+          "round": "final",
           "finalTime": {
             "text": "43.18",
             "seconds": 43.18
@@ -3600,6 +3916,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "piaf|edith|2012-12-19"
         }
@@ -3626,6 +3944,7 @@
           "teamCode": "WW",
           "birthDate": "2011-12-10",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "33.86",
             "seconds": 33.86
@@ -3633,6 +3952,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 1,
           "points": 5,
           "swimmerId": "lovelace|ada|2011-12-10"
         },
@@ -3645,6 +3966,7 @@
             "text": "38.84",
             "seconds": 38.84
           },
+          "round": "final",
           "finalTime": {
             "text": "39.78",
             "seconds": 39.78
@@ -3652,6 +3974,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "carey|mariah|2013-03-27"
         },
@@ -3664,6 +3988,7 @@
             "text": "44.37",
             "seconds": 44.37
           },
+          "round": "final",
           "finalTime": {
             "text": "50.23",
             "seconds": 50.23
@@ -3671,6 +3996,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "hayworth|rita|2012-10-17"
         },
@@ -3683,6 +4010,7 @@
             "text": "47.73",
             "seconds": 47.73
           },
+          "round": "final",
           "finalTime": {
             "text": "51.49",
             "seconds": 51.49
@@ -3690,6 +4018,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "rudolph|wilma|2011-06-23"
         }
@@ -3719,6 +4049,7 @@
             "text": "37.98",
             "seconds": 37.98
           },
+          "round": "final",
           "finalTime": {
             "text": "38.95",
             "seconds": 38.95
@@ -3726,6 +4057,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "austen|jane|2015-12-16"
         },
@@ -3738,6 +4071,7 @@
             "text": "42.52",
             "seconds": 42.52
           },
+          "round": "final",
           "finalTime": {
             "text": "46.37",
             "seconds": 46.37
@@ -3745,6 +4079,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 1,
           "points": 3,
           "swimmerId": "dickinson|emily|2016-12-10"
         },
@@ -3757,6 +4093,7 @@
             "text": "45.75",
             "seconds": 45.75
           },
+          "round": "final",
           "finalTime": {
             "text": "47.37",
             "seconds": 47.37
@@ -3764,6 +4101,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 2,
           "points": 1,
           "swimmerId": "thatcher|margaret|2015-10-13"
         },
@@ -3776,6 +4115,7 @@
             "text": "47.70",
             "seconds": 47.7
           },
+          "round": "final",
           "finalTime": {
             "text": "50.41",
             "seconds": 50.41
@@ -3783,6 +4123,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "franklin|aretha|2017-03-25"
         },
@@ -3795,6 +4137,7 @@
             "text": "48.86",
             "seconds": 48.86
           },
+          "round": "final",
           "finalTime": {
             "text": "49.52",
             "seconds": 49.52
@@ -3802,6 +4145,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "keller|helen|2016-06-27"
         },
@@ -3814,6 +4159,7 @@
             "text": "1:09.31",
             "seconds": 69.31
           },
+          "round": "final",
           "finalTime": {
             "text": "1:05.76",
             "seconds": 65.76
@@ -3821,6 +4167,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "watson|emma|2016-04-15"
         },
@@ -3833,6 +4181,7 @@
             "text": "59.95",
             "seconds": 59.95
           },
+          "round": "final",
           "finalTime": {
             "text": "58.57",
             "seconds": 58.57
@@ -3840,6 +4189,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "holiday|billie|2017-04-07"
         },
@@ -3852,6 +4203,7 @@
             "text": "1:15.74",
             "seconds": 75.74
           },
+          "round": "final",
           "finalTime": {
             "text": "1:16.31",
             "seconds": 76.31
@@ -3859,6 +4211,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "lee|harper|2016-04-28"
         }
@@ -3888,6 +4242,7 @@
             "text": "39.12",
             "seconds": 39.12
           },
+          "round": "final",
           "finalTime": {
             "text": "36.26",
             "seconds": 36.26
@@ -3895,6 +4250,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "weaver|sigourney|2007-10-08"
         },
@@ -3907,6 +4264,7 @@
             "text": "42.49",
             "seconds": 42.49
           },
+          "round": "final",
           "finalTime": {
             "text": "44.05",
             "seconds": 44.05
@@ -3914,6 +4272,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "kahlo|frida|2011-07-06"
         },
@@ -3923,6 +4283,7 @@
           "teamCode": "WW",
           "birthDate": "2012-12-09",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "44.78",
             "seconds": 44.78
@@ -3930,6 +4291,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "hopper|grace|2012-12-09"
         },
@@ -3942,6 +4305,7 @@
             "text": "58.75",
             "seconds": 58.75
           },
+          "round": "final",
           "finalTime": {
             "text": "51.40",
             "seconds": 51.4
@@ -3949,6 +4313,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "knowles|beyonce|2009-09-04"
         }
@@ -3978,6 +4344,7 @@
             "text": "50.00",
             "seconds": 50
           },
+          "round": "final",
           "finalTime": {
             "text": "49.54",
             "seconds": 49.54
@@ -3985,6 +4352,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "morrison|toni|2013-02-18"
         },
@@ -3997,6 +4366,7 @@
             "text": "54.68",
             "seconds": 54.68
           },
+          "round": "final",
           "finalTime": {
             "text": "51.37",
             "seconds": 51.37
@@ -4004,6 +4374,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "bello|michelle|2013-01-17"
         },
@@ -4016,6 +4388,7 @@
             "text": "53.58",
             "seconds": 53.58
           },
+          "round": "final",
           "finalTime": {
             "text": "53.56",
             "seconds": 53.56
@@ -4023,6 +4396,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "kahlo|frida|2011-07-06"
         },
@@ -4035,6 +4410,7 @@
             "text": "56.35",
             "seconds": 56.35
           },
+          "round": "final",
           "finalTime": {
             "text": "58.75",
             "seconds": 58.75
@@ -4042,6 +4418,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "williams|serena|2011-09-26"
         }
@@ -4071,6 +4449,7 @@
             "text": "42.08",
             "seconds": 42.08
           },
+          "round": "final",
           "finalTime": {
             "text": "41.77",
             "seconds": 41.77
@@ -4078,6 +4457,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "bello|michelle|2013-01-17"
         },
@@ -4090,6 +4471,7 @@
             "text": "47.21",
             "seconds": 47.21
           },
+          "round": "final",
           "finalTime": {
             "text": "46.75",
             "seconds": 46.75
@@ -4097,6 +4479,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "williams|serena|2011-09-26"
         },
@@ -4109,6 +4493,7 @@
             "text": "49.25",
             "seconds": 49.25
           },
+          "round": "final",
           "finalTime": {
             "text": "50.15",
             "seconds": 50.15
@@ -4116,6 +4501,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "hayworth|rita|2012-10-17"
         },
@@ -4128,6 +4515,7 @@
             "text": "52.10",
             "seconds": 52.1
           },
+          "round": "final",
           "finalTime": {
             "text": "51.76",
             "seconds": 51.76
@@ -4135,6 +4523,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "kahlo|frida|2011-07-06"
         }
@@ -4164,6 +4554,7 @@
             "text": "54.66",
             "seconds": 54.66
           },
+          "round": "final",
           "finalTime": {
             "text": "56.54",
             "seconds": 56.54
@@ -4171,6 +4562,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "king|billie|2015-11-22"
         },
@@ -4183,6 +4576,7 @@
             "text": "58.90",
             "seconds": 58.9
           },
+          "round": "final",
           "finalTime": {
             "text": "57.94",
             "seconds": 57.94
@@ -4190,6 +4584,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "windsor|victoria|2016-05-24"
         },
@@ -4202,6 +4598,7 @@
             "text": "58.94",
             "seconds": 58.94
           },
+          "round": "final",
           "finalTime": {
             "text": "58.54",
             "seconds": 58.54
@@ -4209,6 +4606,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "parton|dolly|2017-01-19"
         },
@@ -4221,6 +4620,7 @@
             "text": "1:03.82",
             "seconds": 63.82
           },
+          "round": "final",
           "finalTime": {
             "text": "1:03.39",
             "seconds": 63.39
@@ -4228,6 +4628,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "dickinson|emily|2016-12-10"
         },
@@ -4237,6 +4639,7 @@
           "teamCode": "GG",
           "birthDate": "2017-03-25",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:06.37",
             "seconds": 66.37
@@ -4244,6 +4647,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "franklin|aretha|2017-03-25"
         },
@@ -4256,10 +4661,13 @@
             "text": "1:26.51",
             "seconds": 86.51
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "steinem|gloria|2017-03-25"
         },
@@ -4269,6 +4677,7 @@
           "teamCode": "GG",
           "birthDate": "2016-07-17",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:21.58",
             "seconds": 81.58
@@ -4276,6 +4685,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "merkel|angela|2016-07-17"
         },
@@ -4288,6 +4699,7 @@
             "text": "1:12.50",
             "seconds": 72.5
           },
+          "round": "final",
           "finalTime": {
             "text": "1:11.58",
             "seconds": 71.58
@@ -4295,6 +4707,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "sarandon|susan|2015-10-04"
         }
@@ -4324,6 +4738,7 @@
             "text": "49.83",
             "seconds": 49.83
           },
+          "round": "final",
           "finalTime": {
             "text": "49.98",
             "seconds": 49.98
@@ -4331,6 +4746,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "rowling|joanne|2015-07-31"
         },
@@ -4343,6 +4760,7 @@
             "text": "53.69",
             "seconds": 53.69
           },
+          "round": "final",
           "finalTime": {
             "text": "55.89",
             "seconds": 55.89
@@ -4350,6 +4768,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "alcott|louisa|2016-11-29"
         },
@@ -4362,6 +4782,7 @@
             "text": "55.21",
             "seconds": 55.21
           },
+          "round": "final",
           "finalTime": {
             "text": "57.57",
             "seconds": 57.57
@@ -4369,6 +4790,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "angelou|maya|2017-04-04"
         },
@@ -4381,10 +4804,13 @@
             "text": "50.30",
             "seconds": 50.3
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "dickinson|emily|2016-12-10"
         },
@@ -4394,6 +4820,7 @@
           "teamCode": "GG",
           "birthDate": "2016-10-26",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:01.87",
             "seconds": 61.87
@@ -4401,6 +4828,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "clinton|hillary|2016-10-26"
         },
@@ -4413,6 +4842,7 @@
             "text": "1:01.42",
             "seconds": 61.42
           },
+          "round": "final",
           "finalTime": {
             "text": "55.88",
             "seconds": 55.88
@@ -4420,6 +4850,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "merkel|angela|2016-07-17"
         },
@@ -4432,6 +4864,7 @@
             "text": "59.27",
             "seconds": 59.27
           },
+          "round": "final",
           "finalTime": {
             "text": "1:01.44",
             "seconds": 61.44
@@ -4439,6 +4872,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "tereshkova|valentina|2016-03-06"
         },
@@ -4451,6 +4886,7 @@
             "text": "1:17.68",
             "seconds": 77.68
           },
+          "round": "final",
           "finalTime": {
             "text": "1:24.11",
             "seconds": 84.11
@@ -4458,6 +4894,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "garland|judy|2015-06-10"
         }
@@ -4487,6 +4925,7 @@
             "text": "35.47",
             "seconds": 35.47
           },
+          "round": "final",
           "finalTime": {
             "text": "37.61",
             "seconds": 37.61
@@ -4494,6 +4933,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "vinci|leonardo|2014-04-15"
         },
@@ -4506,6 +4947,7 @@
             "text": "38.77",
             "seconds": 38.77
           },
+          "round": "final",
           "finalTime": {
             "text": "40.76",
             "seconds": 40.76
@@ -4513,6 +4955,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 1,
           "points": 3,
           "swimmerId": "douglass|frederick|2015-02-14"
         },
@@ -4525,6 +4969,7 @@
             "text": "1:00.90",
             "seconds": 60.9
           },
+          "round": "final",
           "finalTime": {
             "text": "58.25",
             "seconds": 58.25
@@ -4532,6 +4977,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 2,
           "points": 1,
           "swimmerId": "bolt|usain|2014-08-21"
         },
@@ -4544,6 +4991,7 @@
             "text": "1:02.59",
             "seconds": 62.59
           },
+          "round": "final",
           "finalTime": {
             "text": "1:02.08",
             "seconds": 62.08
@@ -4551,6 +4999,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "wonder|stevie|2014-05-13"
         }
@@ -4580,6 +5030,7 @@
             "text": "1:39.48",
             "seconds": 99.48
           },
+          "round": "final",
           "finalTime": {
             "text": "1:37.65",
             "seconds": 97.65
@@ -4587,6 +5038,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "degeneres|ellen|2014-01-26"
         },
@@ -4599,6 +5052,7 @@
             "text": "1:39.75",
             "seconds": 99.75
           },
+          "round": "final",
           "finalTime": {
             "text": "1:39.97",
             "seconds": 99.97
@@ -4606,6 +5060,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "davis|bette|2014-04-05"
         },
@@ -4618,6 +5074,7 @@
             "text": "2:05.79",
             "seconds": 125.79
           },
+          "round": "final",
           "finalTime": {
             "text": "2:07.00",
             "seconds": 127
@@ -4625,6 +5082,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "angelou|maya|2017-04-04"
         },
@@ -4637,6 +5096,7 @@
             "text": "1:52.80",
             "seconds": 112.8
           },
+          "round": "final",
           "finalTime": {
             "text": "1:56.03",
             "seconds": 116.03
@@ -4644,6 +5104,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "franklin|rosalind|2014-07-25"
         }
@@ -4673,6 +5135,7 @@
             "text": "39.11",
             "seconds": 39.11
           },
+          "round": "final",
           "finalTime": {
             "text": "37.72",
             "seconds": 37.72
@@ -4680,6 +5143,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "potter|beatrix|2014-07-28"
         },
@@ -4692,6 +5157,7 @@
             "text": "39.76",
             "seconds": 39.76
           },
+          "round": "final",
           "finalTime": {
             "text": "38.55",
             "seconds": 38.55
@@ -4699,6 +5165,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "jolie|angelina|2013-06-04"
         },
@@ -4711,6 +5179,7 @@
             "text": "45.83",
             "seconds": 45.83
           },
+          "round": "final",
           "finalTime": {
             "text": "45.42",
             "seconds": 45.42
@@ -4718,6 +5187,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "king|billie|2015-11-22"
         },
@@ -4730,6 +5201,7 @@
             "text": "46.19",
             "seconds": 46.19
           },
+          "round": "final",
           "finalTime": {
             "text": "48.10",
             "seconds": 48.1
@@ -4737,6 +5209,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "angelou|maya|2017-04-04"
         },
@@ -4746,6 +5220,7 @@
           "teamCode": "GG",
           "birthDate": "2014-08-16",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "44.08",
             "seconds": 44.08
@@ -4753,6 +5228,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "ciccone|madonna|2014-08-16"
         },
@@ -4762,6 +5239,7 @@
           "teamCode": "GG",
           "birthDate": "2013-07-12",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "46.55",
             "seconds": 46.55
@@ -4769,6 +5247,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "yousafzai|malala|2013-07-12"
         },
@@ -4781,6 +5261,7 @@
             "text": "46.66",
             "seconds": 46.66
           },
+          "round": "final",
           "finalTime": {
             "text": "49.17",
             "seconds": 49.17
@@ -4788,6 +5269,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "pavlova|anna|2015-02-12"
         },
@@ -4797,6 +5280,7 @@
           "teamCode": "GG",
           "birthDate": "2014-11-12",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:13.91",
             "seconds": 73.91
@@ -4804,6 +5288,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "kelly|grace|2014-11-12"
         }
@@ -4833,6 +5319,7 @@
             "text": "20.95",
             "seconds": 20.95
           },
+          "round": "final",
           "finalTime": {
             "text": "21.99",
             "seconds": 21.99
@@ -4840,6 +5327,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "gandhi|indira|2017-11-19"
         },
@@ -4852,6 +5341,7 @@
             "text": "24.27",
             "seconds": 24.27
           },
+          "round": "final",
           "finalTime": {
             "text": "24.37",
             "seconds": 24.37
@@ -4859,6 +5349,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "jemison|mae|2018-10-17"
         },
@@ -4871,6 +5363,7 @@
             "text": "38.14",
             "seconds": 38.14
           },
+          "round": "final",
           "finalTime": {
             "text": "38.00",
             "seconds": 38
@@ -4878,6 +5371,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "monroe|marilyn|2019-06-01"
         },
@@ -4887,6 +5382,7 @@
           "teamCode": "WW",
           "birthDate": "2017-05-12",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "53.21",
             "seconds": 53.21
@@ -4894,6 +5390,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 4,
           "points": 0,
           "swimmerId": "hepburn|katharine|2017-05-12"
         },
@@ -4906,6 +5404,7 @@
             "text": "28.81",
             "seconds": 28.81
           },
+          "round": "final",
           "finalTime": {
             "text": "33.03",
             "seconds": 33.03
@@ -4913,6 +5412,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "biles|simone|2018-03-14"
         },
@@ -4925,10 +5426,13 @@
             "text": "43.67",
             "seconds": 43.67
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "hamm|mia|2019-03-17"
         },
@@ -4941,6 +5445,7 @@
             "text": "39.56",
             "seconds": 39.56
           },
+          "round": "final",
           "finalTime": {
             "text": "43.15",
             "seconds": 43.15
@@ -4948,6 +5453,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 2,
           "points": 0,
           "swimmerId": "comaneci|nadia|2018-11-12"
         },
@@ -4960,6 +5467,7 @@
             "text": "27.92",
             "seconds": 27.92
           },
+          "round": "final",
           "finalTime": {
             "text": "25.81",
             "seconds": 25.81
@@ -4967,6 +5475,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "ledecky|katie|2018-03-17"
         },
@@ -4979,6 +5489,7 @@
             "text": "36.13",
             "seconds": 36.13
           },
+          "round": "final",
           "finalTime": {
             "text": "36.81",
             "seconds": 36.81
@@ -4986,6 +5497,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "stone|emma|2018-11-06"
         },
@@ -4998,6 +5511,7 @@
             "text": "38.09",
             "seconds": 38.09
           },
+          "round": "final",
           "finalTime": {
             "text": "38.32",
             "seconds": 38.32
@@ -5005,6 +5519,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "houston|whitney|2018-08-09"
         },
@@ -5017,6 +5533,7 @@
             "text": "43.75",
             "seconds": 43.75
           },
+          "round": "final",
           "finalTime": {
             "text": "42.15",
             "seconds": 42.15
@@ -5024,6 +5541,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 1,
           "points": 0,
           "swimmerId": "taylor|elizabeth|2019-02-27"
         },
@@ -5036,6 +5555,7 @@
             "text": "41.00",
             "seconds": 41
           },
+          "round": "final",
           "finalTime": {
             "text": "41.77",
             "seconds": 41.77
@@ -5043,6 +5563,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 3,
           "points": 0,
           "swimmerId": "foster|jodie|2017-11-19"
         }
@@ -5072,6 +5594,7 @@
             "text": "29.18",
             "seconds": 29.18
           },
+          "round": "final",
           "finalTime": {
             "text": "28.89",
             "seconds": 28.89
@@ -5079,6 +5602,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 4,
           "points": 5,
           "swimmerId": "jemison|mae|2018-10-17"
         },
@@ -5091,6 +5616,7 @@
             "text": "26.09",
             "seconds": 26.09
           },
+          "round": "final",
           "finalTime": {
             "text": "30.99",
             "seconds": 30.99
@@ -5098,6 +5624,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "romanov|catherine|2018-05-02"
         },
@@ -5110,6 +5638,7 @@
             "text": "30.89",
             "seconds": 30.89
           },
+          "round": "final",
           "finalTime": {
             "text": "32.89",
             "seconds": 32.89
@@ -5117,6 +5646,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "biles|simone|2018-03-14"
         },
@@ -5129,6 +5660,7 @@
             "text": "37.86",
             "seconds": 37.86
           },
+          "round": "final",
           "finalTime": {
             "text": "33.34",
             "seconds": 33.34
@@ -5136,6 +5668,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "monroe|marilyn|2019-06-01"
         },
@@ -5148,6 +5682,7 @@
             "text": "54.45",
             "seconds": 54.45
           },
+          "round": "final",
           "finalTime": {
             "text": "50.94",
             "seconds": 50.94
@@ -5155,6 +5690,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 3,
           "points": 0,
           "swimmerId": "hamm|mia|2019-03-17"
         },
@@ -5164,6 +5701,7 @@
           "teamCode": "GG",
           "birthDate": "2018-01-29",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "34.94",
             "seconds": 34.94
@@ -5171,6 +5709,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 1,
           "points": 0,
           "swimmerId": "winfrey|oprah|2018-01-29"
         },
@@ -5183,6 +5723,7 @@
             "text": "41.32",
             "seconds": 41.32
           },
+          "round": "final",
           "finalTime": {
             "text": "37.80",
             "seconds": 37.8
@@ -5190,6 +5731,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 4,
           "points": 0,
           "swimmerId": "lawrence|jennifer|2017-08-15"
         },
@@ -5199,6 +5742,7 @@
           "teamCode": "GG",
           "birthDate": "2018-11-06",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "43.68",
             "seconds": 43.68
@@ -5206,6 +5750,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 4,
           "points": 0,
           "swimmerId": "stone|emma|2018-11-06"
         },
@@ -5218,6 +5764,7 @@
             "text": "39.56",
             "seconds": 39.56
           },
+          "round": "final",
           "finalTime": {
             "text": "41.75",
             "seconds": 41.75
@@ -5225,6 +5772,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "tubman|harriet|2018-03-15"
         },
@@ -5237,6 +5786,7 @@
             "text": "35.00",
             "seconds": 35
           },
+          "round": "final",
           "finalTime": {
             "text": "35.72",
             "seconds": 35.72
@@ -5244,6 +5794,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "ride|sally|2018-05-26"
         },
@@ -5256,6 +5808,7 @@
             "text": "50.19",
             "seconds": 50.19
           },
+          "round": "final",
           "finalTime": {
             "text": "42.35",
             "seconds": 42.35
@@ -5263,6 +5816,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 3,
+          "lane": 2,
           "points": 0,
           "swimmerId": "bronte|emily|2017-07-30"
         },
@@ -5275,6 +5830,7 @@
             "text": "32.46",
             "seconds": 32.46
           },
+          "round": "final",
           "finalTime": {
             "text": "32.38",
             "seconds": 32.38
@@ -5282,6 +5838,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "sotomayor|sonia|2017-06-25"
         }
@@ -5311,6 +5869,7 @@
             "text": "1:13.49",
             "seconds": 73.49
           },
+          "round": "final",
           "finalTime": {
             "text": "1:17.30",
             "seconds": 77.3
@@ -5318,6 +5877,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "holly|buddy|2011-09-07"
         },
@@ -5330,6 +5891,7 @@
             "text": "1:17.85",
             "seconds": 77.85
           },
+          "round": "final",
           "finalTime": {
             "text": "1:18.86",
             "seconds": 78.86
@@ -5337,6 +5899,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "obama|barack|2011-08-04"
         },
@@ -5349,6 +5913,7 @@
             "text": "1:20.47",
             "seconds": 80.47
           },
+          "round": "final",
           "finalTime": {
             "text": "1:19.28",
             "seconds": 79.28
@@ -5356,6 +5921,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "verne|jules|2012-02-08"
         },
@@ -5368,6 +5935,7 @@
             "text": "1:20.03",
             "seconds": 80.03
           },
+          "round": "final",
           "finalTime": {
             "text": "1:20.25",
             "seconds": 80.25
@@ -5375,6 +5943,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "mozart|wolfgang|2013-01-27"
         }
@@ -5404,6 +5974,7 @@
             "text": "29.23",
             "seconds": 29.23
           },
+          "round": "final",
           "finalTime": {
             "text": "29.89",
             "seconds": 29.89
@@ -5411,6 +5982,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "verne|jules|2012-02-08"
         },
@@ -5423,6 +5996,7 @@
             "text": "30.42",
             "seconds": 30.42
           },
+          "round": "final",
           "finalTime": {
             "text": "31.92",
             "seconds": 31.92
@@ -5430,6 +6004,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "obama|barack|2011-08-04"
         },
@@ -5442,6 +6018,7 @@
             "text": "31.57",
             "seconds": 31.57
           },
+          "round": "final",
           "finalTime": {
             "text": "32.55",
             "seconds": 32.55
@@ -5449,6 +6026,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "mozart|wolfgang|2013-01-27"
         },
@@ -5461,6 +6040,7 @@
             "text": "35.15",
             "seconds": 35.15
           },
+          "round": "final",
           "finalTime": {
             "text": "35.55",
             "seconds": 35.55
@@ -5468,6 +6048,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "davis|miles|2012-05-26"
         },
@@ -5480,10 +6062,13 @@
             "text": "55.39",
             "seconds": 55.39
           },
+          "round": "final",
           "finalTime": null,
           "status": "ns",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "twain|mark|2012-11-30"
         },
@@ -5496,6 +6081,7 @@
             "text": "36.64",
             "seconds": 36.64
           },
+          "round": "final",
           "finalTime": {
             "text": "38.68",
             "seconds": 38.68
@@ -5503,6 +6089,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "jobs|steve|2012-02-24"
         },
@@ -5515,6 +6103,7 @@
             "text": "43.44",
             "seconds": 43.44
           },
+          "round": "final",
           "finalTime": {
             "text": "41.97",
             "seconds": 41.97
@@ -5522,6 +6111,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "wilde|oscar|2012-10-16"
         }
@@ -5551,6 +6142,7 @@
             "text": "37.53",
             "seconds": 37.53
           },
+          "round": "final",
           "finalTime": {
             "text": "37.00",
             "seconds": 37
@@ -5558,6 +6150,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "holly|buddy|2011-09-07"
         },
@@ -5570,6 +6164,7 @@
             "text": "35.38",
             "seconds": 35.38
           },
+          "round": "final",
           "finalTime": {
             "text": "37.39",
             "seconds": 37.39
@@ -5577,6 +6172,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "obama|barack|2011-08-04"
         },
@@ -5589,6 +6186,7 @@
             "text": "54.54",
             "seconds": 54.54
           },
+          "round": "final",
           "finalTime": {
             "text": "55.46",
             "seconds": 55.46
@@ -5596,6 +6194,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 1,
           "swimmerId": "jobs|steve|2012-02-24"
         },
@@ -5605,10 +6205,13 @@
           "teamCode": "WW",
           "birthDate": "2012-11-30",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "ns",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "twain|mark|2012-11-30"
         }
@@ -5638,6 +6241,7 @@
             "text": "33.16",
             "seconds": 33.16
           },
+          "round": "final",
           "finalTime": {
             "text": "32.86",
             "seconds": 32.86
@@ -5645,6 +6249,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 5,
           "swimmerId": "obama|barack|2011-08-04"
         },
@@ -5657,6 +6263,7 @@
             "text": "33.15",
             "seconds": 33.15
           },
+          "round": "final",
           "finalTime": {
             "text": "33.21",
             "seconds": 33.21
@@ -5664,6 +6271,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 3,
           "swimmerId": "holly|buddy|2011-09-07"
         },
@@ -5676,6 +6285,7 @@
             "text": "37.54",
             "seconds": 37.54
           },
+          "round": "final",
           "finalTime": {
             "text": "38.12",
             "seconds": 38.12
@@ -5683,6 +6293,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "mozart|wolfgang|2013-01-27"
         },
@@ -5695,6 +6307,7 @@
             "text": "48.78",
             "seconds": 48.78
           },
+          "round": "final",
           "finalTime": {
             "text": "48.68",
             "seconds": 48.68
@@ -5702,6 +6315,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "davis|miles|2012-05-26"
         }
@@ -5731,6 +6346,7 @@
             "text": "29.82",
             "seconds": 29.82
           },
+          "round": "final",
           "finalTime": {
             "text": "30.68",
             "seconds": 30.68
@@ -5738,6 +6354,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "armstrong|louis|2013-08-04"
         },
@@ -5750,6 +6368,7 @@
             "text": "32.27",
             "seconds": 32.27
           },
+          "round": "final",
           "finalTime": {
             "text": "33.00",
             "seconds": 33
@@ -5757,6 +6376,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "vinci|leonardo|2014-04-15"
         },
@@ -5769,6 +6390,7 @@
             "text": "35.86",
             "seconds": 35.86
           },
+          "round": "final",
           "finalTime": {
             "text": "37.10",
             "seconds": 37.1
@@ -5776,6 +6398,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "shakespeare|william|2014-04-23"
         },
@@ -5788,6 +6412,7 @@
             "text": "47.57",
             "seconds": 47.57
           },
+          "round": "final",
           "finalTime": {
             "text": "51.15",
             "seconds": 51.15
@@ -5795,6 +6420,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "wonder|stevie|2014-05-13"
         }
@@ -5824,6 +6451,7 @@
             "text": "37.15",
             "seconds": 37.15
           },
+          "round": "final",
           "finalTime": {
             "text": "38.32",
             "seconds": 38.32
@@ -5831,6 +6459,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "verne|jules|2012-02-08"
         },
@@ -5843,6 +6473,7 @@
             "text": "43.29",
             "seconds": 43.29
           },
+          "round": "final",
           "finalTime": {
             "text": "44.90",
             "seconds": 44.9
@@ -5850,6 +6481,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "mozart|wolfgang|2013-01-27"
         },
@@ -5862,6 +6495,7 @@
             "text": "48.85",
             "seconds": 48.85
           },
+          "round": "final",
           "finalTime": {
             "text": "51.90",
             "seconds": 51.9
@@ -5869,6 +6503,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 1,
           "points": 1,
           "swimmerId": "shakespeare|william|2014-04-23"
         },
@@ -5881,6 +6517,7 @@
             "text": "52.65",
             "seconds": 52.65
           },
+          "round": "final",
           "finalTime": {
             "text": "51.73",
             "seconds": 51.73
@@ -5888,6 +6525,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "dylan|bob|2013-05-24"
         },
@@ -5897,10 +6536,13 @@
           "teamCode": "WW",
           "birthDate": "2012-11-30",
           "seedTime": null,
+          "round": "final",
           "finalTime": null,
           "status": "ns",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 2,
           "points": 0,
           "swimmerId": "twain|mark|2012-11-30"
         },
@@ -5910,6 +6552,7 @@
           "teamCode": "GG",
           "birthDate": "2012-02-24",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "52.23",
             "seconds": 52.23
@@ -5917,6 +6560,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 3,
           "points": 0,
           "swimmerId": "jobs|steve|2012-02-24"
         },
@@ -5926,6 +6571,7 @@
           "teamCode": "GG",
           "birthDate": "2012-05-26",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "50.65",
             "seconds": 50.65
@@ -5933,6 +6579,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 2,
+          "lane": 1,
           "points": 0,
           "swimmerId": "davis|miles|2012-05-26"
         }
@@ -5962,6 +6610,7 @@
             "text": "47.71",
             "seconds": 47.71
           },
+          "round": "final",
           "finalTime": {
             "text": "49.42",
             "seconds": 49.42
@@ -5969,6 +6618,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "roberts|julia|2009-10-28"
         },
@@ -5981,6 +6632,7 @@
             "text": "1:04.15",
             "seconds": 64.15
           },
+          "round": "final",
           "finalTime": {
             "text": "58.80",
             "seconds": 58.8
@@ -5988,6 +6640,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "swift|taylor|2007-12-13"
         },
@@ -5997,6 +6651,7 @@
           "teamCode": "WW",
           "birthDate": "2012-12-09",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:01.37",
             "seconds": 61.37
@@ -6004,6 +6659,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "hopper|grace|2012-12-09"
         },
@@ -6013,6 +6670,7 @@
           "teamCode": "GG",
           "birthDate": "2010-02-20",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:19.03",
             "seconds": 79.03
@@ -6020,6 +6678,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "fenty|rihanna|2010-02-20"
         }
@@ -6049,6 +6709,7 @@
             "text": "42.76",
             "seconds": 42.76
           },
+          "round": "final",
           "finalTime": {
             "text": "42.75",
             "seconds": 42.75
@@ -6056,6 +6717,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "weaver|sigourney|2007-10-08"
         },
@@ -6068,6 +6731,7 @@
             "text": "46.06",
             "seconds": 46.06
           },
+          "round": "final",
           "finalTime": {
             "text": "44.97",
             "seconds": 44.97
@@ -6075,6 +6739,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "carson|rachel|2010-05-27"
         },
@@ -6087,6 +6753,7 @@
             "text": "55.33",
             "seconds": 55.33
           },
+          "round": "final",
           "finalTime": {
             "text": "55.99",
             "seconds": 55.99
@@ -6094,6 +6761,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "hopper|grace|2012-12-09"
         },
@@ -6103,6 +6772,7 @@
           "teamCode": "GG",
           "birthDate": "2009-09-04",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:07.30",
             "seconds": 67.3
@@ -6110,6 +6780,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "knowles|beyonce|2009-09-04"
         }
@@ -6139,6 +6811,7 @@
             "text": "50.50",
             "seconds": 50.5
           },
+          "round": "final",
           "finalTime": {
             "text": "50.91",
             "seconds": 50.91
@@ -6146,6 +6819,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "potter|beatrix|2014-07-28"
         },
@@ -6158,6 +6833,7 @@
             "text": "55.07",
             "seconds": 55.07
           },
+          "round": "final",
           "finalTime": {
             "text": "55.10",
             "seconds": 55.1
@@ -6165,6 +6841,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "ciccone|madonna|2014-08-16"
         },
@@ -6177,6 +6855,7 @@
             "text": "1:03.85",
             "seconds": 63.85
           },
+          "round": "final",
           "finalTime": {
             "text": "1:01.94",
             "seconds": 61.94
@@ -6184,6 +6863,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "keller|helen|2016-06-27"
         },
@@ -6193,6 +6874,7 @@
           "teamCode": "GG",
           "birthDate": "2013-06-20",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "52.68",
             "seconds": 52.68
@@ -6200,6 +6882,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "kidman|nicole|2013-06-20"
         }
@@ -6229,6 +6913,7 @@
             "text": "1:35.66",
             "seconds": 95.66
           },
+          "round": "final",
           "finalTime": {
             "text": "1:37.52",
             "seconds": 97.52
@@ -6236,6 +6921,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "roberts|julia|2009-10-28"
         },
@@ -6248,6 +6935,7 @@
             "text": "1:48.09",
             "seconds": 108.09
           },
+          "round": "final",
           "finalTime": {
             "text": "1:46.44",
             "seconds": 106.44
@@ -6255,6 +6943,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "anthony|susan|2011-02-15"
         },
@@ -6267,10 +6957,13 @@
             "text": "1:48.60",
             "seconds": 108.6
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "williams|serena|2011-09-26"
         },
@@ -6280,6 +6973,7 @@
           "teamCode": "GG",
           "birthDate": "2007-12-13",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "1:49.01",
             "seconds": 109.01
@@ -6287,6 +6981,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "swift|taylor|2007-12-13"
         }
@@ -6316,6 +7012,7 @@
             "text": "47.91",
             "seconds": 47.91
           },
+          "round": "final",
           "finalTime": {
             "text": "45.70",
             "seconds": 45.7
@@ -6323,6 +7020,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "davis|bette|2014-04-05"
         },
@@ -6335,6 +7034,7 @@
             "text": "55.57",
             "seconds": 55.57
           },
+          "round": "final",
           "finalTime": {
             "text": "56.19",
             "seconds": 56.19
@@ -6342,6 +7042,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "yousafzai|malala|2013-07-12"
         },
@@ -6354,6 +7056,7 @@
             "text": "1:40.15",
             "seconds": 100.15
           },
+          "round": "final",
           "finalTime": {
             "text": "1:03.23",
             "seconds": 63.23
@@ -6361,6 +7064,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 3,
           "points": 1,
           "swimmerId": "king|billie|2015-11-22"
         },
@@ -6370,6 +7075,7 @@
           "teamCode": "GG",
           "birthDate": "2013-06-20",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "45.66",
             "seconds": 45.66
@@ -6377,6 +7083,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "kidman|nicole|2013-06-20"
         }
@@ -6406,6 +7114,7 @@
             "text": "25.98",
             "seconds": 25.98
           },
+          "round": "final",
           "finalTime": {
             "text": "24.88",
             "seconds": 24.88
@@ -6413,6 +7122,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "gandhi|indira|2017-11-19"
         },
@@ -6425,10 +7136,13 @@
             "text": "38.20",
             "seconds": 38.2
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "biles|simone|2018-03-14"
         },
@@ -6441,10 +7155,13 @@
             "text": "30.27",
             "seconds": 30.27
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "fitzgerald|ella|2018-04-25"
         },
@@ -6457,6 +7174,7 @@
             "text": "49.10",
             "seconds": 49.1
           },
+          "round": "final",
           "finalTime": {
             "text": "38.33",
             "seconds": 38.33
@@ -6464,6 +7182,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "blackwell|katherine|2018-02-03"
         }
@@ -6486,6 +7206,7 @@
       "results": [
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "A",
           "seedTime": null,
@@ -6496,6 +7217,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "legs": [
             {
@@ -6518,6 +7241,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "A",
           "seedTime": null,
@@ -6528,6 +7252,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 2,
           "points": 0,
           "legs": [
             {
@@ -6550,6 +7276,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "B",
           "seedTime": null,
@@ -6560,6 +7287,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 3,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "legs": [
             {
@@ -6582,6 +7311,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "B",
           "seedTime": null,
@@ -6592,6 +7322,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 4,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "legs": [
             {
@@ -6631,6 +7363,7 @@
       "results": [
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "A",
           "seedTime": null,
@@ -6641,6 +7374,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 7,
           "legs": [
             {
@@ -6663,6 +7398,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "A",
           "seedTime": null,
@@ -6673,6 +7409,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "legs": [
             {
@@ -6712,6 +7450,7 @@
       "results": [
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "A",
           "seedTime": null,
@@ -6722,6 +7461,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 7,
           "legs": [
             {
@@ -6744,6 +7485,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "A",
           "seedTime": null,
@@ -6751,6 +7493,8 @@
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "legs": [
             {
@@ -6790,6 +7534,7 @@
       "results": [
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "A",
           "seedTime": null,
@@ -6800,6 +7545,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 7,
           "legs": [
             {
@@ -6822,6 +7569,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "A",
           "seedTime": null,
@@ -6832,6 +7580,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "legs": [
             {
@@ -6871,6 +7621,7 @@
       "results": [
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "GG",
           "relayLetter": "A",
           "seedTime": null,
@@ -6881,6 +7632,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 7,
           "legs": [
             {
@@ -6903,6 +7656,7 @@
         },
         {
           "kind": "relay",
+          "round": "final",
           "teamCode": "WW",
           "relayLetter": "A",
           "seedTime": null,
@@ -6913,6 +7667,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "legs": [
             {
@@ -6959,6 +7715,7 @@
             "text": "1:34.92",
             "seconds": 94.92
           },
+          "round": "final",
           "finalTime": {
             "text": "1:37.32",
             "seconds": 97.32
@@ -6966,6 +7723,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "phelps|michael|2015-06-30"
         },
@@ -6978,6 +7737,7 @@
             "text": "2:01.12",
             "seconds": 121.12
           },
+          "round": "final",
           "finalTime": {
             "text": "2:02.15",
             "seconds": 122.15
@@ -6985,6 +7745,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "robinson|jackie|2017-01-31"
         }
@@ -7014,10 +7776,13 @@
             "text": "1:07.87",
             "seconds": 67.87
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 2,
           "points": 0,
           "swimmerId": "robinson|jackie|2017-01-31"
         },
@@ -7030,10 +7795,13 @@
             "text": "1:41.56",
             "seconds": 101.56
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "disney|walt|2016-12-05"
         }
@@ -7063,6 +7831,7 @@
             "text": "22.59",
             "seconds": 22.59
           },
+          "round": "final",
           "finalTime": {
             "text": "24.44",
             "seconds": 24.44
@@ -7070,6 +7839,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "rachmaninoff|sergei|2019-04-01"
         },
@@ -7082,6 +7853,7 @@
             "text": "30.07",
             "seconds": 30.07
           },
+          "round": "final",
           "finalTime": {
             "text": "30.04",
             "seconds": 30.04
@@ -7089,6 +7861,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 3,
           "points": 3,
           "swimmerId": "berry|chuck|2018-10-18"
         },
@@ -7101,6 +7875,7 @@
             "text": "40.03",
             "seconds": 40.03
           },
+          "round": "final",
           "finalTime": {
             "text": "38.73",
             "seconds": 38.73
@@ -7108,6 +7883,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "sagan|carl|2018-11-09"
         },
@@ -7120,6 +7897,7 @@
             "text": "32.11",
             "seconds": 32.11
           },
+          "round": "final",
           "finalTime": {
             "text": "34.07",
             "seconds": 34.07
@@ -7127,6 +7905,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 1,
           "points": 0,
           "swimmerId": "kafka|franz|2018-07-03"
         }
@@ -7156,6 +7936,7 @@
             "text": "44.68",
             "seconds": 44.68
           },
+          "round": "final",
           "finalTime": {
             "text": "45.81",
             "seconds": 45.81
@@ -7163,6 +7944,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "anthony|susan|2011-02-15"
         },
@@ -7175,6 +7958,7 @@
             "text": "1:01.94",
             "seconds": 61.94
           },
+          "round": "final",
           "finalTime": {
             "text": "1:02.62",
             "seconds": 62.62
@@ -7182,6 +7966,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "fenty|rihanna|2010-02-20"
         },
@@ -7191,6 +7977,7 @@
           "teamCode": "GG",
           "birthDate": "2010-05-27",
           "seedTime": null,
+          "round": "final",
           "finalTime": {
             "text": "51.04",
             "seconds": 51.04
@@ -7198,6 +7985,8 @@
           "status": "ok",
           "disqualified": false,
           "place": null,
+          "heat": 1,
+          "lane": 3,
           "points": 0,
           "swimmerId": "carson|rachel|2010-05-27"
         }
@@ -7227,10 +8016,13 @@
             "text": "46.86",
             "seconds": 46.86
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 4,
           "points": 0,
           "swimmerId": "kafka|franz|2018-07-03"
         },
@@ -7243,10 +8035,13 @@
             "text": "36.50",
             "seconds": 36.5
           },
+          "round": "final",
           "finalTime": null,
           "status": "dq",
           "disqualified": true,
           "place": null,
+          "heat": 1,
+          "lane": 2,
           "points": 0,
           "swimmerId": "rachmaninoff|sergei|2019-04-01"
         }
@@ -7276,6 +8071,7 @@
             "text": "29.53",
             "seconds": 29.53
           },
+          "round": "final",
           "finalTime": {
             "text": "33.30",
             "seconds": 33.3
@@ -7283,6 +8079,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "rachmaninoff|sergei|2019-04-01"
         },
@@ -7295,6 +8093,7 @@
             "text": "58.21",
             "seconds": 58.21
           },
+          "round": "final",
           "finalTime": {
             "text": "51.71",
             "seconds": 51.71
@@ -7302,6 +8101,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "kafka|franz|2018-07-03"
         }
@@ -7331,6 +8132,7 @@
             "text": "27.94",
             "seconds": 27.94
           },
+          "round": "final",
           "finalTime": {
             "text": "29.71",
             "seconds": 29.71
@@ -7338,6 +8140,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 1,
+          "heat": 1,
+          "lane": 2,
           "points": 5,
           "swimmerId": "berry|chuck|2018-10-18"
         },
@@ -7350,6 +8154,7 @@
             "text": "58.31",
             "seconds": 58.31
           },
+          "round": "final",
           "finalTime": {
             "text": "1:01.20",
             "seconds": 61.2
@@ -7357,6 +8162,8 @@
           "status": "ok",
           "disqualified": false,
           "place": 2,
+          "heat": 1,
+          "lane": 4,
           "points": 3,
           "swimmerId": "marley|bob|2019-02-06"
         }

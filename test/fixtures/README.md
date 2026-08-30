@@ -77,6 +77,25 @@ LCM/SCM/SCY, while the `.hyv` **rotates** them to start at the meet's own course
 meets in one course cannot tell those two rules apart; these two, in different courses,
 can. Do not drop either meet from the fixture set.
 
+# Round fixtures — hand-built
+
+`rounds.sd3` and `rounds.hy3` are the **same invented meet** written in both formats:
+three swimmers in one event, chosen to cover every round shape a file can hold.
+
+| Swimmer | Rounds | Covers |
+|---|---|---|
+| Lovelace, Ada | prelim + final | the ordinary championship swim — an `E2P`/`E2F` pair in HY3, two filled slots in SDIF |
+| Hopper, Grace | prelim + swim-off + final | a `D0` with all four times, seed included |
+| Johnson, Katherine | prelim only | a blank swim-off and final — **absent, not zero** |
+
+No club data, no real swimmers, no source export: `build-rounds.py` writes both files
+from the table at the top of it, laying each record out by column. Extend the table to
+extend the fixtures.
+
+They exist to hold one property, which is what a consumer reconciling deck-entered times
+against official results depends on: **asking either file for a swimmer's prelims time in
+an event gives the same answer.**
+
 # Prelims/finals result fixtures — sanitized
 
 `districts.hy3` and `districts.cl2` are the **results of the same meet** as `districts.ev3`

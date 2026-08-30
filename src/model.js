@@ -5,8 +5,15 @@
  * instead of two fixed-width formats.
  *
  * Design rule: **lossless superset**. Capture every swim — placing or not,
- * exhibition, DQ, no-show — plus birthdates, seed times, splits and DQ reasons.
- * Consumers filter down to what they need. Never drop data at parse time.
+ * exhibition, DQ, no-show, EVERY ROUND — plus birthdates, seed times, splits and
+ * DQ reasons. Consumers filter down to what they need. Never drop data at parse
+ * time.
+ *
+ * "Every round" is why a result carries `round` and why one swimmer can hold
+ * several results in one event. The formats disagree about what a record is —
+ * HY3 writes one per round, SDIF one per swimmer-event with a slot per round —
+ * so this contract takes the finer grain of the two and both adapters produce
+ * it: the same swim reads identically from either file.
  *
  * Everything here is read out of the file. Nothing is inferred, computed, or
  * relabelled according to any league's rules: no age banding, no scoring, no
@@ -185,22 +192,35 @@ import { GENDER_DISPLAY } from './constants.js';
 /**
  * @typedef {Object} IndividualResult
  * @property {'individual'} kind
+ * @property {'prelim'|'swimoff'|'final'|null} round
+ *                                            Which round this swim was. A meet run
+ *                                            as timed finals records everything as
+ *                                            `final`; a prelims/finals meet gives a
+ *                                            swimmer one result PER ROUND, so two
+ *                                            results for the same swimmer in one
+ *                                            event are a prelim and a final, not a
+ *                                            duplicate. null when a file states an
+ *                                            entry with no result record.
  * @property {string} [swimmerId]             Links to Swimmer.id when resolvable.
  * @property {string} swimmerName             "Last, First" as in the file.
  * @property {string} teamCode
  * @property {string|null} [birthDate]        ISO. PII — as read from the file.
  * @property {SwimTime|null} seedTime
- * @property {SwimTime|null} finalTime        The time swum. NOTE: for HY3 this is
+ * @property {SwimTime|null} finalTime        The time swum IN THIS ROUND — the name
+ *                                            predates rounds and is kept for
+ *                                            compatibility. NOTE: for HY3 this is
  *                                            retained even on a DQ; for SDIF it is
  *                                            null on DQ/NS (the format nulls it).
  * @property {import('./constants.js').ResultStatus} status
  * @property {boolean} disqualified
  * @property {string} [dqCode]                HY3 only.
  * @property {string} [dqReason]              HY3 H1/H2 only.
- * @property {number|null} place              null = non-scoring / exhibition.
- * @property {number} [heat]
+ * @property {number|null} place              Place IN THIS ROUND. null = non-scoring
+ *                                            / exhibition.
+ * @property {number} [heat]                  Heat within this round.
  * @property {number} [lane]
- * @property {number} points                  Points as stored in the file (SDIF).
+ * @property {number} points                  Points as stored in the file (SDIF), on
+ *                                            the round that scores — the final.
  *                                            HY3 carries none, so it reads 0 —
  *                                            deriving points is a scoring concern
  *                                            and belongs to the consumer.
@@ -210,6 +230,7 @@ import { GENDER_DISPLAY } from './constants.js';
 /**
  * @typedef {Object} RelayResult
  * @property {'relay'} kind
+ * @property {'prelim'|'swimoff'|'final'|null} round  As for an individual swim.
  * @property {string} teamCode
  * @property {string} relayLetter             'A', 'B', ...
  * @property {SwimTime|null} seedTime

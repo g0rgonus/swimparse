@@ -21,7 +21,7 @@
  * a real file disagree, the file wins.
  */
 
-import { HY3_STROKE, STROKE, COURSE, ageGroup } from './constants.js';
+import { HY3_STROKE, STROKE, COURSE, HY3_ROUND, ageGroup } from './constants.js';
 import { timeFromSeconds, normalizeDate } from './times.js';
 import { displayTeamCode, deriveSwimmers, describeEvent, eventKey } from './model.js';
 
@@ -41,6 +41,14 @@ const athleteName = (a) => {
 
 // Event-sex code (W/M/G/B/X) → canonical gender.
 const EVENT_SEX = { M: 'M', B: 'M', W: 'F', G: 'F', F: 'F', X: 'X' };
+
+/**
+ * The round this result records, from E2/F2 col 3 — `P` prelims, `F` finals or
+ * timed finals, `S` swim-off. HY3 writes one E1/E2 pair per round, so a swimmer
+ * who made finals has two records here; without this they are indistinguishable.
+ * An entry with no result record states no round.
+ */
+const resultRound = (e2) => (e2 ? HY3_ROUND[e2[2]] || null : null);
 
 /**
  * The event's course, from E2/F2 col 12. This is the AUTHORITATIVE source: E1's
@@ -176,10 +184,13 @@ function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
     const status = STATUS[e2 ? e2[12] : ' '] || 'ok';
     const seconds = e2 ? num(e2.slice(4, 11)) : null;
     const place = e2 ? parseInt(slice(e2, 30, 33), 10) : NaN;
+    const heat = e2 ? parseInt(slice(e2, 21, 23), 10) : NaN;
+    const lane = e2 ? parseInt(slice(e2, 24, 26), 10) : NaN;
 
     /** @type {import('./model.js').IndividualResult} */
     const result = {
         kind: 'individual',
+        round: resultRound(e2),
         swimmerName,
         teamCode: teamMap.get(a.team)?.code || a.team || '',
         birthDate: a.birthDate,
@@ -188,6 +199,8 @@ function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
         status,
         disqualified: status === 'dq',
         place: Number.isNaN(place) ? null : place || null,
+        heat: Number.isNaN(heat) || !heat ? undefined : heat,
+        lane: Number.isNaN(lane) || !lane ? undefined : lane,
         points: 0, // HY3 stores no points; deriving them is a consumer concern
     };
     ev.results.push(result);
@@ -201,10 +214,13 @@ function parseRelay(f1, f2, eventMap, currentTeam, teamMap) {
     const status = STATUS[f2 ? f2[12] : ' '] || 'ok';
     const seconds = f2 ? num(f2.slice(5, 11)) : null;
     const place = f2 ? parseInt(slice(f2, 30, 33), 10) : NaN;
+    const heat = f2 ? parseInt(slice(f2, 21, 23), 10) : NaN;
+    const lane = f2 ? parseInt(slice(f2, 24, 26), 10) : NaN;
 
     /** @type {import('./model.js').RelayResult} */
     const relay = {
         kind: 'relay',
+        round: resultRound(f2),
         teamCode: teamMap.get(currentTeam)?.code || currentTeam || slice(f1, 2, 6),
         relayLetter: slice(f1, 7, 8),
         seedTime: timeFromSeconds(num(f1.slice(52, 59))),
@@ -212,6 +228,8 @@ function parseRelay(f1, f2, eventMap, currentTeam, teamMap) {
         status,
         disqualified: status === 'dq',
         place: Number.isNaN(place) ? null : place || null,
+        heat: Number.isNaN(heat) || !heat ? undefined : heat,
+        lane: Number.isNaN(lane) || !lane ? undefined : lane,
         points: 0,
         legs: [],
     };
