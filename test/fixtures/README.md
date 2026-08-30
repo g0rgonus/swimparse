@@ -77,6 +77,38 @@ LCM/SCM/SCY, while the `.hyv` **rotates** them to start at the meet's own course
 meets in one course cannot tell those two rules apart; these two, in different courses,
 can. Do not drop either meet from the fixture set.
 
+# Prelims/finals result fixtures — sanitized
+
+`districts.hy3` and `districts.cl2` are the **results of the same meet** as `districts.ev3`
+/ `.hyv`, so the four together are one championship end to end: its event list, its
+qualifying setup, and its swims. That makes them the only fixtures that can prove an
+`eventKey` join from a setup file to a result file.
+
+They are a **three-event subset** — two individual events with prelims, finals and DQs,
+plus one relay — because the real export is 10,041 lines and its golden would be ~2.6 MB.
+
+## What was removed
+
+Both source exports are **WODOB** (no date of birth anywhere — only ages), which is how
+Meet Manager exports when privacy filtering is on, so there were no birthdates to
+sanitize. Every remaining identity was replaced: names, preferred names, middle
+initials, and registration ids, consistently across both formats, including the places
+they repeat — the 5-character surname prefixes in `E1`, the relay-leg fragments in `F3`,
+the name and id echoed in every SDIF `G0` split record, and the second id/name block in
+`F0`. Ages are untouched, so every age group stays valid. Club addresses (`C2`) and
+contacts (`C3`) are dropped: unread by the parsers, and no reason to ship them.
+
+**No sanitizer ships here.** swimparse does not touch personal data — it emits what a
+file contains and leaves handling it to the consumer — so a sanitizing tool has no place
+in this repo either. These fixtures were generated outside it from an export that is not
+in this repo and must not be. If they ever need regenerating, that happens outside too.
+
+## What they are for
+
+The two formats describe the same meet and must agree, but a prelims meet is where they
+structurally differ: HY3 writes an `E1`/`E2` pair per round, SDIF writes one `D0` per
+entry holding both times. The fixture preserves that difference in miniature.
+
 ## Golden snapshots
 
 Same rule as above — regenerate only when a parser change is intentional:

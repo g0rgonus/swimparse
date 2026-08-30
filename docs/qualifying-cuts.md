@@ -67,11 +67,14 @@ either accepts or does not, and only the meet announcement says which. If a swim
 only time is SCY and the SCY cut is `null`, the honest answer to "do they qualify" is
 *this file cannot tell you*.
 
-A course can also be refused loudly rather than left blank: a meet may fill a column it
-does not accept with a placeholder like `0.01`. `qualifyingStandards()` drops those, so
-they arrive as `null` here — but `setup.events[].qualifyingTimes` keeps them verbatim,
-which is where to look if you need to know the difference between "not stated" and
-"stated as unusable".
+A course can also be refused loudly rather than left blank: **a meet may fill a column it
+does not accept with a placeholder** like `0.01` or `1.00`, on every event including
+relays that have no cut at all — the Eastern Zone fixture does this across 102 of its 108
+events. Those arrive exactly as stated, here and everywhere else, because deciding a
+stated time is not a real standard is a judgement about that meet's rules and this
+library does not make those. **If you publish or check against cuts, filter them
+yourself**: no swim of any distance is a second long, so a threshold on `seconds` is
+enough.
 
 **3. `description` is for humans; `eventKey` is for code.** The unit in a description
 follows the meet's course — `50y` for a yards meet, `50m` for a metre one. That is

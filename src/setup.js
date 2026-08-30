@@ -94,14 +94,6 @@ const num = (raw) => {
  */
 const EPOCH_SENTINEL = /^(01\/01\/1970|12\/30\/1899)$/;
 
-/**
- * Below this, a "qualifying time" is a placeholder for a course the meet does
- * not accept, not a standard: no swim of any distance is a second long, and the
- * Eastern Zone fixture blanket-fills its SCM column with 0.01/1.00 on nearly
- * every event, relays included.
- */
-const PLACEHOLDER_CUT_SECONDS = 1;
-
 /** Splits a record, dropping the ev3 `*>` terminator from the last field. */
 const fields = (line) => line.replace(/\*>\s*$/, '').split(';');
 
@@ -183,27 +175,25 @@ function deriveSessions(events) {
 }
 
 /**
- * Flattens a setup's qualifying cuts into one row per event that has one.
+ * Reshapes a setup's qualifying cuts into one row per event that states any —
+ * the same values, laid out as a table instead of nested under each event.
  *
- * The cuts are already on `setup.events[].qualifyingTimes`; this is the shape
- * you want when the cuts *are* the thing you came for — a standards table to
- * publish, diff against last season's, or check entries against. Events with no
- * cut configured (the relays, in most meets) are left out.
+ * It is a VIEW, not a filter: every time the file states arrives here exactly as
+ * stated. That includes placeholders — a meet that does not accept a course may
+ * fill that column with 0.01 or 1.00 on every event rather than leaving it
+ * blank, as the Eastern Zone fixture does across 102 of its 108 events. Deciding
+ * that such a value is not a real standard is a judgement about the meet's
+ * rules, so it belongs to the consumer, not here.
  *
- * THE ONE PLACE THIS LAYER JUDGES THE DATA: a placeholder time in a course the
- * meet does not accept is dropped here (see PLACEHOLDER_CUT_SECONDS), and a row
- * left with nothing real goes with it. `event.qualifyingTimes` still carries
- * every value the file stated — read that instead if you want the file verbatim.
- *
- * Beyond that, reading the file is all that happens: no conversion between
- * courses, no "does this swimmer qualify" — that is the consumer's call.
+ * Events stating no cut at all are absent, since a row of three nulls says
+ * nothing that `setup.events` does not.
  *
  * @param {NormalizedMeetSetup} setup
  * @returns {QualifyingStandard[]}
  */
 export function qualifyingStandards(setup) {
-    const real = (t) => (t && t.seconds > PLACEHOLDER_CUT_SECONDS ? t : null);
     return (setup.events || [])
+        .filter((ev) => ev.qualifyingTimes && Object.values(ev.qualifyingTimes).some(Boolean))
         .map((ev) => ({
             eventNumber: ev.number,
             eventKey: ev.eventKey,
@@ -212,11 +202,8 @@ export function qualifyingStandards(setup) {
             ageGroup: ev.ageGroup,
             distance: ev.distance,
             stroke: ev.stroke,
-            LCM: real(ev.qualifyingTimes && ev.qualifyingTimes.LCM),
-            SCM: real(ev.qualifyingTimes && ev.qualifyingTimes.SCM),
-            SCY: real(ev.qualifyingTimes && ev.qualifyingTimes.SCY),
-        }))
-        .filter((row) => row.LCM || row.SCM || row.SCY);
+            ...ev.qualifyingTimes,
+        }));
 }
 
 /**

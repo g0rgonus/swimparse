@@ -6,5 +6,6 @@ node_modules/
 # repo are the SANITIZED fixtures under test/fixtures/ (synthetic identities —
 # see test/fixtures/README.md), which are force-added. Never commit a real one.
 *.sd3
+*.cl2
 *.hy3
 *.zip

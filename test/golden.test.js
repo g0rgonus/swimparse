@@ -16,7 +16,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { parse } from '../src/index.js';
+import { parse, parseSetup } from '../src/index.js';
 
 const dir = new URL('./fixtures/', import.meta.url);
 const read = (name) => readFileSync(new URL(name, dir), 'latin1');
@@ -92,6 +92,40 @@ test('an open-ended age band is not degraded to "Open"', () => {
     // untouched. Repacking one band must not manufacture another "Open".
     const openCount = (m) => m.events.filter((e) => e.ageGroup.label === 'Open').length;
     assert.equal(openCount(meet), openCount(hy3), 'no event was collapsed into Open');
+});
+
+// The districts fixtures are one championship end to end: setup, cuts and
+// swims. They are the only pair that can prove a join from a setup file to a
+// result file, which is what `eventKey` exists for.
+const dHy3 = parse(read('districts.hy3'), { filename: 'districts.hy3' });
+const dCl2 = parse(read('districts.cl2'), { filename: 'districts.cl2' });
+
+test('a setup file joins to its own results on eventKey', () => {
+    const setup = parseSetup(read('districts.ev3'), { filename: 'districts.ev3' });
+    const setupKeys = new Set(setup.events.map((e) => e.eventKey));
+    for (const ev of dHy3.events) {
+        assert.ok(setupKeys.has(ev.eventKey), `result event absent from its own setup: ${ev.eventKey}`);
+    }
+    // And the two result formats describe the same events as each other.
+    assert.deepStrictEqual(
+        dHy3.events.map((e) => e.eventKey).sort(),
+        dCl2.events.map((e) => e.eventKey).sort(),
+    );
+    assert.equal(dHy3.meet.course, 'LCM');
+    assert.equal(dCl2.meet.course, 'LCM');
+    assert.equal(dHy3.swimmers.length, dCl2.swimmers.length);
+});
+
+test('KNOWN GAP: the formats disagree on result counts for a prelims meet', () => {
+    // Not a desired outcome — a record of where the parser stands before rounds
+    // are modelled. HY3 writes an E1/E2 pair per round, so a swimmer who made
+    // finals appears twice with nothing to tell the rows apart; SDIF writes one
+    // D0 per entry carrying both times, and only the finals time is read. Once
+    // swims[] lands, both must report one result per entry and this flips.
+    const count = (m) => m.events.reduce((n, e) => n + e.results.length, 0);
+    assert.equal(count(dHy3), 66, 'HY3: one row per ROUND swum');
+    assert.equal(count(dCl2), 50, 'SDIF: one row per ENTRY');
+    assert.equal(dCl2.events.length, dHy3.events.length, 'the events themselves already agree');
 });
 
 // Index individual results by swimmer + event (identities are identical across files).

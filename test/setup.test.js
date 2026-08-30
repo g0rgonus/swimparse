@@ -227,7 +227,7 @@ test('a prelims/finals meet is distinguishable from timed finals in the setup', 
     );
 });
 
-test('a placeholder cut is kept verbatim on the event and dropped from the cut table', () => {
+test('a placeholder cut is reported exactly as the file states it', () => {
     // The Eastern Zone meet does not accept SCM times and blanket-fills that
     // column with 0.01/1.00 on all 108 events — including relays, which have no
     // cut in any course.
@@ -249,11 +249,13 @@ test('a placeholder cut is kept verbatim on the event and dropped from the cut t
         'Girls 13-14 50m Backstroke', 'Boys 13-14 50m Backstroke',
     ], 'an LCM meet says m');
 
+    // The cut table is a view, not a filter. Every event that states a time
+    // appears, placeholders included, because deciding 0.01 is not a real
+    // standard is a judgement about the meet's rules — the consumer's call.
     const cuts = qualifyingStandards(ezEv3);
-    assert.equal(cuts.length, 78, 'the individual events that carry a real cut');
-    assert.equal(cuts.length, ezEv3.events.filter((e) => e.type === 'individual').length - blank.length);
-    assert.ok(cuts.every((c) => c.SCM === null), 'the placeholder column is dropped');
-    assert.ok(cuts.every((c) => c.LCM && c.SCY), 'the two real columns survive');
+    assert.equal(cuts.length, 102, 'every event that states any time');
+    assert.equal(cuts.length, ezEv3.events.length - blank.length);
+    assert.ok(cuts.every((c) => c.SCM && c.SCM.seconds <= 1), 'the placeholder is reported as stated');
     assert.deepStrictEqual(qualifyingStandards(ezHyv).map((c) => c.eventNumber), cuts.map((c) => c.eventNumber));
 });
 

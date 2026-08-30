@@ -65,11 +65,9 @@ setup.events[0].qualifyingTimes;   // { LCM, SCM, SCY } — the event's cut per 
 qualifyingStandards(setup);        // flat cut table: one row per event that has one
 ```
 
-`qualifyingTimes` is the file verbatim. `qualifyingStandards()` is the cut table you
-would publish, and makes exactly one judgement the parse does not: a meet that does not
-accept a course may fill that column with a placeholder (`0.01`, `1.00`) on every event
-rather than leaving it blank, and those are dropped along with any row left with
-nothing real.
+`qualifyingStandards()` is a view over the same values, not a filter — a meet that does
+not accept a course may fill it with a placeholder like `0.01`, and that arrives as
+stated. Filtering it is the consumer's judgement.
 
 If you are consuming the cuts, read
 **[docs/qualifying-cuts.md](docs/qualifying-cuts.md)** first — the output shape, and the
