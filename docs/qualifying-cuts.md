@@ -10,7 +10,8 @@ One row per event that states a real cut. This is verbatim output, not an illust
 ```json
 {
   "eventNumber": "55",
-  "description": "Girls 13-14 50m Freestyle",
+  "eventKey": "individual:F:13-14:50:Freestyle:SCY",
+  "description": "Girls 13-14 50y Freestyle",
   "gender": "F",
   "ageGroup": { "label": "13-14", "lower": 13, "upper": 14 },
   "distance": 50,
@@ -23,8 +24,12 @@ One row per event that states a real cut. This is verbatim output, not an illust
 
 `LCM` / `SCM` / `SCY` are the same standard stated three ways — one per course — each a
 `SwimTime` (`{ text, seconds }`) or `null`. Every other field describes the event and
-matches what the result adapters emit for the same event, so a cut row joins to a parsed
-result on `description`, or on `eventNumber` within one meet.
+matches what the result adapters emit for the same event.
+
+**Join on `eventKey`.** It is built from what an event *is* — type, gender, age range,
+distance, stroke, course — and the result adapters build it with the same function, so a
+cut row and the swims in that event carry byte-identical keys. `description` is display
+text whose wording may change, and `eventNumber` is only unique within one meet.
 
 ```js
 import { parseSetup, qualifyingStandards } from 'swimparse';
@@ -41,7 +46,7 @@ swimparse events.ev3 --cuts \
   | jq -r '["Event","LCM","SCM","SCY"], (.[] | [.description, .LCM.text, .SCM.text, .SCY.text]) | @csv'
 ```
 
-## Four things to get right
+## Five things to get right
 
 **1. Read by course key, never by column position.** The `.ev3` and `.hyv` of the same
 meet order their three time columns differently — the `.hyv` rotates them to start at
@@ -62,10 +67,15 @@ they arrive as `null` here — but `setup.events[].qualifyingTimes` keeps them v
 which is where to look if you need to know the difference between "not stated" and
 "stated as unusable".
 
-**3. Compare on `seconds`, display `text`.** `seconds` is a float rounded to hundredths;
+**3. `description` is for humans; `eventKey` is for code.** The unit in a description
+follows the meet's course — `50y` for a yards meet, `50m` for a metre one. That is
+display detail, and it means the same standards table renders differently for the short-
+course-yards and long-course-metres editions of a championship. Do not pattern-match it.
+
+**4. Compare on `seconds`, display `text`.** `seconds` is a float rounded to hundredths;
 `text` is the canonical `M:SS.ss` form. Never string-compare times.
 
-**4. Meeting a cut is your rule, not the file's.** swimparse reports the standard; it
+**5. Meeting a cut is your rule, not the file's.** swimparse reports the standard; it
 has no opinion on whether a swimmer meets it. Whether an equal time qualifies, whether a
 bonus or unqualified entry is allowed, how many events a swimmer may enter, and whether
 the swim happened inside the eligible period are all meet rules that live in the meet

@@ -7,7 +7,8 @@
   "meet": {
     "name": "2026 Glendale Gators at Wendwood Wahoos",
     "rawName": "2026 Glendale Gators at Wendwood Wahoos",
-    "startDate": "2026-06-29"
+    "startDate": "2026-06-29",
+    "course": "SCM"
   },
   "teams": [
     {
@@ -1320,12 +1321,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Boys 15-18 100m IM",
+      "eventKey": "individual:M:15-18:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1392,12 +1395,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Boys 15-18 50m Freestyle",
+      "eventKey": "individual:M:15-18:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1540,12 +1545,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Boys 15-18 50m Breaststroke",
+      "eventKey": "individual:M:15-18:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1631,12 +1638,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Boys 15-18 50m Butterfly",
+      "eventKey": "individual:M:15-18:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1718,12 +1727,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Boys 15-18 50m Backstroke",
+      "eventKey": "individual:M:15-18:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1809,12 +1820,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "6 & Under",
         "lower": 0,
         "upper": 6
       },
       "description": "Boys 6 & Under 25m Freestyle",
+      "eventKey": "individual:M:0-6:25:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -1973,12 +1986,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "6 & Under",
         "lower": 0,
         "upper": 6
       },
       "description": "Boys 6 & Under 25m Backstroke",
+      "eventKey": "individual:M:0-6:25:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2064,12 +2079,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Girls 10 & Under 100m IM",
+      "eventKey": "individual:F:0-10:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2155,12 +2172,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Backstroke",
+      "eventKey": "individual:F:11-12:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2245,12 +2264,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Girls 9-10 50m Butterfly",
+      "eventKey": "individual:F:9-10:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2336,12 +2357,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "6 & Under",
         "lower": 0,
         "upper": 6
       },
       "description": "Girls 6 & Under 25m Freestyle",
+      "eventKey": "individual:F:0-6:25:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2503,12 +2526,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
       "description": "Girls 8 & Under 25m Breaststroke",
+      "eventKey": "individual:F:0-8:25:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2644,12 +2669,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "6 & Under",
         "lower": 0,
         "upper": 6
       },
       "description": "Girls 6 & Under 25m Backstroke",
+      "eventKey": "individual:F:0-6:25:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2804,12 +2831,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Boys 9-10 50m Freestyle",
+      "eventKey": "individual:M:9-10:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -2927,12 +2956,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Boys 9-10 50m Breaststroke",
+      "eventKey": "individual:M:9-10:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3019,12 +3050,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Boys 9-10 50m Backstroke",
+      "eventKey": "individual:M:9-10:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3114,12 +3147,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 100m IM",
+      "eventKey": "individual:M:11-12:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3205,12 +3240,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Breaststroke",
+      "eventKey": "individual:M:11-12:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3348,12 +3385,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Butterfly",
+      "eventKey": "individual:M:11-12:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3441,12 +3480,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 100m IM",
+      "eventKey": "individual:F:13-14:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3532,12 +3573,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Freestyle",
+      "eventKey": "individual:F:13-14:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3623,12 +3666,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Butterfly",
+      "eventKey": "individual:F:13-14:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3711,12 +3756,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Girls 9-10 50m Freestyle",
+      "eventKey": "individual:F:9-10:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3878,12 +3925,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Girls 15-18 50m Freestyle",
+      "eventKey": "individual:F:15-18:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -3966,12 +4015,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Breaststroke",
+      "eventKey": "individual:F:13-14:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4057,12 +4108,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Girls 13-14 50m Backstroke",
+      "eventKey": "individual:F:13-14:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4148,12 +4201,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Girls 9-10 50m Breaststroke",
+      "eventKey": "individual:F:9-10:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4311,12 +4366,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Girls 9-10 50m Backstroke",
+      "eventKey": "individual:F:9-10:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4477,12 +4534,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Backstroke",
+      "eventKey": "individual:M:11-12:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4568,12 +4627,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 100m IM",
+      "eventKey": "individual:F:11-12:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4659,12 +4720,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Freestyle",
+      "eventKey": "individual:F:11-12:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -4817,12 +4880,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "7-8",
         "lower": 7,
         "upper": 8
       },
       "description": "Girls 7-8 25m Freestyle",
+      "eventKey": "individual:F:7-8:25:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5059,12 +5124,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "7-8",
         "lower": 7,
         "upper": 8
       },
       "description": "Girls 7-8 25m Backstroke",
+      "eventKey": "individual:F:7-8:25:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5296,12 +5363,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 100m IM",
+      "eventKey": "individual:M:13-14:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5387,12 +5456,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Freestyle",
+      "eventKey": "individual:M:13-14:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5532,12 +5603,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Backstroke",
+      "eventKey": "individual:M:13-14:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5617,12 +5690,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Butterfly",
+      "eventKey": "individual:M:13-14:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5708,12 +5783,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Boys 11-12 50m Freestyle",
+      "eventKey": "individual:M:11-12:50:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5799,12 +5876,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
       "description": "Boys 13-14 50m Breaststroke",
+      "eventKey": "individual:M:13-14:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -5935,12 +6014,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Girls 15-18 50m Breaststroke",
+      "eventKey": "individual:F:15-18:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6020,12 +6101,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Girls 15-18 50m Backstroke",
+      "eventKey": "individual:F:15-18:50:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6108,12 +6191,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Breaststroke",
+      "eventKey": "individual:F:11-12:50:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6196,12 +6281,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Girls 15-18 100m IM",
+      "eventKey": "individual:F:15-18:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6286,12 +6373,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
       "description": "Girls 11-12 50m Butterfly",
+      "eventKey": "individual:F:11-12:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6374,12 +6463,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
       "description": "Girls 8 & Under 25m Butterfly",
+      "eventKey": "individual:F:0-8:25:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -6469,12 +6560,14 @@
       "gender": "X",
       "distance": 100,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
       "description": "Mixed 8 & Under 100m Freestyle Relay",
+      "eventKey": "relay:X:0-8:100:Freestyle:SCM",
       "results": [
         {
           "kind": "relay",
@@ -6640,12 +6733,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
+      "course": "SCM",
       "ageGroup": {
         "label": "Open",
         "lower": 0,
         "upper": 99
       },
       "description": "Boys 200m Medley Relay",
+      "eventKey": "relay:M:0-99:200:Medley:SCM",
       "results": [
         {
           "kind": "relay",
@@ -6730,12 +6825,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
+      "course": "SCM",
       "ageGroup": {
         "label": "Open",
         "lower": 0,
         "upper": 99
       },
       "description": "Girls 200m Medley Relay",
+      "eventKey": "relay:F:0-99:200:Medley:SCM",
       "results": [
         {
           "kind": "relay",
@@ -6825,12 +6922,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "Open",
         "lower": 0,
         "upper": 99
       },
       "description": "Boys 200m Freestyle Relay",
+      "eventKey": "relay:M:0-99:200:Freestyle:SCM",
       "results": [
         {
           "kind": "relay",
@@ -6918,12 +7017,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "Open",
         "lower": 0,
         "upper": 99
       },
       "description": "Girls 200m Freestyle Relay",
+      "eventKey": "relay:F:0-99:200:Freestyle:SCM",
       "results": [
         {
           "kind": "relay",
@@ -7011,12 +7112,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
+      "course": "SCM",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
       "description": "Boys 10 & Under 100m IM",
+      "eventKey": "individual:M:0-10:100:IM:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7064,12 +7167,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
       "description": "Boys 9-10 50m Butterfly",
+      "eventKey": "individual:M:9-10:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7121,12 +7226,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Freestyle",
+      "course": "SCM",
       "ageGroup": {
         "label": "7-8",
         "lower": 7,
         "upper": 8
       },
       "description": "Boys 7-8 25m Freestyle",
+      "eventKey": "individual:M:7-8:25:Freestyle:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7212,12 +7319,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "15-18",
         "lower": 15,
         "upper": 18
       },
       "description": "Girls 15-18 50m Butterfly",
+      "eventKey": "individual:F:15-18:50:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7281,12 +7390,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Breaststroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
       "description": "Boys 8 & Under 25m Breaststroke",
+      "eventKey": "individual:M:0-8:25:Breaststroke:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7338,12 +7449,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Butterfly",
+      "course": "SCM",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
       "description": "Boys 8 & Under 25m Butterfly",
+      "eventKey": "individual:M:0-8:25:Butterfly:SCM",
       "results": [
         {
           "kind": "individual",
@@ -7391,12 +7504,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Backstroke",
+      "course": "SCM",
       "ageGroup": {
         "label": "7-8",
         "lower": 7,
         "upper": 8
       },
       "description": "Boys 7-8 25m Backstroke",
+      "eventKey": "individual:M:7-8:25:Backstroke:SCM",
       "results": [
         {
           "kind": "individual",

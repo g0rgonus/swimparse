@@ -24,13 +24,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 400m IM",
+      "description": "Girls 8 & Under 400y IM",
+      "eventKey": "individual:F:0-8:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -48,13 +49,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 400m IM",
+      "description": "Girls 9-10 400y IM",
+      "eventKey": "individual:F:9-10:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -72,13 +74,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 400m IM",
+      "description": "Girls 11-12 400y IM",
+      "eventKey": "individual:F:11-12:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -96,13 +99,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 400m IM",
+      "description": "Boys 8 & Under 400y IM",
+      "eventKey": "individual:M:0-8:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -120,13 +124,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 400m IM",
+      "description": "Boys 9-10 400y IM",
+      "eventKey": "individual:M:9-10:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -144,13 +149,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 400m IM",
+      "description": "Boys 11-12 400y IM",
+      "eventKey": "individual:M:11-12:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -168,13 +174,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m IM",
+      "description": "Girls 13-14 200y IM",
+      "eventKey": "individual:F:13-14:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -192,13 +199,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m IM",
+      "description": "Girls 15 & Over 200y IM",
+      "eventKey": "individual:F:15-99:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -216,13 +224,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m IM",
+      "description": "Boys 13-14 200y IM",
+      "eventKey": "individual:M:13-14:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -240,13 +249,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m IM",
+      "description": "Boys 15 & Over 200y IM",
+      "eventKey": "individual:M:15-99:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -264,13 +274,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 100m Freestyle",
+      "description": "Girls 8 & Under 100y Freestyle",
+      "eventKey": "individual:F:0-8:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -288,13 +299,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 100m Freestyle",
+      "description": "Girls 9-10 100y Freestyle",
+      "eventKey": "individual:F:9-10:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -312,13 +324,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 100m Freestyle",
+      "description": "Boys 8 & Under 100y Freestyle",
+      "eventKey": "individual:M:0-8:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -336,13 +349,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 100m Freestyle",
+      "description": "Boys 9-10 100y Freestyle",
+      "eventKey": "individual:M:9-10:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -360,13 +374,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 100m Freestyle",
+      "description": "Girls 11-12 100y Freestyle",
+      "eventKey": "individual:F:11-12:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -384,13 +399,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 100m Freestyle",
+      "description": "Boys 11-12 100y Freestyle",
+      "eventKey": "individual:M:11-12:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -408,13 +424,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 200m Butterfly",
+      "description": "Girls 8 & Under 200y Butterfly",
+      "eventKey": "individual:F:0-8:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -432,13 +449,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 200m Butterfly",
+      "description": "Girls 9-10 200y Butterfly",
+      "eventKey": "individual:F:9-10:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -456,13 +474,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Butterfly",
+      "description": "Girls 11-12 200y Butterfly",
+      "eventKey": "individual:F:11-12:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -480,13 +499,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 200m Butterfly",
+      "description": "Boys 8 & Under 200y Butterfly",
+      "eventKey": "individual:M:0-8:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -504,13 +524,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 200m Butterfly",
+      "description": "Boys 9-10 200y Butterfly",
+      "eventKey": "individual:M:9-10:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -528,13 +549,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Butterfly",
+      "description": "Boys 11-12 200y Butterfly",
+      "eventKey": "individual:M:11-12:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -552,13 +574,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Butterfly",
+      "description": "Girls 13-14 200y Butterfly",
+      "eventKey": "individual:F:13-14:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -576,13 +599,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Butterfly",
+      "description": "Girls 15 & Over 200y Butterfly",
+      "eventKey": "individual:F:15-99:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -600,13 +624,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Butterfly",
+      "description": "Boys 13-14 200y Butterfly",
+      "eventKey": "individual:M:13-14:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -624,13 +649,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Butterfly",
+      "description": "Boys 15 & Over 200y Butterfly",
+      "eventKey": "individual:M:15-99:200:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -648,13 +674,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 25m Breaststroke",
+      "description": "Girls 8 & Under 25y Breaststroke",
+      "eventKey": "individual:F:0-8:25:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -672,13 +699,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 25m Breaststroke",
+      "description": "Girls 9-10 25y Breaststroke",
+      "eventKey": "individual:F:9-10:25:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -696,13 +724,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 25m Breaststroke",
+      "description": "Boys 8 & Under 25y Breaststroke",
+      "eventKey": "individual:M:0-8:25:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -720,13 +749,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 25m Breaststroke",
+      "description": "Boys 9-10 25y Breaststroke",
+      "eventKey": "individual:M:9-10:25:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -744,13 +774,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 200m Backstroke",
+      "description": "Girls 8 & Under 200y Backstroke",
+      "eventKey": "individual:F:0-8:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -768,13 +799,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 200m Backstroke",
+      "description": "Girls 9-10 200y Backstroke",
+      "eventKey": "individual:F:9-10:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -792,13 +824,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Backstroke",
+      "description": "Girls 11-12 200y Backstroke",
+      "eventKey": "individual:F:11-12:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -816,13 +849,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 200m Backstroke",
+      "description": "Boys 8 & Under 200y Backstroke",
+      "eventKey": "individual:M:0-8:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -840,13 +874,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 200m Backstroke",
+      "description": "Boys 9-10 200y Backstroke",
+      "eventKey": "individual:M:9-10:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -864,13 +899,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Backstroke",
+      "description": "Boys 11-12 200y Backstroke",
+      "eventKey": "individual:M:11-12:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -888,13 +924,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 50m Breaststroke",
+      "description": "Girls 13-14 50y Breaststroke",
+      "eventKey": "individual:F:13-14:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -912,13 +949,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 50m Breaststroke",
+      "description": "Girls 15 & Over 50y Breaststroke",
+      "eventKey": "individual:F:15-99:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -936,13 +974,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 50m Breaststroke",
+      "description": "Boys 13-14 50y Breaststroke",
+      "eventKey": "individual:M:13-14:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -960,13 +999,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 50m Breaststroke",
+      "description": "Boys 15 & Over 50y Breaststroke",
+      "eventKey": "individual:M:15-99:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -984,13 +1024,14 @@
       "gender": "F",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 1000m Freestyle",
+      "description": "Girls 11-12 1000y Freestyle",
+      "eventKey": "individual:F:11-12:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1008,13 +1049,14 @@
       "gender": "F",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 1000m Freestyle",
+      "description": "Girls 13-14 1000y Freestyle",
+      "eventKey": "individual:F:13-14:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1032,13 +1074,14 @@
       "gender": "F",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 1000m Freestyle",
+      "description": "Girls 15 & Over 1000y Freestyle",
+      "eventKey": "individual:F:15-99:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1056,13 +1099,14 @@
       "gender": "M",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 1000m Freestyle",
+      "description": "Boys 11-12 1000y Freestyle",
+      "eventKey": "individual:M:11-12:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1080,13 +1124,14 @@
       "gender": "M",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 1000m Freestyle",
+      "description": "Boys 13-14 1000y Freestyle",
+      "eventKey": "individual:M:13-14:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1104,13 +1149,14 @@
       "gender": "M",
       "distance": 1000,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 1000m Freestyle",
+      "description": "Boys 15 & Over 1000y Freestyle",
+      "eventKey": "individual:M:15-99:1000:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1128,13 +1174,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 400m IM",
+      "description": "Girls 13-14 400y IM",
+      "eventKey": "individual:F:13-14:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1152,13 +1199,14 @@
       "gender": "F",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 400m IM",
+      "description": "Girls 15 & Over 400y IM",
+      "eventKey": "individual:F:15-99:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1176,13 +1224,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 400m IM",
+      "description": "Boys 13-14 400y IM",
+      "eventKey": "individual:M:13-14:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1200,13 +1249,14 @@
       "gender": "M",
       "distance": 400,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 400m IM",
+      "description": "Boys 15 & Over 400y IM",
+      "eventKey": "individual:M:15-99:400:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1224,13 +1274,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 50m Butterfly",
+      "description": "Girls 13-14 50y Butterfly",
+      "eventKey": "individual:F:13-14:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1248,13 +1299,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 50m Butterfly",
+      "description": "Girls 15 & Over 50y Butterfly",
+      "eventKey": "individual:F:15-99:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1272,13 +1324,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 50m Butterfly",
+      "description": "Boys 13-14 50y Butterfly",
+      "eventKey": "individual:M:13-14:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1296,13 +1349,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 50m Butterfly",
+      "description": "Boys 15 & Over 50y Butterfly",
+      "eventKey": "individual:M:15-99:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1320,13 +1374,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Backstroke",
+      "description": "Girls 13-14 200y Backstroke",
+      "eventKey": "individual:F:13-14:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1344,13 +1399,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Backstroke",
+      "description": "Girls 15 & Over 200y Backstroke",
+      "eventKey": "individual:F:15-99:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1368,13 +1424,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Backstroke",
+      "description": "Boys 13-14 200y Backstroke",
+      "eventKey": "individual:M:13-14:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1392,13 +1449,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Backstroke",
+      "description": "Boys 15 & Over 200y Backstroke",
+      "eventKey": "individual:M:15-99:200:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1416,13 +1474,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Freestyle",
+      "description": "Girls 13-14 200y Freestyle",
+      "eventKey": "individual:F:13-14:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1440,13 +1499,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Freestyle",
+      "description": "Girls 15 & Over 200y Freestyle",
+      "eventKey": "individual:F:15-99:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1464,13 +1524,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Freestyle",
+      "description": "Boys 13-14 200y Freestyle",
+      "eventKey": "individual:M:13-14:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1488,13 +1549,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Freestyle",
+      "description": "Boys 15 & Over 200y Freestyle",
+      "eventKey": "individual:M:15-99:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1512,13 +1574,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 100m Breaststroke",
+      "description": "Girls 13-14 100y Breaststroke",
+      "eventKey": "individual:F:13-14:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1536,13 +1599,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 100m Breaststroke",
+      "description": "Girls 15 & Over 100y Breaststroke",
+      "eventKey": "individual:F:15-99:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1560,13 +1624,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 100m Breaststroke",
+      "description": "Boys 13-14 100y Breaststroke",
+      "eventKey": "individual:M:13-14:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1584,13 +1649,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 100m Breaststroke",
+      "description": "Boys 15 & Over 100y Breaststroke",
+      "eventKey": "individual:M:15-99:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1608,13 +1674,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Medley Relay",
+      "description": "Girls 13-14 200y Medley Relay",
+      "eventKey": "relay:F:13-14:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1632,13 +1699,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Medley Relay",
+      "description": "Boys 13-14 200y Medley Relay",
+      "eventKey": "relay:M:13-14:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1656,13 +1724,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Medley Relay",
+      "description": "Girls 15 & Over 200y Medley Relay",
+      "eventKey": "relay:F:15-99:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1680,13 +1749,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Medley Relay",
+      "description": "Boys 15 & Over 200y Medley Relay",
+      "eventKey": "relay:M:15-99:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1704,13 +1774,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Girls 10 & Under 200m Medley Relay",
+      "description": "Girls 10 & Under 200y Medley Relay",
+      "eventKey": "relay:F:0-10:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1728,13 +1799,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Boys 10 & Under 200m Medley Relay",
+      "description": "Boys 10 & Under 200y Medley Relay",
+      "eventKey": "relay:M:0-10:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1752,13 +1824,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Medley Relay",
+      "description": "Girls 11-12 200y Medley Relay",
+      "eventKey": "relay:F:11-12:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1776,13 +1849,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Medley Relay",
+      "description": "Boys 11-12 200y Medley Relay",
+      "eventKey": "relay:M:11-12:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -1800,13 +1874,14 @@
       "gender": "F",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 500m Freestyle",
+      "description": "Girls 8 & Under 500y Freestyle",
+      "eventKey": "individual:F:0-8:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1824,13 +1899,14 @@
       "gender": "F",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 500m Freestyle",
+      "description": "Girls 9-10 500y Freestyle",
+      "eventKey": "individual:F:9-10:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1848,13 +1924,14 @@
       "gender": "F",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 500m Freestyle",
+      "description": "Girls 11-12 500y Freestyle",
+      "eventKey": "individual:F:11-12:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1872,13 +1949,14 @@
       "gender": "M",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 500m Freestyle",
+      "description": "Boys 8 & Under 500y Freestyle",
+      "eventKey": "individual:M:0-8:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1896,13 +1974,14 @@
       "gender": "M",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 500m Freestyle",
+      "description": "Boys 9-10 500y Freestyle",
+      "eventKey": "individual:M:9-10:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1920,13 +1999,14 @@
       "gender": "M",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 500m Freestyle",
+      "description": "Boys 11-12 500y Freestyle",
+      "eventKey": "individual:M:11-12:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1944,13 +2024,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 25m Backstroke",
+      "description": "Girls 8 & Under 25y Backstroke",
+      "eventKey": "individual:F:0-8:25:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1968,13 +2049,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 25m Backstroke",
+      "description": "Girls 9-10 25y Backstroke",
+      "eventKey": "individual:F:9-10:25:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -1992,13 +2074,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 25m Backstroke",
+      "description": "Boys 8 & Under 25y Backstroke",
+      "eventKey": "individual:M:0-8:25:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2016,13 +2099,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 25m Backstroke",
+      "description": "Boys 9-10 25y Backstroke",
+      "eventKey": "individual:M:9-10:25:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2040,13 +2124,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 200m Breaststroke",
+      "description": "Girls 8 & Under 200y Breaststroke",
+      "eventKey": "individual:F:0-8:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2064,13 +2149,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 200m Breaststroke",
+      "description": "Girls 9-10 200y Breaststroke",
+      "eventKey": "individual:F:9-10:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2088,13 +2174,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Breaststroke",
+      "description": "Girls 11-12 200y Breaststroke",
+      "eventKey": "individual:F:11-12:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2112,13 +2199,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 200m Breaststroke",
+      "description": "Boys 8 & Under 200y Breaststroke",
+      "eventKey": "individual:M:0-8:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2136,13 +2224,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 200m Breaststroke",
+      "description": "Boys 9-10 200y Breaststroke",
+      "eventKey": "individual:M:9-10:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2160,13 +2249,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Breaststroke",
+      "description": "Boys 11-12 200y Breaststroke",
+      "eventKey": "individual:M:11-12:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2184,13 +2274,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 100m Butterfly",
+      "description": "Girls 8 & Under 100y Butterfly",
+      "eventKey": "individual:F:0-8:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2208,13 +2299,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 100m Butterfly",
+      "description": "Girls 9-10 100y Butterfly",
+      "eventKey": "individual:F:9-10:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2232,13 +2324,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 100m Butterfly",
+      "description": "Boys 8 & Under 100y Butterfly",
+      "eventKey": "individual:M:0-8:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2256,13 +2349,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 100m Butterfly",
+      "description": "Boys 9-10 100y Butterfly",
+      "eventKey": "individual:M:9-10:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2280,13 +2374,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 100m Butterfly",
+      "description": "Girls 11-12 100y Butterfly",
+      "eventKey": "individual:F:11-12:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2304,13 +2399,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 100m Butterfly",
+      "description": "Boys 11-12 100y Butterfly",
+      "eventKey": "individual:M:11-12:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2328,13 +2424,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 200m Freestyle",
+      "description": "Girls 8 & Under 200y Freestyle",
+      "eventKey": "individual:F:0-8:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2352,13 +2449,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 200m Freestyle",
+      "description": "Girls 9-10 200y Freestyle",
+      "eventKey": "individual:F:9-10:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2376,13 +2474,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 200m Freestyle",
+      "description": "Boys 8 & Under 200y Freestyle",
+      "eventKey": "individual:M:0-8:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2400,13 +2499,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 200m Freestyle",
+      "description": "Boys 9-10 200y Freestyle",
+      "eventKey": "individual:M:9-10:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2424,13 +2524,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Freestyle",
+      "description": "Girls 11-12 200y Freestyle",
+      "eventKey": "individual:F:11-12:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2448,13 +2549,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Freestyle",
+      "description": "Boys 11-12 200y Freestyle",
+      "eventKey": "individual:M:11-12:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2472,13 +2574,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 50m Breaststroke",
+      "description": "Girls 8 & Under 50y Breaststroke",
+      "eventKey": "individual:F:0-8:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2496,13 +2599,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 50m Breaststroke",
+      "description": "Girls 9-10 50y Breaststroke",
+      "eventKey": "individual:F:9-10:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2520,13 +2624,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 50m Breaststroke",
+      "description": "Boys 8 & Under 50y Breaststroke",
+      "eventKey": "individual:M:0-8:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2544,13 +2649,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 50m Breaststroke",
+      "description": "Boys 9-10 50y Breaststroke",
+      "eventKey": "individual:M:9-10:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2568,13 +2674,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 50m Breaststroke",
+      "description": "Girls 11-12 50y Breaststroke",
+      "eventKey": "individual:F:11-12:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2592,13 +2699,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 50m Breaststroke",
+      "description": "Boys 11-12 50y Breaststroke",
+      "eventKey": "individual:M:11-12:50:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2616,13 +2724,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 25m Butterfly",
+      "description": "Girls 8 & Under 25y Butterfly",
+      "eventKey": "individual:F:0-8:25:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2640,13 +2749,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 25m Butterfly",
+      "description": "Girls 9-10 25y Butterfly",
+      "eventKey": "individual:F:9-10:25:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2664,13 +2774,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 25m Butterfly",
+      "description": "Boys 8 & Under 25y Butterfly",
+      "eventKey": "individual:M:0-8:25:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2688,13 +2799,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 25m Butterfly",
+      "description": "Boys 9-10 25y Butterfly",
+      "eventKey": "individual:M:9-10:25:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2712,13 +2824,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 100m Backstroke",
+      "description": "Girls 8 & Under 100y Backstroke",
+      "eventKey": "individual:F:0-8:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2736,13 +2849,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 100m Backstroke",
+      "description": "Girls 9-10 100y Backstroke",
+      "eventKey": "individual:F:9-10:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2760,13 +2874,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 100m Backstroke",
+      "description": "Boys 8 & Under 100y Backstroke",
+      "eventKey": "individual:M:0-8:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2784,13 +2899,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 100m Backstroke",
+      "description": "Boys 9-10 100y Backstroke",
+      "eventKey": "individual:M:9-10:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2808,13 +2924,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 100m Backstroke",
+      "description": "Girls 11-12 100y Backstroke",
+      "eventKey": "individual:F:11-12:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2832,13 +2949,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 100m Backstroke",
+      "description": "Boys 11-12 100y Backstroke",
+      "eventKey": "individual:M:11-12:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2856,13 +2974,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 200m IM",
+      "description": "Girls 8 & Under 200y IM",
+      "eventKey": "individual:F:0-8:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2880,13 +2999,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 200m IM",
+      "description": "Girls 9-10 200y IM",
+      "eventKey": "individual:F:9-10:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2904,13 +3024,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 200m IM",
+      "description": "Boys 8 & Under 200y IM",
+      "eventKey": "individual:M:0-8:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2928,13 +3049,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 200m IM",
+      "description": "Boys 9-10 200y IM",
+      "eventKey": "individual:M:9-10:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2952,13 +3074,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m IM",
+      "description": "Girls 11-12 200y IM",
+      "eventKey": "individual:F:11-12:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -2976,13 +3099,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m IM",
+      "description": "Boys 11-12 200y IM",
+      "eventKey": "individual:M:11-12:200:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3000,13 +3124,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 50m Freestyle",
+      "description": "Girls 8 & Under 50y Freestyle",
+      "eventKey": "individual:F:0-8:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3024,13 +3149,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 50m Freestyle",
+      "description": "Girls 9-10 50y Freestyle",
+      "eventKey": "individual:F:9-10:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3048,13 +3174,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 50m Freestyle",
+      "description": "Boys 8 & Under 50y Freestyle",
+      "eventKey": "individual:M:0-8:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3072,13 +3199,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 50m Freestyle",
+      "description": "Boys 9-10 50y Freestyle",
+      "eventKey": "individual:M:9-10:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3096,13 +3224,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 50m Freestyle",
+      "description": "Girls 11-12 50y Freestyle",
+      "eventKey": "individual:F:11-12:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3120,13 +3249,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 50m Freestyle",
+      "description": "Boys 11-12 50y Freestyle",
+      "eventKey": "individual:M:11-12:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3144,13 +3274,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Girls 10 & Under 200m Freestyle Relay",
+      "description": "Girls 10 & Under 200y Freestyle Relay",
+      "eventKey": "relay:F:0-10:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3168,13 +3299,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Boys 10 & Under 200m Freestyle Relay",
+      "description": "Boys 10 & Under 200y Freestyle Relay",
+      "eventKey": "relay:M:0-10:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3192,13 +3324,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 200m Freestyle Relay",
+      "description": "Girls 11-12 200y Freestyle Relay",
+      "eventKey": "relay:F:11-12:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3216,13 +3349,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 200m Freestyle Relay",
+      "description": "Boys 11-12 200y Freestyle Relay",
+      "eventKey": "relay:M:11-12:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3240,13 +3374,14 @@
       "gender": "F",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 500m Freestyle",
+      "description": "Girls 13-14 500y Freestyle",
+      "eventKey": "individual:F:13-14:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3264,13 +3399,14 @@
       "gender": "F",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 500m Freestyle",
+      "description": "Girls 15 & Over 500y Freestyle",
+      "eventKey": "individual:F:15-99:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3288,13 +3424,14 @@
       "gender": "M",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 500m Freestyle",
+      "description": "Boys 13-14 500y Freestyle",
+      "eventKey": "individual:M:13-14:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3312,13 +3449,14 @@
       "gender": "M",
       "distance": 500,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 500m Freestyle",
+      "description": "Boys 15 & Over 500y Freestyle",
+      "eventKey": "individual:M:15-99:500:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3336,13 +3474,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 100m Backstroke",
+      "description": "Girls 13-14 100y Backstroke",
+      "eventKey": "individual:F:13-14:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3360,13 +3499,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 100m Backstroke",
+      "description": "Girls 15 & Over 100y Backstroke",
+      "eventKey": "individual:F:15-99:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3384,13 +3524,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 100m Backstroke",
+      "description": "Boys 13-14 100y Backstroke",
+      "eventKey": "individual:M:13-14:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3408,13 +3549,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 100m Backstroke",
+      "description": "Boys 15 & Over 100y Backstroke",
+      "eventKey": "individual:M:15-99:100:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3432,13 +3574,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 50m Freestyle",
+      "description": "Girls 13-14 50y Freestyle",
+      "eventKey": "individual:F:13-14:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3456,13 +3599,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 50m Freestyle",
+      "description": "Girls 15 & Over 50y Freestyle",
+      "eventKey": "individual:F:15-99:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3480,13 +3624,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 50m Freestyle",
+      "description": "Boys 13-14 50y Freestyle",
+      "eventKey": "individual:M:13-14:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3504,13 +3649,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 50m Freestyle",
+      "description": "Boys 15 & Over 50y Freestyle",
+      "eventKey": "individual:M:15-99:50:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3528,13 +3674,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Breaststroke",
+      "description": "Girls 13-14 200y Breaststroke",
+      "eventKey": "individual:F:13-14:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3552,13 +3699,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Breaststroke",
+      "description": "Girls 15 & Over 200y Breaststroke",
+      "eventKey": "individual:F:15-99:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3576,13 +3724,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Breaststroke",
+      "description": "Boys 13-14 200y Breaststroke",
+      "eventKey": "individual:M:13-14:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3600,13 +3749,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Breaststroke",
+      "description": "Boys 15 & Over 200y Breaststroke",
+      "eventKey": "individual:M:15-99:200:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3624,13 +3774,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 200m Freestyle Relay",
+      "description": "Girls 13-14 200y Freestyle Relay",
+      "eventKey": "relay:F:13-14:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3648,13 +3799,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 200m Freestyle Relay",
+      "description": "Boys 13-14 200y Freestyle Relay",
+      "eventKey": "relay:M:13-14:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3672,13 +3824,14 @@
       "gender": "F",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 200m Freestyle Relay",
+      "description": "Girls 15 & Over 200y Freestyle Relay",
+      "eventKey": "relay:F:15-99:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3696,13 +3849,14 @@
       "gender": "M",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 200m Freestyle Relay",
+      "description": "Boys 15 & Over 200y Freestyle Relay",
+      "eventKey": "relay:M:15-99:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3720,13 +3874,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Mixed 10 & Under 200m Freestyle Relay",
+      "description": "Mixed 10 & Under 200y Freestyle Relay",
+      "eventKey": "relay:X:0-10:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3744,13 +3899,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Mixed 11-12 200m Freestyle Relay",
+      "description": "Mixed 11-12 200y Freestyle Relay",
+      "eventKey": "relay:X:11-12:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3768,13 +3924,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Mixed 13-14 200m Freestyle Relay",
+      "description": "Mixed 13-14 200y Freestyle Relay",
+      "eventKey": "relay:X:13-14:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3792,13 +3949,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Mixed 15 & Over 200m Freestyle Relay",
+      "description": "Mixed 15 & Over 200y Freestyle Relay",
+      "eventKey": "relay:X:15-99:200:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -3816,13 +3974,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 25m Freestyle",
+      "description": "Girls 8 & Under 25y Freestyle",
+      "eventKey": "individual:F:0-8:25:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3840,13 +3999,14 @@
       "gender": "F",
       "distance": 25,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 25m Freestyle",
+      "description": "Girls 9-10 25y Freestyle",
+      "eventKey": "individual:F:9-10:25:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3864,13 +4024,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 25m Freestyle",
+      "description": "Boys 8 & Under 25y Freestyle",
+      "eventKey": "individual:M:0-8:25:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3888,13 +4049,14 @@
       "gender": "M",
       "distance": 25,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 25m Freestyle",
+      "description": "Boys 9-10 25y Freestyle",
+      "eventKey": "individual:M:9-10:25:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3912,13 +4074,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 100m Freestyle",
+      "description": "Girls 13-14 100y Freestyle",
+      "eventKey": "individual:F:13-14:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3936,13 +4099,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 100m Freestyle",
+      "description": "Girls 15 & Over 100y Freestyle",
+      "eventKey": "individual:F:15-99:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3960,13 +4124,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 100m Freestyle",
+      "description": "Boys 13-14 100y Freestyle",
+      "eventKey": "individual:M:13-14:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -3984,13 +4149,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Freestyle",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 100m Freestyle",
+      "description": "Boys 15 & Over 100y Freestyle",
+      "eventKey": "individual:M:15-99:100:Freestyle:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4008,13 +4174,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 100m IM",
+      "description": "Girls 8 & Under 100y IM",
+      "eventKey": "individual:F:0-8:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4032,13 +4199,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 100m IM",
+      "description": "Girls 9-10 100y IM",
+      "eventKey": "individual:F:9-10:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4056,13 +4224,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 100m IM",
+      "description": "Boys 8 & Under 100y IM",
+      "eventKey": "individual:M:0-8:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4080,13 +4249,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 100m IM",
+      "description": "Boys 9-10 100y IM",
+      "eventKey": "individual:M:9-10:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4104,13 +4274,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 100m IM",
+      "description": "Girls 11-12 100y IM",
+      "eventKey": "individual:F:11-12:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4128,13 +4299,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 100m IM",
+      "description": "Boys 11-12 100y IM",
+      "eventKey": "individual:M:11-12:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4152,13 +4324,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 100m IM",
+      "description": "Girls 13-14 100y IM",
+      "eventKey": "individual:F:13-14:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4176,13 +4349,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 100m IM",
+      "description": "Girls 15 & Over 100y IM",
+      "eventKey": "individual:F:15-99:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4200,13 +4374,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 100m IM",
+      "description": "Boys 13-14 100y IM",
+      "eventKey": "individual:M:13-14:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4224,13 +4399,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "IM",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 100m IM",
+      "description": "Boys 15 & Over 100y IM",
+      "eventKey": "individual:M:15-99:100:IM:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4248,13 +4424,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 50m Butterfly",
+      "description": "Girls 8 & Under 50y Butterfly",
+      "eventKey": "individual:F:0-8:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4272,13 +4449,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 50m Butterfly",
+      "description": "Girls 9-10 50y Butterfly",
+      "eventKey": "individual:F:9-10:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4296,13 +4474,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 50m Butterfly",
+      "description": "Boys 8 & Under 50y Butterfly",
+      "eventKey": "individual:M:0-8:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4320,13 +4499,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 50m Butterfly",
+      "description": "Boys 9-10 50y Butterfly",
+      "eventKey": "individual:M:9-10:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4344,13 +4524,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 50m Butterfly",
+      "description": "Girls 11-12 50y Butterfly",
+      "eventKey": "individual:F:11-12:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4368,13 +4549,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 50m Butterfly",
+      "description": "Boys 11-12 50y Butterfly",
+      "eventKey": "individual:M:11-12:50:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4392,13 +4574,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 100m Butterfly",
+      "description": "Girls 13-14 100y Butterfly",
+      "eventKey": "individual:F:13-14:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4416,13 +4599,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 100m Butterfly",
+      "description": "Girls 15 & Over 100y Butterfly",
+      "eventKey": "individual:F:15-99:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4440,13 +4624,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 100m Butterfly",
+      "description": "Boys 13-14 100y Butterfly",
+      "eventKey": "individual:M:13-14:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4464,13 +4649,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Butterfly",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 100m Butterfly",
+      "description": "Boys 15 & Over 100y Butterfly",
+      "eventKey": "individual:M:15-99:100:Butterfly:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4488,13 +4674,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 100m Breaststroke",
+      "description": "Girls 8 & Under 100y Breaststroke",
+      "eventKey": "individual:F:0-8:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4512,13 +4699,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 100m Breaststroke",
+      "description": "Girls 9-10 100y Breaststroke",
+      "eventKey": "individual:F:9-10:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4536,13 +4724,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 100m Breaststroke",
+      "description": "Boys 8 & Under 100y Breaststroke",
+      "eventKey": "individual:M:0-8:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4560,13 +4749,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 100m Breaststroke",
+      "description": "Boys 9-10 100y Breaststroke",
+      "eventKey": "individual:M:9-10:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4584,13 +4774,14 @@
       "gender": "F",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 100m Breaststroke",
+      "description": "Girls 11-12 100y Breaststroke",
+      "eventKey": "individual:F:11-12:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4608,13 +4799,14 @@
       "gender": "M",
       "distance": 100,
       "stroke": "Breaststroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 100m Breaststroke",
+      "description": "Boys 11-12 100y Breaststroke",
+      "eventKey": "individual:M:11-12:100:Breaststroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4632,13 +4824,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Girls 13-14 50m Backstroke",
+      "description": "Girls 13-14 50y Backstroke",
+      "eventKey": "individual:F:13-14:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4656,13 +4849,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Girls 15 & Over 50m Backstroke",
+      "description": "Girls 15 & Over 50y Backstroke",
+      "eventKey": "individual:F:15-99:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4680,13 +4874,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Boys 13-14 50m Backstroke",
+      "description": "Boys 13-14 50y Backstroke",
+      "eventKey": "individual:M:13-14:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4704,13 +4899,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Boys 15 & Over 50m Backstroke",
+      "description": "Boys 15 & Over 50y Backstroke",
+      "eventKey": "individual:M:15-99:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4728,13 +4924,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Girls 8 & Under 50m Backstroke",
+      "description": "Girls 8 & Under 50y Backstroke",
+      "eventKey": "individual:F:0-8:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4752,13 +4949,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Girls 9-10 50m Backstroke",
+      "description": "Girls 9-10 50y Backstroke",
+      "eventKey": "individual:F:9-10:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4776,13 +4974,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "8 & Under",
         "lower": 0,
         "upper": 8
       },
-      "description": "Boys 8 & Under 50m Backstroke",
+      "description": "Boys 8 & Under 50y Backstroke",
+      "eventKey": "individual:M:0-8:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4800,13 +4999,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "9-10",
         "lower": 9,
         "upper": 10
       },
-      "description": "Boys 9-10 50m Backstroke",
+      "description": "Boys 9-10 50y Backstroke",
+      "eventKey": "individual:M:9-10:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4824,13 +5024,14 @@
       "gender": "F",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Girls 11-12 50m Backstroke",
+      "description": "Girls 11-12 50y Backstroke",
+      "eventKey": "individual:F:11-12:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4848,13 +5049,14 @@
       "gender": "M",
       "distance": 50,
       "stroke": "Backstroke",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Boys 11-12 50m Backstroke",
+      "description": "Boys 11-12 50y Backstroke",
+      "eventKey": "individual:M:11-12:50:Backstroke:SCY",
       "relayLegs": null,
       "entryFee": 12,
       "qualifyingTimes": {
@@ -4872,13 +5074,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "10 & Under",
         "lower": 0,
         "upper": 10
       },
-      "description": "Mixed 10 & Under 200m Medley Relay",
+      "description": "Mixed 10 & Under 200y Medley Relay",
+      "eventKey": "relay:X:0-10:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -4896,13 +5099,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "11-12",
         "lower": 11,
         "upper": 12
       },
-      "description": "Mixed 11-12 200m Medley Relay",
+      "description": "Mixed 11-12 200y Medley Relay",
+      "eventKey": "relay:X:11-12:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -4920,13 +5124,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "13-14",
         "lower": 13,
         "upper": 14
       },
-      "description": "Mixed 13-14 200m Medley Relay",
+      "description": "Mixed 13-14 200y Medley Relay",
+      "eventKey": "relay:X:13-14:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {
@@ -4944,13 +5149,14 @@
       "gender": "X",
       "distance": 200,
       "stroke": "Medley",
-      "course": null,
+      "course": "SCY",
       "ageGroup": {
         "label": "15 & Over",
         "lower": 15,
         "upper": 99
       },
-      "description": "Mixed 15 & Over 200m Medley Relay",
+      "description": "Mixed 15 & Over 200y Medley Relay",
+      "eventKey": "relay:X:15-99:200:Medley:SCY",
       "relayLegs": null,
       "entryFee": 20,
       "qualifyingTimes": {

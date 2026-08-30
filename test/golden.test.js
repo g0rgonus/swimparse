@@ -47,6 +47,30 @@ test('both formats agree on meet identity', () => {
     assert.equal(sd3.swimmers.length, hy3.swimmers.length);
 });
 
+test('both formats agree on course and event identity', () => {
+    // The two files state the course in completely different places — SDIF in
+    // B1 col 150 and beside each time, HY3 only in E2 col 12 — so agreement here
+    // is a real check, not a tautology. `eventKey` is the join key consumers are
+    // told to use, and it is worthless if the two adapters disagree on it.
+    assert.equal(sd3.meet.course, 'SCM');
+    assert.equal(hy3.meet.course, 'SCM');
+    assert.deepStrictEqual(
+        sd3.events.map((e) => e.eventKey).sort(),
+        hy3.events.map((e) => e.eventKey).sort(),
+    );
+    assert.ok(sd3.events.every((e) => e.course === 'SCM'), 'every event carries its course');
+
+    // A 25m pool, so distances read in metres. The same event at a yards meet
+    // would say "50y" — descriptions are display text and follow the course.
+    const key = 'individual:M:15-18:50:Freestyle:SCM';
+    assert.equal(sd3.events.find((e) => e.eventKey === key).description, 'Boys 15-18 50m Freestyle');
+    assert.equal(hy3.events.find((e) => e.eventKey === key).description, 'Boys 15-18 50m Freestyle');
+
+    // Keys must be unique per event, or a join fans out silently.
+    const keys = sd3.events.map((e) => e.eventKey);
+    assert.equal(new Set(keys).size, keys.length, 'event keys are unique within a meet');
+});
+
 // Index individual results by swimmer + event (identities are identical across files).
 function individualIndex(meet) {
     const map = new Map();

@@ -17,6 +17,10 @@
  * extension, fixed-width like `.sd3`. That is a different format; detect.js
  * sniffs content, so a fixed-width `.ev3` still routes to the SDIF adapter.
  *
+ * Unlike the result formats, these two have no published reference at all — not
+ * even a community one — so everything below is derived from real files, and the
+ * derivation notes stay in this header on purpose.
+ *
  * The three qualifying-time columns are the SAME cut in the three courses,
  * verified column-for-column against Virginia Swimming's published 2025-2028
  * Age Group Championship QT table (LCM / SCM / SCY), whose rows the fixture
@@ -45,8 +49,9 @@
  * ev3 10, 11, 12, 13 (constant), and the per-session trio 26/27/28.
  */
 
-import { HY3_STROKE, SDIF_STROKE, STROKE, GENDER_DISPLAY, COURSE, ageGroup } from './constants.js';
+import { HY3_STROKE, SDIF_STROKE, STROKE, COURSE, ageGroup } from './constants.js';
 import { timeFromText, normalizeDate } from './times.js';
+import { describeEvent, eventKey } from './model.js';
 
 /** Event-sex code → canonical gender. ev3 uses G/B, hyv uses F/M. */
 const EVENT_SEX = { G: 'F', B: 'M', F: 'F', M: 'M', X: 'X' };
@@ -104,15 +109,19 @@ const records = (content) =>
 
 /**
  * Builds the shared event shape from already-decoded parts.
- * `description` matches the result adapters', so an event parsed from a setup
- * file and the same event parsed from a result file read identically.
+ *
+ * `description` and `eventKey` come from the same helpers the result adapters
+ * use, so an event read from a setup file and the same event read from that
+ * meet's results are identical in both — which is what makes a cut joinable to
+ * a swim.
+ *
+ * `course` is the event's own where the file states one (ev3 col 25) and the
+ * meet's otherwise: the hyv states no per-event course, and without the
+ * fallback its events would key and label differently from the ev3's.
  */
 function buildEvent({ number, type, round, rounds, gender, distance, stroke, course, lower, upper, entryFee, qualifyingTimes, relayLegs, session }) {
     const ag = ageGroup(lower, upper);
-    const agLabel = type === 'relay' && ag.label === 'Open' ? '' : ag.label;
-    const description = `${GENDER_DISPLAY[gender]} ${agLabel} ${distance}m ${stroke}${type === 'relay' ? ' Relay' : ''}`
-        .replace(/\s+/g, ' ')
-        .trim();
+    const built = { type, gender, distance, stroke, course, ageGroup: ag };
     return {
         number,
         type,
@@ -123,7 +132,8 @@ function buildEvent({ number, type, round, rounds, gender, distance, stroke, cou
         stroke,
         course,
         ageGroup: ag,
-        description,
+        description: describeEvent(built),
+        eventKey: eventKey(built),
         relayLegs,
         entryFee,
         qualifyingTimes,
@@ -192,6 +202,7 @@ export function qualifyingStandards(setup) {
     return (setup.events || [])
         .map((ev) => ({
             eventNumber: ev.number,
+            eventKey: ev.eventKey,
             description: ev.description,
             gender: ev.gender,
             ageGroup: ev.ageGroup,
@@ -319,7 +330,7 @@ export function parseHyv(content) {
             stroke,
             lower: clean(f[4]),
             upper,
-            course: null, // the hyv states no per-event course
+            course: COURSE[courseCode] || null, // the hyv states no per-event course; use the meet's
             entryFee: num(f[11]),
             qualifyingTimes: hyvQualTimes(courseCode, f),
             relayLegs: null,
