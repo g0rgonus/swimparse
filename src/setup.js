@@ -87,8 +87,12 @@ const num = (raw) => {
     return Number.isNaN(v) ? null : v;
 };
 
-/** Meet Manager writes an unset date as the Unix epoch. */
-const EPOCH_SENTINEL = /^01\/01\/1970$/;
+/**
+ * Unset-date sentinels. Meet Manager writes either the Unix epoch or the
+ * Delphi/Excel zero date depending on the field and the version; the districts
+ * file uses 12/30/1899 for a meet that never set an age-up date.
+ */
+const EPOCH_SENTINEL = /^(01\/01\/1970|12\/30\/1899)$/;
 
 /**
  * Below this, a "qualifying time" is a placeholder for a course the meet does
@@ -225,14 +229,21 @@ export function parseEv3(content) {
     if (!head) throw new Error('swimparse: empty .ev3 file');
 
     const name = clean(head[0]);
+    // Header field 5 is a LIST of the courses whose times the meet accepts, not
+    // the meet's own course — 'YLS', 'LSY', 'YO', and in the districts file just
+    // 'O'. Its first character happens to be the meet course in most files, so
+    // it is a fallback only: col 25 of the event rows states the course
+    // outright, and is believed first when the rows agree.
+    const stated = new Set(rows.map((f) => COURSE[clean(f[25])]).filter(Boolean));
+    const meetCourse = stated.size === 1 ? [...stated][0] : COURSE[clean(head[5]).charAt(0)] || null;
     const meet = {
         name,
         rawName: name,
         hostName: clean(head[1]) || undefined,
         startDate: isoDate(head[2]),
         endDate: isoDate(head[3]),
-        ageUpDate: isoDate(head[4]),
-        course: COURSE[clean(head[5]).charAt(0)] || null,
+        ageUpDate: EPOCH_SENTINEL.test(clean(head[4])) ? null : isoDate(head[4]),
+        course: meetCourse,
         sanction: clean(head[14]) || undefined,
         entryDeadline: isoDate(head[23]),
         // INFERRED, not confirmed against a spec: header field 16 reads
@@ -266,7 +277,11 @@ export function parseEv3(content) {
             stroke,
             lower: clean(f[6]),
             upper: clean(f[7]),
-            course: COURSE[clean(f[25])] || null,
+            // Col 25 is the event's own course, but a meet can leave it blank
+            // (four rows of the districts file do, alongside blank session
+            // fields — an under-configured event). Fall back to the meet's, or
+            // those events key on '?' and join to nothing.
+            course: COURSE[clean(f[25])] || meetCourse,
             entryFee: num(f[14]),
             qualifyingTimes: qualTimes(f[16], f[18], f[20]),
             relayLegs: type === 'relay' ? int(f[29]) : null,

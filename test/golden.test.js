@@ -71,6 +71,29 @@ test('both formats agree on course and event identity', () => {
     assert.equal(new Set(keys).size, keys.length, 'event keys are unique within a meet');
 });
 
+test('an open-ended age band is not degraded to "Open"', () => {
+    // E1/F1 store min and max age as two right-justified 3-char columns. A
+    // bounded band leaves a space between them ("  15 18"), an open-ended one
+    // does not (" 15109"), so a whitespace split silently collapsed every
+    // "15 & Over" event into "Open". This league's top band is 15-18, which is
+    // exactly why it went unnoticed here — repack one entry to prove the fix.
+    const lines = read('gg-at-ww.hy3').split(/\r?\n/);
+    const i = lines.findIndex((l) => l.startsWith('E1') && l.slice(22, 28) === ' 15 18');
+    assert.ok(i >= 0, 'expected a 15-18 entry in the fixture');
+    lines[i] = `${lines[i].slice(0, 22)} 15109${lines[i].slice(28)}`;
+
+    const meet = parse(lines.join('\r\n'), { format: 'hy3' });
+    const ev = meet.events.find((e) => e.ageGroup.label === '15 & Over');
+    assert.ok(ev, 'a packed 15/109 band must read as "15 & Over", not "Open"');
+    assert.equal(ev.ageGroup.lower, 15);
+    assert.ok(ev.eventKey.includes(':15-99:'), ev.eventKey);
+
+    // The meet's genuinely open events — the unnumbered mixed relays — are
+    // untouched. Repacking one band must not manufacture another "Open".
+    const openCount = (m) => m.events.filter((e) => e.ageGroup.label === 'Open').length;
+    assert.equal(openCount(meet), openCount(hy3), 'no event was collapsed into Open');
+});
+
 // Index individual results by swimmer + event (identities are identical across files).
 function individualIndex(meet) {
     const map = new Map();

@@ -35,13 +35,17 @@ const lcHyv = load('lc-agchamps.hyv');
 // placeholders, and twelve sessions across four days.
 const ezEv3 = load('ez-agchamps.ev3');
 const ezHyv = load('ez-agchamps.hyv');
+// A district championship: prelims and finals, and a meet whose header states
+// no course at all — only its event rows do.
+const districtsEv3 = load('districts.ev3');
+const districtsHyv = load('districts.hyv');
 // An invitational: timed finals, letter-suffixed events, relays, no cuts.
 const blastoffEv3 = load('blastoff.ev3');
 const blastoffHyv = load('blastoff.hyv');
 
 const asJson = (v) => JSON.parse(JSON.stringify(v));
 
-for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'blastoff.ev3', 'blastoff.hyv']) {
+for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'districts.ev3', 'districts.hyv', 'blastoff.ev3', 'blastoff.hyv']) {
     test(`${name} matches its golden snapshot`, () => {
         assert.deepStrictEqual(asJson(load(name)), readJson(`${name}.golden.json`));
     });
@@ -77,6 +81,8 @@ const shared = (e) => ({
     qualifyingTimes: e.qualifyingTimes,
 });
 
+// districts is deliberately absent: its hyv states no course, so its events
+// cannot label or key identically to its ev3's. That asymmetry has its own test.
 for (const [meet, ev3, hyv] of [['sc-agchamps', champsEv3, champsHyv], ['lc-agchamps', lcEv3, lcHyv], ['ez-agchamps', ezEv3, ezHyv], ['blastoff', blastoffEv3, blastoffHyv]]) {
     test(`${meet}: the ev3 and hyv describe the same events`, () => {
         assert.equal(ev3.meet.name, hyv.meet.name);
@@ -181,6 +187,44 @@ test('the cut columns are read by course, not by position', () => {
     assert.equal(champsEv3.events[0].course, 'SCY');
     assert.equal(lcHyv.events[0].course, 'LCM');
     assert.equal(lcHyv.events[0].eventKey, lcEv3.events[0].eventKey);
+});
+
+test('a meet course is taken from the event rows when the header omits it', () => {
+    // The districts header states no course anywhere: ev3 field 5 reads 'O' and
+    // the hyv's course field is empty. Every ev3 event row says 'L', so that is
+    // where the meet's course comes from — header field 5 is a list of ACCEPTED
+    // entry-time courses ('YLS', 'LSY', 'YO', 'O'), and only usually opens with
+    // the meet's own.
+    assert.equal(districtsEv3.meet.course, 'LCM');
+    assert.ok(districtsEv3.events.every((e) => e.course === 'LCM'));
+
+    // Four rows leave even that column blank; they inherit the meet's course
+    // rather than keying on '?' and joining to nothing.
+    const im400 = districtsEv3.events.filter((e) => e.distance === 400 && e.stroke === 'IM');
+    assert.ok(im400.length >= 4);
+    assert.ok(im400.every((e) => e.eventKey.endsWith(':LCM')));
+
+    // The hyv of the same meet has nowhere to get a course from — no header
+    // field, no per-event column — so it honestly reports none, and its keys
+    // cannot join. Use the ev3 when a meet is exported without a course.
+    assert.equal(districtsHyv.meet.course, null);
+    assert.ok(districtsHyv.events.every((e) => e.eventKey.endsWith(':?')));
+
+    // An unset age-up date (Delphi's 12/30/1899, as here) reads as null.
+    assert.equal(districtsEv3.meet.ageUpDate, null);
+    assert.equal(districtsEv3.meet.startDate, '2026-06-26');
+});
+
+test('a prelims/finals meet is distinguishable from timed finals in the setup', () => {
+    const prelim = districtsEv3.events.find((e) => e.round === 'prelims');
+    assert.equal(prelim.rounds, 2, 'prelims feed a final');
+    const timed = districtsEv3.events.find((e) => e.round === 'finals');
+    assert.equal(timed.rounds, 1, 'a timed final has one round');
+    // Every event is one or the other.
+    assert.deepStrictEqual(
+        [...new Set(districtsEv3.events.map((e) => `${e.round}/${e.rounds}`))].sort(),
+        ['finals/1', 'prelims/2'],
+    );
 });
 
 test('a placeholder cut is kept verbatim on the event and dropped from the cut table', () => {

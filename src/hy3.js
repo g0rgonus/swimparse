@@ -169,7 +169,7 @@ export function parseHy3(content) {
 
 function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
     const eventNum = slice(e1, 38, 42);
-    const ev = ensureEvent(eventMap, buildEvent(e1, 'individual', { sex: [14, 15], dist: [15, 21], stroke: [21, 22], age: [22, 28] }, resultCourse(e2)), eventNum);
+    const ev = ensureEvent(eventMap, buildEvent(e1, 'individual', { sex: [14, 15], dist: [15, 21], stroke: [21, 22], ageLo: [22, 25], ageHi: [25, 28] }, resultCourse(e2)), eventNum);
 
     const a = athletes.get(anum) || { last: slice(e1, 8, 13), first: '', birthDate: null, team: null };
     const swimmerName = athleteName(a);
@@ -196,7 +196,7 @@ function parseIndividual(e1, e2, eventMap, athletes, anum, teamMap) {
 
 function parseRelay(f1, f2, eventMap, currentTeam, teamMap) {
     const eventNum = slice(f1, 38, 42);
-    const ev = ensureEvent(eventMap, buildEvent(f1, 'relay', { sex: [14, 15], dist: [18, 21], stroke: [21, 22], age: [22, 28] }, resultCourse(f2)), eventNum);
+    const ev = ensureEvent(eventMap, buildEvent(f1, 'relay', { sex: [14, 15], dist: [18, 21], stroke: [21, 22], ageLo: [22, 25], ageHi: [25, 28] }, resultCourse(f2)), eventNum);
 
     const status = STATUS[f2 ? f2[12] : ' '] || 'ok';
     const seconds = f2 ? num(f2.slice(5, 11)) : null;
@@ -241,8 +241,13 @@ function buildEvent(line, type, off, course) {
     const strokeCode = line[off.stroke[0]];
     const strokeMap = type === 'relay' ? HY3_RELAY_STROKE : HY3_STROKE;
     const stroke = strokeMap[strokeCode] || `Stroke ${strokeCode}`;
-    const ageRaw = slice(line, off.age[0], off.age[1]).split(/\s+/).filter(Boolean);
-    const ag = ageGroup(ageRaw[0], ageRaw[1]);
+    // Min and max age are two right-justified 3-char columns (E1/F1 cols 23-25
+    // and 26-28). They must be sliced positionally, NOT split on whitespace: an
+    // open-ended band packs them adjacent with no separator ("15" + "109" reads
+    // " 15109"), and a whitespace split then yields one token, which silently
+    // degrades every "15 & Over" event to "Open". Only shows up in files whose
+    // top band is open-ended, which is why a 15-18 league never sees it.
+    const ag = ageGroup(slice(line, off.ageLo[0], off.ageLo[1]), slice(line, off.ageHi[0], off.ageHi[1]));
     const built = { type, gender, distance, stroke, course, ageGroup: ag };
     return { ...built, description: describeEvent(built), eventKey: eventKey(built), results: [] };
 }

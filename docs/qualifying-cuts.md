@@ -31,6 +31,12 @@ distance, stroke, course — and the result adapters build it with the same func
 cut row and the swims in that event carry byte-identical keys. `description` is display
 text whose wording may change, and `eventNumber` is only unique within one meet.
 
+**Expect the join to be high-fidelity, not total.** Checked against a real district
+championship's setup and results, 153 of 156 result events matched their setup row. The
+three that did not are the data, not the parser: two events configured for girls ran
+mixed and were re-coded `X` in the results, and one was added on meet day and appears in
+no setup at all. Plan for a small unmatched remainder rather than assuming 1:1.
+
 ```js
 import { parseSetup, qualifyingStandards } from 'swimparse';
 
@@ -96,6 +102,14 @@ and are indistinguishable here from events the meet forgot to configure. If you 
 every event whether cut or not, iterate `setup.events` instead and read
 `qualifyingTimes` yourself; `qualifyingStandards()` is the convenience view, not the
 whole file.
+
+## When a meet states no course
+
+Course is part of `eventKey`, and a file can omit it. An `.ev3` states it per event and
+falls back to the meet's; a `.hyv` has no per-event column at all, so a meet exported
+without a course in its header produces keys ending in `:?`, which join to nothing. Both
+happen in the wild — the districts fixture is exactly this case. **If you have both
+files, key off the `.ev3`.**
 
 ## Stability
 
