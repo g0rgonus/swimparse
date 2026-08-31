@@ -1,0 +1,1942 @@
+{
+  "format": "sdif-v3",
+  "source": {
+    "software": "Hy-Tek, Ltd"
+  },
+  "meet": {
+    "name": "Regional LC Age Group Champs",
+    "rawName": "Regional LC Age Group Champs",
+    "startDate": "2026-06-26",
+    "course": "LCM"
+  },
+  "teams": [
+    {
+      "code": "AQUA",
+      "fullCode": "VAAQUA",
+      "name": "Aqua Swim Club"
+    },
+    {
+      "code": "BLUE",
+      "fullCode": "VABLUE",
+      "name": "Blue Wave Aquatics"
+    },
+    {
+      "code": "CRES",
+      "fullCode": "VACRES",
+      "name": "Crescent Swim Team"
+    },
+    {
+      "code": "DELT",
+      "fullCode": "VADELT",
+      "name": "Delta Aquatic Club"
+    },
+    {
+      "code": "ECHO",
+      "fullCode": "VAECHO",
+      "name": "Echo Bay Swimming"
+    },
+    {
+      "code": "FALC",
+      "fullCode": "VAFALC",
+      "name": "Falcon Swim Club"
+    },
+    {
+      "code": "GULL",
+      "fullCode": "VAGULL",
+      "name": "Gulls Aquatic Team"
+    },
+    {
+      "code": "HARB",
+      "fullCode": "VAHARB",
+      "name": "Harbor Swim Club"
+    }
+  ],
+  "swimmers": [
+    {
+      "id": "tesla|nikola|",
+      "teamCode": "GULL",
+      "lastName": "Tesla",
+      "firstName": "Nikola",
+      "fullName": "Tesla, Nikola",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "faraday|michael|",
+      "teamCode": "BLUE",
+      "lastName": "Faraday",
+      "firstName": "Michael",
+      "fullName": "Faraday, Michael",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "hubble|edwin|",
+      "teamCode": "ECHO",
+      "lastName": "Hubble",
+      "firstName": "Edwin",
+      "fullName": "Hubble, Edwin",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "kepler|johannes|",
+      "teamCode": "BLUE",
+      "lastName": "Kepler",
+      "firstName": "Johannes",
+      "fullName": "Kepler, Johannes",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "pasteur|louis|",
+      "teamCode": "BLUE",
+      "lastName": "Pasteur",
+      "firstName": "Louis",
+      "fullName": "Pasteur, Louis",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "galileo|galilei|",
+      "teamCode": "GULL",
+      "lastName": "Galileo",
+      "firstName": "Galilei",
+      "fullName": "Galileo, Galilei",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "sagan|carl|",
+      "teamCode": "FALC",
+      "lastName": "Sagan",
+      "firstName": "Carl",
+      "fullName": "Sagan, Carl",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "avogadro|amedeo|",
+      "teamCode": "GULL",
+      "lastName": "Avogadro",
+      "firstName": "Amedeo",
+      "fullName": "Avogadro, Amedeo",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "mendel|gregor|",
+      "teamCode": "BLUE",
+      "lastName": "Mendel",
+      "firstName": "Gregor",
+      "fullName": "Mendel, Gregor",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "joule|james|",
+      "teamCode": "GULL",
+      "lastName": "Joule",
+      "firstName": "James",
+      "fullName": "Joule, James",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "newton|isaac|",
+      "teamCode": "AQUA",
+      "lastName": "Newton",
+      "firstName": "Isaac",
+      "fullName": "Newton, Isaac",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "fermi|enrico|",
+      "teamCode": "AQUA",
+      "lastName": "Fermi",
+      "firstName": "Enrico",
+      "fullName": "Fermi, Enrico",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "turing|alan|",
+      "teamCode": "AQUA",
+      "lastName": "Turing",
+      "firstName": "Alan",
+      "fullName": "Turing, Alan",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "maxwell|james|",
+      "teamCode": "AQUA",
+      "lastName": "Maxwell",
+      "firstName": "James",
+      "fullName": "Maxwell, James",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "dalton|john|",
+      "teamCode": "GULL",
+      "lastName": "Dalton",
+      "firstName": "John",
+      "fullName": "Dalton, John",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "darwin|charles|",
+      "teamCode": "AQUA",
+      "lastName": "Darwin",
+      "firstName": "Charles",
+      "fullName": "Darwin, Charles",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "einstein|albert|",
+      "teamCode": "AQUA",
+      "lastName": "Einstein",
+      "firstName": "Albert",
+      "fullName": "Einstein, Albert",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "planck|max|",
+      "teamCode": "AQUA",
+      "lastName": "Planck",
+      "firstName": "Max",
+      "fullName": "Planck, Max",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "dirac|paul|",
+      "teamCode": "CRES",
+      "lastName": "Dirac",
+      "firstName": "Paul",
+      "fullName": "Dirac, Paul",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "volta|alessandro|",
+      "teamCode": "GULL",
+      "lastName": "Volta",
+      "firstName": "Alessandro",
+      "fullName": "Volta, Alessandro",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "bunsen|robert|",
+      "teamCode": "GULL",
+      "lastName": "Bunsen",
+      "firstName": "Robert",
+      "fullName": "Bunsen, Robert",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "rutherford|ernest|",
+      "teamCode": "CRES",
+      "lastName": "Rutherford",
+      "firstName": "Ernest",
+      "fullName": "Rutherford, Ernest",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "just|ernest|",
+      "teamCode": "GULL",
+      "lastName": "Just",
+      "firstName": "Ernest",
+      "fullName": "Just, Ernest",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "ampere|andre|",
+      "teamCode": "GULL",
+      "lastName": "Ampere",
+      "firstName": "Andre",
+      "fullName": "Ampere, Andre",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "kelvin|william|",
+      "teamCode": "GULL",
+      "lastName": "Kelvin",
+      "firstName": "William",
+      "fullName": "Kelvin, William",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "hawking|stephen|",
+      "teamCode": "FALC",
+      "lastName": "Hawking",
+      "firstName": "Stephen",
+      "fullName": "Hawking, Stephen",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "heisenberg|werner|",
+      "teamCode": "DELT",
+      "lastName": "Heisenberg",
+      "firstName": "Werner",
+      "fullName": "Heisenberg, Werner",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "carver|george|",
+      "teamCode": "GULL",
+      "lastName": "Carver",
+      "firstName": "George",
+      "fullName": "Carver, George",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "copernicus|nicolaus|",
+      "teamCode": "HARB",
+      "lastName": "Copernicus",
+      "firstName": "Nicolaus",
+      "fullName": "Copernicus, Nicolaus",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "drew|charles|",
+      "teamCode": "GULL",
+      "lastName": "Drew",
+      "firstName": "Charles",
+      "fullName": "Drew, Charles",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "bohr|niels|",
+      "teamCode": "AQUA",
+      "lastName": "Bohr",
+      "firstName": "Niels",
+      "fullName": "Bohr, Niels",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "banneker|benjamin|",
+      "teamCode": "GULL",
+      "lastName": "Banneker",
+      "firstName": "Benjamin",
+      "fullName": "Banneker, Benjamin",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "ohm|georg|",
+      "teamCode": "GULL",
+      "lastName": "Ohm",
+      "firstName": "Georg",
+      "fullName": "Ohm, Georg",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    },
+    {
+      "id": "boyle|robert|",
+      "teamCode": "GULL",
+      "lastName": "Boyle",
+      "firstName": "Robert",
+      "fullName": "Boyle, Robert",
+      "gender": "M",
+      "birthDate": null,
+      "usasId": null
+    }
+  ],
+  "events": [
+    {
+      "number": "20",
+      "type": "individual",
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "LCM",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 100m Butterfly",
+      "eventKey": "individual:M:11-12:100:Butterfly:LCM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Tesla, Nikola",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:17.72",
+            "seconds": 77.72
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:17.94",
+            "seconds": 77.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "heat": 3,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "tesla|nikola|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Tesla, Nikola",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:17.72",
+            "seconds": 77.72
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:17.66",
+            "seconds": 77.66
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "heat": 1,
+          "lane": 4,
+          "points": 20,
+          "swimmerId": "tesla|nikola|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Faraday, Michael",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:24.38",
+            "seconds": 84.38
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:22.65",
+            "seconds": 82.65
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "heat": 1,
+          "lane": 2,
+          "points": 17,
+          "swimmerId": "faraday|michael|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hubble, Edwin",
+          "teamCode": "ECHO",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:19.40",
+            "seconds": 79.4
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:21.00",
+            "seconds": 81
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "heat": 2,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "hubble|edwin|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kepler, Johannes",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:25.25",
+            "seconds": 85.25
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:24.11",
+            "seconds": 84.11
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "heat": 1,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "kepler|johannes|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Pasteur, Louis",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:23.97",
+            "seconds": 83.97
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:23.82",
+            "seconds": 83.82
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "heat": 1,
+          "lane": 6,
+          "points": 16,
+          "swimmerId": "pasteur|louis|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kepler, Johannes",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:25.25",
+            "seconds": 85.25
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:25.74",
+            "seconds": 85.74
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "heat": 1,
+          "lane": 3,
+          "points": 15,
+          "swimmerId": "kepler|johannes|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Pasteur, Louis",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:23.97",
+            "seconds": 83.97
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:24.64",
+            "seconds": 84.64
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "heat": 1,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "pasteur|louis|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Faraday, Michael",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:24.38",
+            "seconds": 84.38
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:27.06",
+            "seconds": 87.06
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 5,
+          "heat": 3,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "faraday|michael|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Galileo, Galilei",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:25.12",
+            "seconds": 85.12
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:26.32",
+            "seconds": 86.32
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 5,
+          "heat": 1,
+          "lane": 1,
+          "points": 14,
+          "swimmerId": "galileo|galilei|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sagan, Carl",
+          "teamCode": "FALC",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:29.41",
+            "seconds": 89.41
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:31.13",
+            "seconds": 91.13
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 6,
+          "heat": 1,
+          "lane": 8,
+          "points": 13,
+          "swimmerId": "sagan|carl|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Avogadro, Amedeo",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:40.67",
+            "seconds": 100.67
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:27.19",
+            "seconds": 87.19
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 6,
+          "heat": 1,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "avogadro|amedeo|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mendel, Gregor",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:32.58",
+            "seconds": 92.58
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:27.55",
+            "seconds": 87.55
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 7,
+          "heat": 2,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "mendel|gregor|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Mendel, Gregor",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:32.58",
+            "seconds": 92.58
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "1:40.17",
+            "seconds": 100.17
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 7,
+          "heat": 1,
+          "lane": 7,
+          "points": 12,
+          "swimmerId": "mendel|gregor|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Galileo, Galilei",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:25.12",
+            "seconds": 85.12
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:27.80",
+            "seconds": 87.8
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 8,
+          "heat": 2,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "galileo|galilei|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Sagan, Carl",
+          "teamCode": "FALC",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:29.41",
+            "seconds": 89.41
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:28.01",
+            "seconds": 88.01
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 9,
+          "heat": 3,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "sagan|carl|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Joule, James",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:52.64",
+            "seconds": 112.64
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:29.11",
+            "seconds": 89.11
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 10,
+          "heat": 3,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "joule|james|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:39.97",
+            "seconds": 99.97
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:30.36",
+            "seconds": 90.36
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 11,
+          "heat": 2,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "newton|isaac|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Fermi, Enrico",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:42.45",
+            "seconds": 102.45
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:39.65",
+            "seconds": 99.65
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 12,
+          "heat": 3,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "fermi|enrico|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Turing, Alan",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:38.03",
+            "seconds": 98.03
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:41.27",
+            "seconds": 101.27
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 13,
+          "heat": 1,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "turing|alan|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Maxwell, James",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:45.77",
+            "seconds": 105.77
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:42.73",
+            "seconds": 102.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 14,
+          "heat": 2,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "maxwell|james|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dalton, John",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:39.87",
+            "seconds": 99.87
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:43.25",
+            "seconds": 103.25
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 15,
+          "heat": 3,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "dalton|john|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Darwin, Charles",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:47.64",
+            "seconds": 107.64
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:49.25",
+            "seconds": 109.25
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 16,
+          "heat": 1,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "darwin|charles|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:56.92",
+            "seconds": 116.92
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:50.46",
+            "seconds": 110.46
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 17,
+          "heat": 2,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "einstein|albert|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Planck, Max",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:40.58",
+            "seconds": 100.58
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "1:54.29",
+            "seconds": 114.29
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 18,
+          "heat": 1,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "planck|max|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dirac, Paul",
+          "teamCode": "CRES",
+          "birthDate": null,
+          "seedTime": {
+            "text": "2:03.69",
+            "seconds": 123.69
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "2:24.49",
+            "seconds": 144.49
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 19,
+          "heat": 3,
+          "lane": 1,
+          "points": 0,
+          "swimmerId": "dirac|paul|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hubble, Edwin",
+          "teamCode": "ECHO",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:19.40",
+            "seconds": 79.4
+          },
+          "round": "final",
+          "finalTime": null,
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "heat": 1,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "hubble|edwin|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Volta, Alessandro",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": null,
+          "round": "prelim",
+          "finalTime": null,
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "heat": 2,
+          "lane": 1,
+          "points": 0,
+          "swimmerId": "volta|alessandro|"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "type": "individual",
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "LCM",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 50m Breaststroke",
+      "eventKey": "individual:M:11-12:50:Breaststroke:LCM",
+      "results": [
+        {
+          "kind": "individual",
+          "swimmerName": "Kepler, Johannes",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "42.94",
+            "seconds": 42.94
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "41.73",
+            "seconds": 41.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "heat": 3,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "kepler|johannes|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kepler, Johannes",
+          "teamCode": "BLUE",
+          "birthDate": null,
+          "seedTime": {
+            "text": "42.94",
+            "seconds": 42.94
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "40.01",
+            "seconds": 40.01
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "heat": 1,
+          "lane": 4,
+          "points": 20,
+          "swimmerId": "kepler|johannes|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Joule, James",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.66",
+            "seconds": 44.66
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "42.50",
+            "seconds": 42.5
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "heat": 1,
+          "lane": 3,
+          "points": 17,
+          "swimmerId": "joule|james|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bunsen, Robert",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "43.06",
+            "seconds": 43.06
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "42.20",
+            "seconds": 42.2
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "heat": 2,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "bunsen|robert|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Joule, James",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.66",
+            "seconds": 44.66
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "43.06",
+            "seconds": 43.06
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "heat": 3,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "joule|james|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bunsen, Robert",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "43.06",
+            "seconds": 43.06
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "42.97",
+            "seconds": 42.97
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "heat": 1,
+          "lane": 5,
+          "points": 16,
+          "swimmerId": "bunsen|robert|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rutherford, Ernest",
+          "teamCode": "CRES",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.95",
+            "seconds": 44.95
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "44.60",
+            "seconds": 44.6
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "heat": 1,
+          "lane": 2,
+          "points": 15,
+          "swimmerId": "rutherford|ernest|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Tesla, Nikola",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "43.63",
+            "seconds": 43.63
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "44.41",
+            "seconds": 44.41
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 4,
+          "heat": 4,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "tesla|nikola|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Rutherford, Ernest",
+          "teamCode": "CRES",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.95",
+            "seconds": 44.95
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "44.83",
+            "seconds": 44.83
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 5,
+          "heat": 2,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "rutherford|ernest|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Just, Ernest",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "45.76",
+            "seconds": 45.76
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "44.85",
+            "seconds": 44.85
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 5,
+          "heat": 1,
+          "lane": 1,
+          "points": 13,
+          "swimmerId": "just|ernest|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ampere, Andre",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "47.44",
+            "seconds": 47.44
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "44.85",
+            "seconds": 44.85
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 5,
+          "heat": 1,
+          "lane": 7,
+          "points": 13,
+          "swimmerId": "ampere|andre|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ampere, Andre",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "47.44",
+            "seconds": 47.44
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "45.63",
+            "seconds": 45.63
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 6,
+          "heat": 3,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "ampere|andre|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Just, Ernest",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "45.76",
+            "seconds": 45.76
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "46.10",
+            "seconds": 46.1
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 7,
+          "heat": 4,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "just|ernest|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Tesla, Nikola",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "43.63",
+            "seconds": 43.63
+          },
+          "round": "final",
+          "finalTime": {
+            "text": "45.77",
+            "seconds": 45.77
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 7,
+          "heat": 1,
+          "lane": 6,
+          "points": 12,
+          "swimmerId": "tesla|nikola|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kelvin, William",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.78",
+            "seconds": 44.78
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "46.73",
+            "seconds": 46.73
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 8,
+          "heat": 1,
+          "lane": 5,
+          "points": 0,
+          "swimmerId": "kelvin|william|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Hawking, Stephen",
+          "teamCode": "FALC",
+          "birthDate": null,
+          "seedTime": {
+            "text": "49.86",
+            "seconds": 49.86
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "47.23",
+            "seconds": 47.23
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 9,
+          "heat": 3,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "hawking|stephen|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Heisenberg, Werner",
+          "teamCode": "DELT",
+          "birthDate": null,
+          "seedTime": {
+            "text": "46.47",
+            "seconds": 46.47
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "48.02",
+            "seconds": 48.02
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 10,
+          "heat": 2,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "heisenberg|werner|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Maxwell, James",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "47.07",
+            "seconds": 47.07
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "48.19",
+            "seconds": 48.19
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 11,
+          "heat": 4,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "maxwell|james|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Planck, Max",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "54.54",
+            "seconds": 54.54
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "48.47",
+            "seconds": 48.47
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 12,
+          "heat": 1,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "planck|max|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Fermi, Enrico",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "49.95",
+            "seconds": 49.95
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "48.69",
+            "seconds": 48.69
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 13,
+          "heat": 2,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "fermi|enrico|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Carver, George",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "48.68",
+            "seconds": 48.68
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "48.94",
+            "seconds": 48.94
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 14,
+          "heat": 2,
+          "lane": 6,
+          "points": 0,
+          "swimmerId": "carver|george|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dalton, John",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "46.37",
+            "seconds": 46.37
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "49.06",
+            "seconds": 49.06
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 15,
+          "heat": 3,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "dalton|john|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Copernicus, Nicolaus",
+          "teamCode": "HARB",
+          "birthDate": null,
+          "seedTime": {
+            "text": "48.77",
+            "seconds": 48.77
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "49.80",
+            "seconds": 49.8
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 16,
+          "heat": 4,
+          "lane": 2,
+          "points": 0,
+          "swimmerId": "copernicus|nicolaus|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Drew, Charles",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "57.94",
+            "seconds": 57.94
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "52.30",
+            "seconds": 52.3
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 17,
+          "heat": 2,
+          "lane": 1,
+          "points": 0,
+          "swimmerId": "drew|charles|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Bohr, Niels",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "56.49",
+            "seconds": 56.49
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "52.71",
+            "seconds": 52.71
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 18,
+          "heat": 2,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "bohr|niels|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Einstein, Albert",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "52.25",
+            "seconds": 52.25
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "52.92",
+            "seconds": 52.92
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 19,
+          "heat": 4,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "einstein|albert|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Newton, Isaac",
+          "teamCode": "AQUA",
+          "birthDate": null,
+          "seedTime": {
+            "text": "56.55",
+            "seconds": 56.55
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "53.42",
+            "seconds": 53.42
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 20,
+          "heat": 4,
+          "lane": 1,
+          "points": 0,
+          "swimmerId": "newton|isaac|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Banneker, Benjamin",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "55.32",
+            "seconds": 55.32
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "55.03",
+            "seconds": 55.03
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 21,
+          "heat": 3,
+          "lane": 7,
+          "points": 0,
+          "swimmerId": "banneker|benjamin|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Ohm, Georg",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "57.22",
+            "seconds": 57.22
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "56.53",
+            "seconds": 56.53
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 22,
+          "heat": 3,
+          "lane": 1,
+          "points": 0,
+          "swimmerId": "ohm|georg|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Dirac, Paul",
+          "teamCode": "CRES",
+          "birthDate": null,
+          "seedTime": {
+            "text": "1:18.14",
+            "seconds": 78.14
+          },
+          "round": "prelim",
+          "finalTime": null,
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "heat": 4,
+          "lane": 8,
+          "points": 0,
+          "swimmerId": "dirac|paul|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Volta, Alessandro",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "41.02",
+            "seconds": 41.02
+          },
+          "round": "prelim",
+          "finalTime": {
+            "text": "39.93",
+            "seconds": 39.93
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": null,
+          "heat": 4,
+          "lane": 4,
+          "points": 0,
+          "swimmerId": "volta|alessandro|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Kelvin, William",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "44.78",
+            "seconds": 44.78
+          },
+          "round": "final",
+          "finalTime": null,
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "heat": 1,
+          "lane": 8,
+          "points": 0,
+          "swimmerId": "kelvin|william|"
+        },
+        {
+          "kind": "individual",
+          "swimmerName": "Boyle, Robert",
+          "teamCode": "GULL",
+          "birthDate": null,
+          "seedTime": {
+            "text": "45.74",
+            "seconds": 45.74
+          },
+          "round": "prelim",
+          "finalTime": null,
+          "status": "ns",
+          "disqualified": false,
+          "place": null,
+          "heat": 1,
+          "lane": 3,
+          "points": 0,
+          "swimmerId": "boyle|robert|"
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "type": "relay",
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "LCM",
+      "ageGroup": {
+        "label": "11-12",
+        "lower": 11,
+        "upper": 12
+      },
+      "description": "Boys 11-12 200m Freestyle Relay",
+      "eventKey": "relay:M:11-12:200:Freestyle:LCM",
+      "results": [
+        {
+          "kind": "relay",
+          "round": "final",
+          "teamCode": "AQUA",
+          "relayLetter": "A",
+          "seedTime": null,
+          "finalTime": {
+            "text": "2:14.65",
+            "seconds": 134.65
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 1,
+          "heat": 1,
+          "lane": 6,
+          "points": 40,
+          "legs": [
+            {
+              "name": "Halley, Edmond",
+              "legOrder": 1
+            },
+            {
+              "name": "Newton, Isaac",
+              "legOrder": 2
+            },
+            {
+              "name": "Maxwell, James",
+              "legOrder": 3
+            },
+            {
+              "name": "Bohr, Niels",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "round": "final",
+          "teamCode": "GULL",
+          "relayLetter": "B",
+          "seedTime": null,
+          "finalTime": {
+            "text": "2:16.53",
+            "seconds": 136.53
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 2,
+          "heat": 1,
+          "lane": 5,
+          "points": 34,
+          "legs": [
+            {
+              "name": "Tesla, Nikola",
+              "legOrder": 1
+            },
+            {
+              "name": "Drew, Charles",
+              "legOrder": 2
+            },
+            {
+              "name": "Dalton, John",
+              "legOrder": 3
+            },
+            {
+              "name": "Ampere, Andre",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "round": "final",
+          "teamCode": "AQUA",
+          "relayLetter": "B",
+          "seedTime": null,
+          "finalTime": {
+            "text": "2:30.76",
+            "seconds": 150.76
+          },
+          "status": "ok",
+          "disqualified": false,
+          "place": 3,
+          "heat": 1,
+          "lane": 2,
+          "points": 32,
+          "legs": [
+            {
+              "name": "Einstein, Albert",
+              "legOrder": 1
+            },
+            {
+              "name": "Fermi, Enrico",
+              "legOrder": 2
+            },
+            {
+              "name": "Turing, Alan",
+              "legOrder": 3
+            },
+            {
+              "name": "Darwin, Charles",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "round": "final",
+          "teamCode": "BLUE",
+          "relayLetter": "A",
+          "seedTime": null,
+          "finalTime": null,
+          "status": "ns",
+          "disqualified": false,
+          "place": null,
+          "heat": 1,
+          "lane": 3,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Pasteur, Louis",
+              "legOrder": 1
+            },
+            {
+              "name": "Kepler, Johannes",
+              "legOrder": 2
+            },
+            {
+              "name": "Mendel, Gregor",
+              "legOrder": 3
+            },
+            {
+              "name": "Faraday, Michael",
+              "legOrder": 4
+            }
+          ]
+        },
+        {
+          "kind": "relay",
+          "round": "final",
+          "teamCode": "GULL",
+          "relayLetter": "A",
+          "seedTime": null,
+          "finalTime": null,
+          "status": "dq",
+          "disqualified": true,
+          "place": null,
+          "heat": 1,
+          "lane": 4,
+          "points": 0,
+          "legs": [
+            {
+              "name": "Bunsen, Robert",
+              "legOrder": 1
+            },
+            {
+              "name": "Volta, Alessandro",
+              "legOrder": 2
+            },
+            {
+              "name": "Avogadro, Amedeo",
+              "legOrder": 3
+            },
+            {
+              "name": "Just, Ernest",
+              "legOrder": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

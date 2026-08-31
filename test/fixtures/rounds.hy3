@@ -1,0 +1,18 @@
+A1                                          swimparse fix 06262026                                                                
+B1Rounds Test Invitational                                                                  06262026                              
+C1VATSTTest Aquatic Club                                                                                                          
+D1F 1001Lovelace            Ada                 Ada                                                                               
+E1F 1001LovelFG   100D 11 12           17A            73.46L                                                                      
+E2P   73.05L          2  4      3                                                                                                 
+E1F 1001LovelFG   100D 11 12           17A            73.46L                                                                      
+E2F   71.04L          1  4      1                                                                                                 
+D1F 1002Hopper              Grace               Grace                                                                             
+E1F 1002HoppeFG   100D 11 12           17A            74.10L                                                                      
+E2P   73.55L          2  5      4                                                                                                 
+E1F 1002HoppeFG   100D 11 12           17A            74.10L                                                                      
+E2S   73.20L                                                                                                                      
+E1F 1002HoppeFG   100D 11 12           17A            74.10L                                                                      
+E2F   72.88L          1  5      2                                                                                                 
+D1F 1003Johnson             Katherine           Katherine                                                                         
+E1F 1003JohnsFG   100D 11 12           17A            80.00L                                                                      
+E2P   79.42L          3  1      9                                                                                                 

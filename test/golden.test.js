@@ -116,16 +116,14 @@ test('a setup file joins to its own results on eventKey', () => {
     assert.equal(dHy3.swimmers.length, dCl2.swimmers.length);
 });
 
-test('KNOWN GAP: the formats disagree on result counts for a prelims meet', () => {
-    // Not a desired outcome — a record of where the parser stands before rounds
-    // are modelled. HY3 writes an E1/E2 pair per round, so a swimmer who made
-    // finals appears twice with nothing to tell the rows apart; SDIF writes one
-    // D0 per entry carrying both times, and only the finals time is read. Once
-    // swims[] lands, both must report one result per entry and this flips.
+test('the formats agree on result counts for a prelims meet', () => {
+    // This was the known gap: HY3 wrote a row per round while SDIF read only
+    // the finals slot, so the same meet came to 66 results one way and 50 the
+    // other. Both now report a row per round — see rounds.test.js.
     const count = (m) => m.events.reduce((n, e) => n + e.results.length, 0);
-    assert.equal(count(dHy3), 66, 'HY3: one row per ROUND swum');
-    assert.equal(count(dCl2), 50, 'SDIF: one row per ENTRY');
-    assert.equal(dCl2.events.length, dHy3.events.length, 'the events themselves already agree');
+    assert.equal(count(dHy3), 66);
+    assert.equal(count(dCl2), 66);
+    assert.equal(dCl2.events.length, dHy3.events.length);
 });
 
 // Index individual results by swimmer + event (identities are identical across files).

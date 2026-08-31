@@ -93,6 +93,12 @@ for the full typedefs. Highlights:
 
 - **Times** always carry both `{ text: "1:11.35", seconds: 71.35 }`.
 - **Dates** are ISO `YYYY-MM-DD`.
+- **`result.round`** is `prelim | swimoff | final` — **one result per round swum**.
+  A timed-finals meet records every swim as `final` and reads exactly as it always
+  has. At a prelims/finals meet a swimmer holds two results in one event: they are a
+  prelim and a final, not a duplicate, and each carries its own time, place, heat and
+  lane. **`finalTime` is the time swum in that result's round** — the name predates
+  rounds and is kept for compatibility, so read it together with `round`.
 - **`result.status`** is `ok | dq | ns | dnf | scratch | exhibition`.
 - **`event.ageGroup`** is the *event's* age range as printed in the file (`"9-10"`,
   `"10 & Under"`, `"Open"`). It is **not** a swimmer's age group — computing that needs
@@ -110,6 +116,7 @@ for the full typedefs. Highlights:
 
 | | SDIF (`.sd3`) | Hy-Tek (`.hy3`) |
 |---|---|---|
+| Rounds on disk | one record, a slot per round | one record **per round** |
 | DQ time | nulled | **retained** (`finalTime` kept) |
 | DQ reason | — | **`dqReason`** (e.g. "Arms: Underwater recovery") |
 | Points | stored | absent (reads `0`) |
@@ -168,6 +175,22 @@ shifted birth year; see [`test/fixtures/README.md`](test/fixtures/README.md).
 
 **Meet-setup files are the exception**: they contain no swimmers at all, so a
 `NormalizedMeetSetup` is safe to publish as-is.
+
+### Rounds
+
+The two formats disagree about what a record is: HY3 writes an `E1`/`E2` pair per round
+and tags it, SDIF writes one `D0` per swimmer-event with a separate time slot for the
+prelim, the swim-off and the final. swimparse takes the finer grain — a result is a
+swim — so SDIF fans a record out into as many results as it holds rounds, and the same
+swim reads identically from either file:
+
+```js
+const prelim = event.results.find((r) => r.swimmerName === name && r.round === 'prelim');
+```
+
+A round with no time in it produces no result at all; a blank swim-off is absent, not
+zero. The one thing the formats still disagree about is a disqualified swim, where HY3
+keeps the time it recorded and SDIF nulls it — that is the file, not the parser.
 
 ## Format references
 
