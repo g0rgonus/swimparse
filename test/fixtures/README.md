@@ -101,7 +101,14 @@ an event gives the same answer.**
 `districts.hy3` and `districts.cl2` are the **results of the same meet** as `districts.ev3`
 / `.hyv`, so the four together are one championship end to end: its event list, its
 qualifying setup, and its swims. That makes them the only fixtures that can prove an
-`eventKey` join from a setup file to a result file.
+`eventKey` join from a setup file to a result file, and the only real-file evidence that
+the two formats agree round by round.
+
+**Nothing in them identifies anyone.** The swimmers were replaced first; the clubs, their
+short names and street addresses, the meet's name, venue, sanction number and licensee
+went the same way afterwards. Eight invented clubs (AQUA, BLUE, CRES, DELT, ECHO, FALC,
+GULL, HARB) at an invented venue. What remains is structure — events, rounds, times,
+places, heats, lanes, dates — which is the whole reason the files are here.
 
 They are a **three-event subset** — two individual events with prelims, finals and DQs,
 plus one relay — because the real export is 10,041 lines and its golden would be ~2.6 MB.
@@ -110,9 +117,9 @@ plus one relay — because the real export is 10,041 lines and its golden would 
 
 Both source exports are **WODOB** (no date of birth anywhere — only ages), which is how
 Meet Manager exports when privacy filtering is on, so there were no birthdates to
-sanitize. Every remaining identity was replaced: names, preferred names, middle
-initials, and registration ids, consistently across both formats, including the places
-they repeat — the 5-character surname prefixes in `E1`, the relay-leg fragments in `F3`,
+sanitize. Every identity was replaced: club and meet identity as described above, and
+for swimmers their names, preferred names, middle initials and registration ids,
+consistently across both formats, including the places they repeat — the 5-character surname prefixes in `E1`, the relay-leg fragments in `F3`,
 the name and id echoed in every SDIF `G0` split record, and the second id/name block in
 `F0`. Ages are untouched, so every age group stays valid. Club addresses (`C2`) and
 contacts (`C3`) are dropped: unread by the parsers, and no reason to ship them.

@@ -6,20 +6,21 @@
     "createdAt": "2026-06-02"
   },
   "meet": {
-    "name": "2026 VSI LC SE District Champs",
-    "rawName": "2026 VSI LC SE District Champs",
-    "hostName": "Collegiate School Aquatics Center",
+    "name": "Regional LC Age Group Champs",
+    "rawName": "Regional LC Age Group Champs",
+    "hostName": "Riverside Aquatic Center",
     "startDate": "2026-06-26",
     "endDate": "2026-06-28",
     "ageUpDate": "1899-12-30",
     "course": "LCM",
+    "sanction": "TS-26-01",
     "entryDeadline": "2026-06-26",
     "qualifyingSince": "1899-12-30",
     "location": {
-      "address": "050 Ridgedale Pkwy",
-      "city": "Richmond",
+      "address": "1 Pool Lane",
+      "city": "Springfield",
       "state": "VA",
-      "postalCode": "23234",
+      "postalCode": "00000",
       "country": "USA",
       "lsc": "VA"
     }

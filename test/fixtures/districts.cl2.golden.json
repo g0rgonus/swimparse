@@ -4,57 +4,57 @@
     "software": "Hy-Tek, Ltd"
   },
   "meet": {
-    "name": "2026 VSI LC SE District Champs",
-    "rawName": "2026 VSI LC SE District Champs",
+    "name": "Regional LC Age Group Champs",
+    "rawName": "Regional LC Age Group Champs",
     "startDate": "2026-06-26",
     "course": "LCM"
   },
   "teams": [
     {
-      "code": "757",
-      "fullCode": "VA757",
-      "name": "757swim"
+      "code": "AQUA",
+      "fullCode": "VAAQUA",
+      "name": "Aqua Swim Club"
     },
     {
-      "code": "CGBD",
-      "fullCode": "VACGBD",
-      "name": "Coast Guard Blue Dolphins Swim"
+      "code": "BLUE",
+      "fullCode": "VABLUE",
+      "name": "Blue Wave Aquatics"
     },
     {
-      "code": "ECAT",
-      "fullCode": "VAECAT",
-      "name": "East Coast Aquatic Team"
+      "code": "CRES",
+      "fullCode": "VACRES",
+      "name": "Crescent Swim Team"
     },
     {
-      "code": "ESFI",
-      "fullCode": "VAESFI",
-      "name": "Eastern Shore YMCA Fins"
+      "code": "DELT",
+      "fullCode": "VADELT",
+      "name": "Delta Aquatic Club"
     },
     {
-      "code": "HVAC",
-      "fullCode": "VAHVAC",
-      "name": "Hampton Virginia Current"
+      "code": "ECHO",
+      "fullCode": "VAECHO",
+      "name": "Echo Bay Swimming"
     },
     {
-      "code": "ODAC",
-      "fullCode": "VAODAC",
-      "name": "Old Dominion Aquatic Club"
+      "code": "FALC",
+      "fullCode": "VAFALC",
+      "name": "Falcon Swim Club"
     },
     {
-      "code": "TIDE",
-      "fullCode": "VATIDE",
-      "name": "Tide Swimming"
+      "code": "GULL",
+      "fullCode": "VAGULL",
+      "name": "Gulls Aquatic Team"
     },
     {
-      "code": "WAC",
-      "fullCode": "VAWAC",
-      "name": "Williamsburg Aquatic Club"
+      "code": "HARB",
+      "fullCode": "VAHARB",
+      "name": "Harbor Swim Club"
     }
   ],
   "swimmers": [
     {
       "id": "tesla|nikola|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Tesla",
       "firstName": "Nikola",
       "fullName": "Tesla, Nikola",
@@ -64,7 +64,7 @@
     },
     {
       "id": "faraday|michael|",
-      "teamCode": "CGBD",
+      "teamCode": "BLUE",
       "lastName": "Faraday",
       "firstName": "Michael",
       "fullName": "Faraday, Michael",
@@ -74,7 +74,7 @@
     },
     {
       "id": "hubble|edwin|",
-      "teamCode": "HVAC",
+      "teamCode": "ECHO",
       "lastName": "Hubble",
       "firstName": "Edwin",
       "fullName": "Hubble, Edwin",
@@ -84,7 +84,7 @@
     },
     {
       "id": "kepler|johannes|",
-      "teamCode": "CGBD",
+      "teamCode": "BLUE",
       "lastName": "Kepler",
       "firstName": "Johannes",
       "fullName": "Kepler, Johannes",
@@ -94,7 +94,7 @@
     },
     {
       "id": "pasteur|louis|",
-      "teamCode": "CGBD",
+      "teamCode": "BLUE",
       "lastName": "Pasteur",
       "firstName": "Louis",
       "fullName": "Pasteur, Louis",
@@ -104,7 +104,7 @@
     },
     {
       "id": "galileo|galilei|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Galileo",
       "firstName": "Galilei",
       "fullName": "Galileo, Galilei",
@@ -114,7 +114,7 @@
     },
     {
       "id": "sagan|carl|",
-      "teamCode": "ODAC",
+      "teamCode": "FALC",
       "lastName": "Sagan",
       "firstName": "Carl",
       "fullName": "Sagan, Carl",
@@ -124,7 +124,7 @@
     },
     {
       "id": "avogadro|amedeo|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Avogadro",
       "firstName": "Amedeo",
       "fullName": "Avogadro, Amedeo",
@@ -134,7 +134,7 @@
     },
     {
       "id": "mendel|gregor|",
-      "teamCode": "CGBD",
+      "teamCode": "BLUE",
       "lastName": "Mendel",
       "firstName": "Gregor",
       "fullName": "Mendel, Gregor",
@@ -144,7 +144,7 @@
     },
     {
       "id": "joule|james|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Joule",
       "firstName": "James",
       "fullName": "Joule, James",
@@ -154,7 +154,7 @@
     },
     {
       "id": "newton|isaac|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Newton",
       "firstName": "Isaac",
       "fullName": "Newton, Isaac",
@@ -164,7 +164,7 @@
     },
     {
       "id": "fermi|enrico|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Fermi",
       "firstName": "Enrico",
       "fullName": "Fermi, Enrico",
@@ -174,7 +174,7 @@
     },
     {
       "id": "turing|alan|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Turing",
       "firstName": "Alan",
       "fullName": "Turing, Alan",
@@ -184,7 +184,7 @@
     },
     {
       "id": "maxwell|james|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Maxwell",
       "firstName": "James",
       "fullName": "Maxwell, James",
@@ -194,7 +194,7 @@
     },
     {
       "id": "dalton|john|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Dalton",
       "firstName": "John",
       "fullName": "Dalton, John",
@@ -204,7 +204,7 @@
     },
     {
       "id": "darwin|charles|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Darwin",
       "firstName": "Charles",
       "fullName": "Darwin, Charles",
@@ -214,7 +214,7 @@
     },
     {
       "id": "einstein|albert|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Einstein",
       "firstName": "Albert",
       "fullName": "Einstein, Albert",
@@ -224,7 +224,7 @@
     },
     {
       "id": "planck|max|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Planck",
       "firstName": "Max",
       "fullName": "Planck, Max",
@@ -234,7 +234,7 @@
     },
     {
       "id": "dirac|paul|",
-      "teamCode": "ECAT",
+      "teamCode": "CRES",
       "lastName": "Dirac",
       "firstName": "Paul",
       "fullName": "Dirac, Paul",
@@ -244,7 +244,7 @@
     },
     {
       "id": "volta|alessandro|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Volta",
       "firstName": "Alessandro",
       "fullName": "Volta, Alessandro",
@@ -254,7 +254,7 @@
     },
     {
       "id": "bunsen|robert|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Bunsen",
       "firstName": "Robert",
       "fullName": "Bunsen, Robert",
@@ -264,7 +264,7 @@
     },
     {
       "id": "rutherford|ernest|",
-      "teamCode": "ECAT",
+      "teamCode": "CRES",
       "lastName": "Rutherford",
       "firstName": "Ernest",
       "fullName": "Rutherford, Ernest",
@@ -274,7 +274,7 @@
     },
     {
       "id": "just|ernest|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Just",
       "firstName": "Ernest",
       "fullName": "Just, Ernest",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ampere|andre|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Ampere",
       "firstName": "Andre",
       "fullName": "Ampere, Andre",
@@ -294,7 +294,7 @@
     },
     {
       "id": "kelvin|william|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Kelvin",
       "firstName": "William",
       "fullName": "Kelvin, William",
@@ -304,7 +304,7 @@
     },
     {
       "id": "hawking|stephen|",
-      "teamCode": "ODAC",
+      "teamCode": "FALC",
       "lastName": "Hawking",
       "firstName": "Stephen",
       "fullName": "Hawking, Stephen",
@@ -314,7 +314,7 @@
     },
     {
       "id": "heisenberg|werner|",
-      "teamCode": "ESFI",
+      "teamCode": "DELT",
       "lastName": "Heisenberg",
       "firstName": "Werner",
       "fullName": "Heisenberg, Werner",
@@ -324,7 +324,7 @@
     },
     {
       "id": "carver|george|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Carver",
       "firstName": "George",
       "fullName": "Carver, George",
@@ -334,7 +334,7 @@
     },
     {
       "id": "copernicus|nicolaus|",
-      "teamCode": "WAC",
+      "teamCode": "HARB",
       "lastName": "Copernicus",
       "firstName": "Nicolaus",
       "fullName": "Copernicus, Nicolaus",
@@ -344,7 +344,7 @@
     },
     {
       "id": "drew|charles|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Drew",
       "firstName": "Charles",
       "fullName": "Drew, Charles",
@@ -354,7 +354,7 @@
     },
     {
       "id": "bohr|niels|",
-      "teamCode": "757",
+      "teamCode": "AQUA",
       "lastName": "Bohr",
       "firstName": "Niels",
       "fullName": "Bohr, Niels",
@@ -364,7 +364,7 @@
     },
     {
       "id": "banneker|benjamin|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Banneker",
       "firstName": "Benjamin",
       "fullName": "Banneker, Benjamin",
@@ -374,7 +374,7 @@
     },
     {
       "id": "ohm|georg|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Ohm",
       "firstName": "Georg",
       "fullName": "Ohm, Georg",
@@ -384,7 +384,7 @@
     },
     {
       "id": "boyle|robert|",
-      "teamCode": "TIDE",
+      "teamCode": "GULL",
       "lastName": "Boyle",
       "firstName": "Robert",
       "fullName": "Boyle, Robert",
@@ -412,7 +412,7 @@
         {
           "kind": "individual",
           "swimmerName": "Tesla, Nikola",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:17.72",
@@ -434,7 +434,7 @@
         {
           "kind": "individual",
           "swimmerName": "Tesla, Nikola",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:17.72",
@@ -456,7 +456,7 @@
         {
           "kind": "individual",
           "swimmerName": "Faraday, Michael",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:24.38",
@@ -478,7 +478,7 @@
         {
           "kind": "individual",
           "swimmerName": "Hubble, Edwin",
-          "teamCode": "HVAC",
+          "teamCode": "ECHO",
           "birthDate": null,
           "seedTime": {
             "text": "1:19.40",
@@ -500,7 +500,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kepler, Johannes",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:25.25",
@@ -522,7 +522,7 @@
         {
           "kind": "individual",
           "swimmerName": "Pasteur, Louis",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:23.97",
@@ -544,7 +544,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kepler, Johannes",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:25.25",
@@ -566,7 +566,7 @@
         {
           "kind": "individual",
           "swimmerName": "Pasteur, Louis",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:23.97",
@@ -588,7 +588,7 @@
         {
           "kind": "individual",
           "swimmerName": "Faraday, Michael",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:24.38",
@@ -610,7 +610,7 @@
         {
           "kind": "individual",
           "swimmerName": "Galileo, Galilei",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:25.12",
@@ -632,7 +632,7 @@
         {
           "kind": "individual",
           "swimmerName": "Sagan, Carl",
-          "teamCode": "ODAC",
+          "teamCode": "FALC",
           "birthDate": null,
           "seedTime": {
             "text": "1:29.41",
@@ -654,7 +654,7 @@
         {
           "kind": "individual",
           "swimmerName": "Avogadro, Amedeo",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:40.67",
@@ -676,7 +676,7 @@
         {
           "kind": "individual",
           "swimmerName": "Mendel, Gregor",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:32.58",
@@ -698,7 +698,7 @@
         {
           "kind": "individual",
           "swimmerName": "Mendel, Gregor",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "1:32.58",
@@ -720,7 +720,7 @@
         {
           "kind": "individual",
           "swimmerName": "Galileo, Galilei",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:25.12",
@@ -742,7 +742,7 @@
         {
           "kind": "individual",
           "swimmerName": "Sagan, Carl",
-          "teamCode": "ODAC",
+          "teamCode": "FALC",
           "birthDate": null,
           "seedTime": {
             "text": "1:29.41",
@@ -764,7 +764,7 @@
         {
           "kind": "individual",
           "swimmerName": "Joule, James",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:52.64",
@@ -786,7 +786,7 @@
         {
           "kind": "individual",
           "swimmerName": "Newton, Isaac",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:39.97",
@@ -808,7 +808,7 @@
         {
           "kind": "individual",
           "swimmerName": "Fermi, Enrico",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:42.45",
@@ -830,7 +830,7 @@
         {
           "kind": "individual",
           "swimmerName": "Turing, Alan",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:38.03",
@@ -852,7 +852,7 @@
         {
           "kind": "individual",
           "swimmerName": "Maxwell, James",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:45.77",
@@ -874,7 +874,7 @@
         {
           "kind": "individual",
           "swimmerName": "Dalton, John",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "1:39.87",
@@ -896,7 +896,7 @@
         {
           "kind": "individual",
           "swimmerName": "Darwin, Charles",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:47.64",
@@ -918,7 +918,7 @@
         {
           "kind": "individual",
           "swimmerName": "Einstein, Albert",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:56.92",
@@ -940,7 +940,7 @@
         {
           "kind": "individual",
           "swimmerName": "Planck, Max",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "1:40.58",
@@ -962,7 +962,7 @@
         {
           "kind": "individual",
           "swimmerName": "Dirac, Paul",
-          "teamCode": "ECAT",
+          "teamCode": "CRES",
           "birthDate": null,
           "seedTime": {
             "text": "2:03.69",
@@ -984,7 +984,7 @@
         {
           "kind": "individual",
           "swimmerName": "Hubble, Edwin",
-          "teamCode": "HVAC",
+          "teamCode": "ECHO",
           "birthDate": null,
           "seedTime": {
             "text": "1:19.40",
@@ -1003,7 +1003,7 @@
         {
           "kind": "individual",
           "swimmerName": "Volta, Alessandro",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": null,
           "round": "prelim",
@@ -1036,7 +1036,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kepler, Johannes",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "42.94",
@@ -1058,7 +1058,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kepler, Johannes",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "birthDate": null,
           "seedTime": {
             "text": "42.94",
@@ -1080,7 +1080,7 @@
         {
           "kind": "individual",
           "swimmerName": "Joule, James",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "44.66",
@@ -1102,7 +1102,7 @@
         {
           "kind": "individual",
           "swimmerName": "Bunsen, Robert",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "43.06",
@@ -1124,7 +1124,7 @@
         {
           "kind": "individual",
           "swimmerName": "Joule, James",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "44.66",
@@ -1146,7 +1146,7 @@
         {
           "kind": "individual",
           "swimmerName": "Bunsen, Robert",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "43.06",
@@ -1168,7 +1168,7 @@
         {
           "kind": "individual",
           "swimmerName": "Rutherford, Ernest",
-          "teamCode": "ECAT",
+          "teamCode": "CRES",
           "birthDate": null,
           "seedTime": {
             "text": "44.95",
@@ -1190,7 +1190,7 @@
         {
           "kind": "individual",
           "swimmerName": "Tesla, Nikola",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "43.63",
@@ -1212,7 +1212,7 @@
         {
           "kind": "individual",
           "swimmerName": "Rutherford, Ernest",
-          "teamCode": "ECAT",
+          "teamCode": "CRES",
           "birthDate": null,
           "seedTime": {
             "text": "44.95",
@@ -1234,7 +1234,7 @@
         {
           "kind": "individual",
           "swimmerName": "Just, Ernest",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "45.76",
@@ -1256,7 +1256,7 @@
         {
           "kind": "individual",
           "swimmerName": "Ampere, Andre",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "47.44",
@@ -1278,7 +1278,7 @@
         {
           "kind": "individual",
           "swimmerName": "Ampere, Andre",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "47.44",
@@ -1300,7 +1300,7 @@
         {
           "kind": "individual",
           "swimmerName": "Just, Ernest",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "45.76",
@@ -1322,7 +1322,7 @@
         {
           "kind": "individual",
           "swimmerName": "Tesla, Nikola",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "43.63",
@@ -1344,7 +1344,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kelvin, William",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "44.78",
@@ -1366,7 +1366,7 @@
         {
           "kind": "individual",
           "swimmerName": "Hawking, Stephen",
-          "teamCode": "ODAC",
+          "teamCode": "FALC",
           "birthDate": null,
           "seedTime": {
             "text": "49.86",
@@ -1388,7 +1388,7 @@
         {
           "kind": "individual",
           "swimmerName": "Heisenberg, Werner",
-          "teamCode": "ESFI",
+          "teamCode": "DELT",
           "birthDate": null,
           "seedTime": {
             "text": "46.47",
@@ -1410,7 +1410,7 @@
         {
           "kind": "individual",
           "swimmerName": "Maxwell, James",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "47.07",
@@ -1432,7 +1432,7 @@
         {
           "kind": "individual",
           "swimmerName": "Planck, Max",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "54.54",
@@ -1454,7 +1454,7 @@
         {
           "kind": "individual",
           "swimmerName": "Fermi, Enrico",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "49.95",
@@ -1476,7 +1476,7 @@
         {
           "kind": "individual",
           "swimmerName": "Carver, George",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "48.68",
@@ -1498,7 +1498,7 @@
         {
           "kind": "individual",
           "swimmerName": "Dalton, John",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "46.37",
@@ -1520,7 +1520,7 @@
         {
           "kind": "individual",
           "swimmerName": "Copernicus, Nicolaus",
-          "teamCode": "WAC",
+          "teamCode": "HARB",
           "birthDate": null,
           "seedTime": {
             "text": "48.77",
@@ -1542,7 +1542,7 @@
         {
           "kind": "individual",
           "swimmerName": "Drew, Charles",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "57.94",
@@ -1564,7 +1564,7 @@
         {
           "kind": "individual",
           "swimmerName": "Bohr, Niels",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "56.49",
@@ -1586,7 +1586,7 @@
         {
           "kind": "individual",
           "swimmerName": "Einstein, Albert",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "52.25",
@@ -1608,7 +1608,7 @@
         {
           "kind": "individual",
           "swimmerName": "Newton, Isaac",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "birthDate": null,
           "seedTime": {
             "text": "56.55",
@@ -1630,7 +1630,7 @@
         {
           "kind": "individual",
           "swimmerName": "Banneker, Benjamin",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "55.32",
@@ -1652,7 +1652,7 @@
         {
           "kind": "individual",
           "swimmerName": "Ohm, Georg",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "57.22",
@@ -1674,7 +1674,7 @@
         {
           "kind": "individual",
           "swimmerName": "Dirac, Paul",
-          "teamCode": "ECAT",
+          "teamCode": "CRES",
           "birthDate": null,
           "seedTime": {
             "text": "1:18.14",
@@ -1693,7 +1693,7 @@
         {
           "kind": "individual",
           "swimmerName": "Volta, Alessandro",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "41.02",
@@ -1715,7 +1715,7 @@
         {
           "kind": "individual",
           "swimmerName": "Kelvin, William",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "44.78",
@@ -1734,7 +1734,7 @@
         {
           "kind": "individual",
           "swimmerName": "Boyle, Robert",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "birthDate": null,
           "seedTime": {
             "text": "45.74",
@@ -1770,7 +1770,7 @@
         {
           "kind": "relay",
           "round": "final",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "relayLetter": "A",
           "seedTime": null,
           "finalTime": {
@@ -1805,7 +1805,7 @@
         {
           "kind": "relay",
           "round": "final",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "relayLetter": "B",
           "seedTime": null,
           "finalTime": {
@@ -1840,7 +1840,7 @@
         {
           "kind": "relay",
           "round": "final",
-          "teamCode": "757",
+          "teamCode": "AQUA",
           "relayLetter": "B",
           "seedTime": null,
           "finalTime": {
@@ -1875,7 +1875,7 @@
         {
           "kind": "relay",
           "round": "final",
-          "teamCode": "CGBD",
+          "teamCode": "BLUE",
           "relayLetter": "A",
           "seedTime": null,
           "finalTime": null,
@@ -1907,7 +1907,7 @@
         {
           "kind": "relay",
           "round": "final",
-          "teamCode": "TIDE",
+          "teamCode": "GULL",
           "relayLetter": "A",
           "seedTime": null,
           "finalTime": null,
