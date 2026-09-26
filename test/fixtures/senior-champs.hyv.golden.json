@@ -1,0 +1,1426 @@
+{
+  "format": "hyv",
+  "source": {
+    "software": "Hy-Tek Sports Software",
+    "version": "8.0Gb",
+    "createdAt": null
+  },
+  "meet": {
+    "name": "2026 VSI SC Senior Championships - copied",
+    "rawName": "2026 VSI SC Senior Championships - copied",
+    "hostName": "Collegiate School Aquatic Center",
+    "startDate": "2026-03-05",
+    "endDate": "2026-03-08",
+    "ageUpDate": "2026-03-05",
+    "course": "SCY"
+  },
+  "sessions": [],
+  "events": [
+    {
+      "number": "1",
+      "type": "individual",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 1650,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 1650y Freestyle",
+      "eventKey": "individual:F:0-99:1650:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "19:37.19",
+          "seconds": 1177.19
+        },
+        "SCM": {
+          "text": "19:13.19",
+          "seconds": 1153.19
+        },
+        "SCY": {
+          "text": "19:08.99",
+          "seconds": 1148.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "2",
+      "type": "individual",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 1650,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 1650y Freestyle",
+      "eventKey": "individual:M:0-99:1650:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "17:59.99",
+          "seconds": 1079.99
+        },
+        "SCM": {
+          "text": "17:34.49",
+          "seconds": 1054.49
+        },
+        "SCY": {
+          "text": "17:35.09",
+          "seconds": 1055.09
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "3",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 800,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 800y Freestyle Relay",
+      "eventKey": "relay:F:0-99:800:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "4",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 800,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 800y Freestyle Relay",
+      "eventKey": "relay:M:0-99:800:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "5",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 200y Freestyle Relay",
+      "eventKey": "relay:F:0-99:200:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "6",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 200y Freestyle Relay",
+      "eventKey": "relay:M:0-99:200:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "7",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 100y Butterfly",
+      "eventKey": "individual:F:0-99:100:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:08.29",
+          "seconds": 68.29
+        },
+        "SCM": {
+          "text": "1:06.89",
+          "seconds": 66.89
+        },
+        "SCY": {
+          "text": "1:00.19",
+          "seconds": 60.19
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "8",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 100y Butterfly",
+      "eventKey": "individual:M:0-99:100:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:01.59",
+          "seconds": 61.59
+        },
+        "SCM": {
+          "text": "1:00.19",
+          "seconds": 60.19
+        },
+        "SCY": {
+          "text": "54.39",
+          "seconds": 54.39
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "9",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 200y Freestyle",
+      "eventKey": "individual:F:0-99:200:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:15.19",
+          "seconds": 135.19
+        },
+        "SCM": {
+          "text": "2:11.99",
+          "seconds": 131.99
+        },
+        "SCY": {
+          "text": "1:58.39",
+          "seconds": 118.39
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "10",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 200y Freestyle",
+      "eventKey": "individual:M:0-99:200:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:04.49",
+          "seconds": 124.49
+        },
+        "SCM": {
+          "text": "2:01.29",
+          "seconds": 121.29
+        },
+        "SCY": {
+          "text": "1:48.59",
+          "seconds": 108.59
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "11",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 100y Breaststroke",
+      "eventKey": "individual:F:0-99:100:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:22.59",
+          "seconds": 82.59
+        },
+        "SCM": {
+          "text": "1:20.59",
+          "seconds": 80.59
+        },
+        "SCY": {
+          "text": "1:10.49",
+          "seconds": 70.49
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "12",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 100y Breaststroke",
+      "eventKey": "individual:M:0-99:100:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:15.29",
+          "seconds": 75.29
+        },
+        "SCM": {
+          "text": "1:13.29",
+          "seconds": 73.29
+        },
+        "SCY": {
+          "text": "1:03.39",
+          "seconds": 63.39
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "13",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 50y Backstroke",
+      "eventKey": "individual:F:0-99:50:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:10.19",
+          "seconds": 70.19
+        },
+        "SCM": {
+          "text": "1:08.99",
+          "seconds": 68.99
+        },
+        "SCY": {
+          "text": "1:00.99",
+          "seconds": 60.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "14",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 50y Backstroke",
+      "eventKey": "individual:M:0-99:50:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:05.79",
+          "seconds": 65.79
+        },
+        "SCM": {
+          "text": "1:04.59",
+          "seconds": 64.59
+        },
+        "SCY": {
+          "text": "55.59",
+          "seconds": 55.59
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "15",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 400y IM",
+      "eventKey": "individual:F:0-99:400:IM:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "5:28.99",
+          "seconds": 328.99
+        },
+        "SCM": {
+          "text": "5:19.69",
+          "seconds": 319.69
+        },
+        "SCY": {
+          "text": "4:48.99",
+          "seconds": 288.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "16",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 400y IM",
+      "eventKey": "individual:M:0-99:400:IM:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "5:01.59",
+          "seconds": 301.59
+        },
+        "SCM": {
+          "text": "4:55.19",
+          "seconds": 295.19
+        },
+        "SCY": {
+          "text": "4:25.99",
+          "seconds": 265.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "17",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 400y Medley Relay",
+      "eventKey": "relay:F:0-99:400:Medley:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "18",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 400y Medley Relay",
+      "eventKey": "relay:M:0-99:400:Medley:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "19",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 200y Medley Relay",
+      "eventKey": "relay:F:0-99:200:Medley:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "20",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Medley",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 200y Medley Relay",
+      "eventKey": "relay:M:0-99:200:Medley:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "21",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 200y Butterfly",
+      "eventKey": "individual:F:0-99:200:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:39.49",
+          "seconds": 159.49
+        },
+        "SCM": {
+          "text": "2:32.99",
+          "seconds": 152.99
+        },
+        "SCY": {
+          "text": "2:20.99",
+          "seconds": 140.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "22",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 200y Butterfly",
+      "eventKey": "individual:M:0-99:200:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:21.19",
+          "seconds": 141.19
+        },
+        "SCM": {
+          "text": "2:18.39",
+          "seconds": 138.39
+        },
+        "SCY": {
+          "text": "2:02.59",
+          "seconds": 122.59
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "23",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 50y Freestyle",
+      "eventKey": "individual:F:0-99:50:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "28.79",
+          "seconds": 28.79
+        },
+        "SCM": {
+          "text": "27.99",
+          "seconds": 27.99
+        },
+        "SCY": {
+          "text": "25.29",
+          "seconds": 25.29
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "24",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 50y Freestyle",
+      "eventKey": "individual:M:0-99:50:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "26.09",
+          "seconds": 26.09
+        },
+        "SCM": {
+          "text": "25.29",
+          "seconds": 25.29
+        },
+        "SCY": {
+          "text": "22.79",
+          "seconds": 22.79
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "25",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 200y Breaststroke",
+      "eventKey": "individual:F:0-99:200:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:59.99",
+          "seconds": 179.99
+        },
+        "SCM": {
+          "text": "2:53.99",
+          "seconds": 173.99
+        },
+        "SCY": {
+          "text": "2:36.29",
+          "seconds": 156.29
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "26",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 200y Breaststroke",
+      "eventKey": "individual:M:0-99:200:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:44.59",
+          "seconds": 164.59
+        },
+        "SCM": {
+          "text": "2:40.59",
+          "seconds": 160.59
+        },
+        "SCY": {
+          "text": "2:19.49",
+          "seconds": 139.49
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "27",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 100y Backstroke",
+      "eventKey": "individual:F:0-99:100:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:10.19",
+          "seconds": 70.19
+        },
+        "SCM": {
+          "text": "1:08.99",
+          "seconds": 68.99
+        },
+        "SCY": {
+          "text": "1:00.99",
+          "seconds": 60.99
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "28",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 100y Backstroke",
+      "eventKey": "individual:M:0-99:100:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:05.79",
+          "seconds": 65.79
+        },
+        "SCM": {
+          "text": "1:04.59",
+          "seconds": 64.59
+        },
+        "SCY": {
+          "text": "55.59",
+          "seconds": 55.59
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "29",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 500y Freestyle",
+      "eventKey": "individual:F:0-99:500:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "4:44.49",
+          "seconds": 284.49
+        },
+        "SCM": {
+          "text": "4:34.09",
+          "seconds": 274.09
+        },
+        "SCY": {
+          "text": "5:19.19",
+          "seconds": 319.19
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "30",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 500,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 500y Freestyle",
+      "eventKey": "individual:M:0-99:500:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "4:24.79",
+          "seconds": 264.79
+        },
+        "SCM": {
+          "text": "4:18.39",
+          "seconds": 258.39
+        },
+        "SCY": {
+          "text": "4:55.89",
+          "seconds": 295.89
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "31",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 50y Butterfly",
+      "eventKey": "individual:F:0-99:50:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:08.29",
+          "seconds": 68.29
+        },
+        "SCM": {
+          "text": "1:06.89",
+          "seconds": 66.89
+        },
+        "SCY": {
+          "text": "1:00.19",
+          "seconds": 60.19
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "32",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Butterfly",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 50y Butterfly",
+      "eventKey": "individual:M:0-99:50:Butterfly:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:01.59",
+          "seconds": 61.59
+        },
+        "SCM": {
+          "text": "1:00.19",
+          "seconds": 60.19
+        },
+        "SCY": {
+          "text": "54.39",
+          "seconds": 54.39
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "33",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 200y Backstroke",
+      "eventKey": "individual:F:0-99:200:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:32.99",
+          "seconds": 152.99
+        },
+        "SCM": {
+          "text": "2:29.49",
+          "seconds": 149.49
+        },
+        "SCY": {
+          "text": "2:12.79",
+          "seconds": 132.79
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "34",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "Backstroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 200y Backstroke",
+      "eventKey": "individual:M:0-99:200:Backstroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:21.99",
+          "seconds": 141.99
+        },
+        "SCM": {
+          "text": "2:19.59",
+          "seconds": 139.59
+        },
+        "SCY": {
+          "text": "2:01.19",
+          "seconds": 121.19
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "35",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 50y Breaststroke",
+      "eventKey": "individual:F:0-99:50:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:22.59",
+          "seconds": 82.59
+        },
+        "SCM": {
+          "text": "1:20.59",
+          "seconds": 80.59
+        },
+        "SCY": {
+          "text": "1:10.49",
+          "seconds": 70.49
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "36",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 50,
+      "stroke": "Breaststroke",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 50y Breaststroke",
+      "eventKey": "individual:M:0-99:50:Breaststroke:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:15.29",
+          "seconds": 75.29
+        },
+        "SCM": {
+          "text": "1:13.29",
+          "seconds": 73.29
+        },
+        "SCY": {
+          "text": "1:03.39",
+          "seconds": 63.39
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "37",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 100y Freestyle",
+      "eventKey": "individual:F:0-99:100:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "1:02.59",
+          "seconds": 62.59
+        },
+        "SCM": {
+          "text": "1:00.99",
+          "seconds": 60.99
+        },
+        "SCY": {
+          "text": "54.79",
+          "seconds": 54.79
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "38",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 100,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 100y Freestyle",
+      "eventKey": "individual:M:0-99:100:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "57.19",
+          "seconds": 57.19
+        },
+        "SCM": {
+          "text": "55.59",
+          "seconds": 55.59
+        },
+        "SCY": {
+          "text": "49.49",
+          "seconds": 49.49
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "39",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "F",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 200y IM",
+      "eventKey": "individual:F:0-99:200:IM:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:35.89",
+          "seconds": 155.89
+        },
+        "SCM": {
+          "text": "2:32.59",
+          "seconds": 152.59
+        },
+        "SCY": {
+          "text": "2:15.49",
+          "seconds": 135.49
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "40",
+      "type": "individual",
+      "round": "prelims",
+      "rounds": null,
+      "gender": "M",
+      "distance": 200,
+      "stroke": "IM",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 200y IM",
+      "eventKey": "individual:M:0-99:200:IM:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "2:21.69",
+          "seconds": 141.69
+        },
+        "SCM": {
+          "text": "2:18.49",
+          "seconds": 138.49
+        },
+        "SCY": {
+          "text": "2:02.69",
+          "seconds": 122.69
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "41",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 400,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls 400y Freestyle Relay",
+      "eventKey": "relay:F:0-99:400:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "42",
+      "type": "relay",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 400,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys 400y Freestyle Relay",
+      "eventKey": "relay:M:0-99:400:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 28,
+      "qualifyingTimes": {
+        "LCM": null,
+        "SCM": null,
+        "SCY": null
+      },
+      "session": null
+    },
+    {
+      "number": "43",
+      "type": "individual",
+      "round": "finals",
+      "rounds": null,
+      "gender": "F",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Girls Open 1000y Freestyle",
+      "eventKey": "individual:F:0-99:1000:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "10:01.39",
+          "seconds": 601.39
+        },
+        "SCM": {
+          "text": "9:48.59",
+          "seconds": 588.59
+        },
+        "SCY": {
+          "text": "11:15.69",
+          "seconds": 675.69
+        }
+      },
+      "session": null
+    },
+    {
+      "number": "44",
+      "type": "individual",
+      "round": "finals",
+      "rounds": null,
+      "gender": "M",
+      "distance": 1000,
+      "stroke": "Freestyle",
+      "course": "SCY",
+      "ageGroup": {
+        "label": "Open",
+        "lower": 0,
+        "upper": 99
+      },
+      "description": "Boys Open 1000y Freestyle",
+      "eventKey": "individual:M:0-99:1000:Freestyle:SCY",
+      "relayLegs": null,
+      "entryFee": 18,
+      "qualifyingTimes": {
+        "LCM": {
+          "text": "9:25.69",
+          "seconds": 565.69
+        },
+        "SCM": {
+          "text": "9:11.39",
+          "seconds": 551.39
+        },
+        "SCY": {
+          "text": "10:27.99",
+          "seconds": 627.99
+        }
+      },
+      "session": null
+    }
+  ]
+}

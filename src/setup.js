@@ -13,6 +13,9 @@
  *   ev3  1;1A;F;1;I;G;0;8;400;E;0;;;N;12;;;;;;;1;1;1;05:00PM;Y;5;4;1;0*>
  *   hyv  1A;F;F;I;0;8;400;5;;;;12;;;;;;
  *
+ * Event sex is G/B in an age-group ev3 and W/M in a senior one; the hyv writes
+ * F/M either way.
+ *
  * NOTE ON THE NAME `.ev3`: SDIF also defines a meet-events file with that
  * extension, fixed-width like `.sd3`. That is a different format; detect.js
  * sniffs content, so a fixed-width `.ev3` still routes to the SDIF adapter.
@@ -49,12 +52,22 @@
  * ev3 10, 11, 12, 13 (constant), and the per-session trio 26/27/28.
  */
 
-import { HY3_STROKE, SDIF_STROKE, STROKE, COURSE, ageGroup } from './constants.js';
+import { HY3_STROKE, SDIF_STROKE, STROKE, COURSE, EVENT_SEX, ageGroup } from './constants.js';
 import { timeFromText, normalizeDate } from './times.js';
 import { describeEvent, eventKey } from './model.js';
 
-/** Event-sex code → canonical gender. ev3 uses G/B, hyv uses F/M. */
-const EVENT_SEX = { G: 'F', B: 'M', F: 'F', M: 'M', X: 'X' };
+/**
+ * An event's canonical gender. An unrecognised code THROWS rather than falling
+ * back to 'X': mixed is a real value, so a misread would be indistinguishable
+ * from a genuine mixed event — and its cuts would never match a swimmer. That
+ * is how women's events coded `W` went unnoticed (issue #6).
+ */
+function eventSex(raw, number) {
+    const code = clean(raw);
+    const gender = EVENT_SEX[code];
+    if (!gender) throw new Error(`swimparse: unknown event sex code "${code}" on event ${number}`);
+    return gender;
+}
 
 /** Round code → canonical round. 'P' means prelims feeding a final. */
 const ROUND = { F: 'finals', P: 'prelims' };
@@ -278,7 +291,7 @@ export function parseEv3(content, opts) {
             type,
             round: ROUND[clean(f[2])] || null,
             rounds: int(f[3]),
-            gender: EVENT_SEX[clean(f[5])] || 'X',
+            gender: eventSex(f[5], clean(f[1]) || clean(f[0])),
             distance: int(f[8]),
             stroke,
             lower: clean(f[6]),
@@ -347,7 +360,7 @@ export function parseHyv(content, opts) {
             type,
             round: ROUND[clean(f[1])] || null,
             rounds: null,
-            gender: EVENT_SEX[clean(f[2])] || 'X',
+            gender: eventSex(f[2], clean(f[0])),
             distance: int(f[6]),
             stroke,
             lower: clean(f[4]),

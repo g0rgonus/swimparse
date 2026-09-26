@@ -42,10 +42,13 @@ const districtsHyv = load('districts.hyv');
 // An invitational: timed finals, letter-suffixed events, relays, no cuts.
 const blastoffEv3 = load('blastoff.ev3');
 const blastoffHyv = load('blastoff.hyv');
+// A senior championship: the ev3 codes its events W/M, not G/B.
+const seniorEv3 = load('senior-champs.ev3');
+const seniorHyv = load('senior-champs.hyv');
 
 const asJson = (v) => JSON.parse(JSON.stringify(v));
 
-for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'districts.ev3', 'districts.hyv', 'blastoff.ev3', 'blastoff.hyv']) {
+for (const name of ['sc-agchamps.ev3', 'sc-agchamps.hyv', 'lc-agchamps.ev3', 'lc-agchamps.hyv', 'ez-agchamps.ev3', 'ez-agchamps.hyv', 'districts.ev3', 'districts.hyv', 'blastoff.ev3', 'blastoff.hyv', 'senior-champs.ev3', 'senior-champs.hyv']) {
     test(`${name} matches its golden snapshot`, () => {
         assert.deepStrictEqual(asJson(load(name)), readJson(`${name}.golden.json`));
     });
@@ -83,7 +86,7 @@ const shared = (e) => ({
 
 // districts is deliberately absent: its hyv states no course, so its events
 // cannot label or key identically to its ev3's. That asymmetry has its own test.
-for (const [meet, ev3, hyv] of [['sc-agchamps', champsEv3, champsHyv], ['lc-agchamps', lcEv3, lcHyv], ['ez-agchamps', ezEv3, ezHyv], ['blastoff', blastoffEv3, blastoffHyv]]) {
+for (const [meet, ev3, hyv] of [['sc-agchamps', champsEv3, champsHyv], ['lc-agchamps', lcEv3, lcHyv], ['ez-agchamps', ezEv3, ezHyv], ['blastoff', blastoffEv3, blastoffHyv], ['senior-champs', seniorEv3, seniorHyv]]) {
     test(`${meet}: the ev3 and hyv describe the same events`, () => {
         assert.equal(ev3.meet.name, hyv.meet.name);
         assert.equal(ev3.meet.startDate, hyv.meet.startDate);
@@ -92,6 +95,19 @@ for (const [meet, ev3, hyv] of [['sc-agchamps', champsEv3, champsHyv], ['lc-agch
         assert.deepStrictEqual(asJson(ev3.events.map(shared)), asJson(hyv.events.map(shared)));
     });
 }
+
+test("a senior meet's W/M event codes read as F/M, and an unknown code throws", () => {
+    // Before #6 every women's event here parsed as mixed, so its cuts could
+    // never match a female swimmer.
+    const genders = (setup) => [...new Set(setup.events.map((e) => e.gender))].sort();
+    assert.deepStrictEqual(genders(seniorEv3), ['F', 'M']);
+    assert.equal(seniorEv3.events[0].description, 'Girls Open 1650y Freestyle');
+
+    // An unrecognised code must not fall back to 'X': mixed is a real value.
+    const line = read('senior-champs.ev3').split(/\r?\n/);
+    line[1] = line[1].replace(';I;W;', ';I;Q;');
+    assert.throws(() => parseSetup(line.join('\r\n'), { filename: 'x.ev3' }), /unknown event sex code "Q" on event 1/);
+});
 
 test('sessions are collapsed out of the per-event stamps (ev3 only)', () => {
     assert.deepStrictEqual(

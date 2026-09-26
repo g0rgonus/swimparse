@@ -49,6 +49,13 @@ export const HY3_ROUND = { P: ROUND.PRELIM, S: ROUND.SWIMOFF, F: ROUND.FINAL };
 /** Raw single-char sex/gender code → canonical. */
 export const GENDER = { M: 'M', F: 'F', X: 'X' };
 
+/**
+ * Event-sex code → canonical gender. Hy-Tek writes girls/boys (G/B) for
+ * age-group events, women/men (W/M) for senior ones, and F/M in the .hyv.
+ * Shared by the HY3 and meet-setup adapters.
+ */
+export const EVENT_SEX = { M: 'M', B: 'M', W: 'F', G: 'F', F: 'F', X: 'X' };
+
 /** Human display for a gender code, in event context. */
 export const GENDER_DISPLAY = { M: 'Boys', F: 'Girls', X: 'Mixed' };
 
