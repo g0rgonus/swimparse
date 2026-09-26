@@ -47,7 +47,7 @@ Then review the diff and run `node --test`.
 
 # Meet-setup fixtures — real files, no personal data
 
-`sc-agchamps.*`, `lc-agchamps.*`, `ez-agchamps.*` and `blastoff.*` are four **real,
+`sc-agchamps.*`, `lc-agchamps.*`, `ez-agchamps.*`, `blastoff.*` and `senior-champs.*` are five **real,
 public meet setups**, each the `.ev3` and `.hyv` pair Meet Manager exports together,
 used by `setup.test.js`.
 
@@ -61,6 +61,7 @@ there was nothing to sanitize; these are the files as exported.
 | `lc-agchamps.ev3` / `.hyv` | 2026 Virginia Swimming LC Age Group Champions | an **LCM** meet running the same standards — the hyv's rotated cut columns |
 | `ez-agchamps.ev3` / `.hyv` | 2026 Eastern Zone LC Age Group Championship | placeholder cuts (`0.01`/`1.00`) filling an unaccepted course, twelve sessions over four days, six events left properly uncut |
 | `blastoff.ev3` / `.hyv` | 2026 SwimRVA Blastoff Meet | timed finals, letter-suffixed event numbers (`1A`/`1B`/`1C`), relays, five sessions, no cuts |
+| `senior-champs.ev3` / `.hyv` | 2026 VSI SC Senior Championships | a **senior** meet: the ev3 codes events `W`/`M` rather than `G`/`B` (issue #6), open age groups |
 
 ## The cut columns are pinned by a published table, in two courses
 
@@ -141,7 +142,7 @@ Same rule as above — regenerate only when a parser change is intentional:
 
 ```bash
 node -e "import('../../src/index.js').then(async m=>{const {readFileSync,writeFileSync}=await import('node:fs');
-for(const f of ['sc-agchamps.ev3','sc-agchamps.hyv','lc-agchamps.ev3','lc-agchamps.hyv','ez-agchamps.ev3','ez-agchamps.hyv','blastoff.ev3','blastoff.hyv']){
+for(const f of ['sc-agchamps.ev3','sc-agchamps.hyv','lc-agchamps.ev3','lc-agchamps.hyv','ez-agchamps.ev3','ez-agchamps.hyv','districts.ev3','districts.hyv','blastoff.ev3','blastoff.hyv','senior-champs.ev3','senior-champs.hyv']){
   const s=m.parseSetup(readFileSync(f,'latin1'),{filename:f});
   writeFileSync(f+'.golden.json', JSON.stringify(s,null,2)+'\n');}})"
 ```

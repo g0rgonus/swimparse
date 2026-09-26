@@ -21,7 +21,7 @@
  * a real file disagree, the file wins.
  */
 
-import { HY3_STROKE, STROKE, COURSE, HY3_ROUND, ageGroup } from './constants.js';
+import { HY3_STROKE, STROKE, COURSE, HY3_ROUND, EVENT_SEX, ageGroup } from './constants.js';
 import { timeFromSeconds, normalizeDate } from './times.js';
 import { displayTeamCode, deriveSwimmers, describeEvent, eventKey } from './model.js';
 
@@ -38,9 +38,6 @@ const athleteName = (a) => {
     const base = a.first ? `${a.last}, ${a.first}` : a.last;
     return a.middle ? `${base} ${a.middle}` : base;
 };
-
-// Event-sex code (W/M/G/B/X) → canonical gender.
-const EVENT_SEX = { M: 'M', B: 'M', W: 'F', G: 'F', F: 'F', X: 'X' };
 
 /**
  * The round this result records, from E2/F2 col 3 — `P` prelims, `F` finals or
